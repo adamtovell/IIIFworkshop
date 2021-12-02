@@ -1,0 +1,13 @@
+{
+  "id" : "https://adamtovell.github.io/IIIFworkshop/manifests/collection.json",
+  "label" : {
+    "en" : [ "All manifests loaded in adamtovell/IIIFworkshop project" ]
+  },
+  "type" : "Collection",
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "items" : [ {
+    "@type" : "sc:Manifest",
+    "@id" : "https://adamtovell.github.io/IIIFworkshop/manifests/manifest3.json",
+    "label" : "The Director: or, Young Woman's best companion, containing above three hundred receipts in cookery, pastry, preserving, ... physick and surgery ... The whole makes a complete family cook and physician"
+  } ]
+}
