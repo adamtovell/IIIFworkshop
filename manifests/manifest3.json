@@ -217,13 +217,6 @@
         },
         "on" : "http://3d8ead35-f21d-4611-8776-37066db1ec7e"
       } ],
-         "otherContent": [
-        {
-            "@id": "https://adamtovell.github.io/IIIFworkshop/annotations/annotation1.json",
-            "@type": "sc:AnnotationList",
-            "label": "My fantastic annotations"
-        }
-    ],
       "related" : ""
     }, {
       "@id" : "http://f4abddd6-567c-427f-9f9b-6f4a25c2af73",
