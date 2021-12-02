@@ -1,0 +1,72 @@
+{
+  "@type" : "sc:AnnotationList",
+  "resources" : [ {
+    "resource" : [ {
+      "http://dev.llgc.org.uk/sas/full_text" : "To make hare soop",
+      "@type" : "dctypes:Text",
+      "format" : "text/html",
+      "chars" : "<p>To make hare soop</p>"
+    } ],
+    "@type" : "oa:Annotation",
+    "dcterms:creator" : "https://dev.gdmrdigital.com/user/1240244679/102981988936448974520",
+    "motivation" : [ "oa:commenting" ],
+    "dcterms:created" : "2021-12-02T15:49:13",
+    "@id" : "https://dev.gdmrdigital.com/annotation/anno/1638460153880",
+    "dcterms:modified" : "2021-12-02T15:55:33",
+    "@context" : "file:/usr/local/tomcat/webapps/ROOT/contexts/iiif-2.0.json",
+    "on" : [ {
+      "within" : {
+        "@type" : "sc:Manifest",
+        "@id" : "https://adamtovell.github.io/IIIFworkshop/manifests/manifest3.json"
+      },
+      "@type" : "oa:SpecificResource",
+      "selector" : {
+        "default" : {
+          "@type" : "oa:FragmentSelector",
+          "value" : "xywh=0,965,1003,562"
+        },
+        "item" : {
+          "@type" : "oa:SvgSelector",
+          "value" : "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M-0.47808,964.59507h501.31916v0h501.31916v280.86299v280.86299h-501.31916h-501.31916v-280.86299z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;annotation&quot;:null,&quot;nonHoverStrokeColor&quot;:[&quot;Color&quot;,0,0.74902,1],&quot;editable&quot;:true}\" id=\"rectangle_2d27ff87-3037-4258-9506-89c878476a82\" fill-opacity=\"0.00001\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"7.8418\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+        },
+        "@type" : "oa:Choice"
+      },
+      "full" : "http://3d8ead35-f21d-4611-8776-37066db1ec7e"
+    } ]
+  }, {
+    "resource" : [ {
+      "http://dev.llgc.org.uk/sas/full_text" : "To make green pease soop",
+      "@type" : "dctypes:Text",
+      "format" : "text/html",
+      "chars" : "<p>To make green pease soop</p>"
+    } ],
+    "@type" : "oa:Annotation",
+    "dcterms:creator" : "https://dev.gdmrdigital.com/user/1240244679/102981988936448974520",
+    "motivation" : [ "oa:commenting" ],
+    "dcterms:created" : "2021-12-02T15:54:20",
+    "@id" : "https://dev.gdmrdigital.com/annotation/anno/1638460460427",
+    "dcterms:modified" : "2021-12-02T15:54:20",
+    "@context" : "file:/usr/local/tomcat/webapps/ROOT/contexts/iiif-2.0.json",
+    "on" : [ {
+      "within" : {
+        "@type" : "sc:Manifest",
+        "@id" : "https://adamtovell.github.io/IIIFworkshop/manifests/manifest3.json"
+      },
+      "@type" : "oa:SpecificResource",
+      "selector" : {
+        "default" : {
+          "@type" : "oa:FragmentSelector",
+          "value" : "xywh=-2,1533,1003,222"
+        },
+        "item" : {
+          "@type" : "oa:SvgSelector",
+          "value" : "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M-2,1532.93614h501.46589v0h501.46589v110.94194v110.94194h-501.46589h-501.46589v-110.94194z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;deleteIcon&quot;:null,&quot;rotationIcon&quot;:null,&quot;group&quot;:null,&quot;editable&quot;:true,&quot;annotation&quot;:null}\" id=\"rectangle_4d67bb75-5fe3-4d0e-80af-8be4779769bc\" fill-opacity=\"0\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+        },
+        "@type" : "oa:Choice"
+      },
+      "full" : "http://3d8ead35-f21d-4611-8776-37066db1ec7e"
+    } ]
+  } ],
+  "@id" : "https://dev.gdmrdigital.com/annotations/1240244679/102981988936448974520/137de33f6ebbc7eb13ba627690b7a1b2.json",
+  "@context" : "http://iiif.io/api/presentation/2/context.json"
+}
