@@ -1,0 +1,681 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://adamtovell.github.io/IIIFworkshop/manifests/manifest9.json",
+  "@type" : "sc:Manifest",
+  "label" : "The Director: or, Young Woman's best companion, containing above three hundred receipts in cookery, pastry, preserving, ... physick and surgery ... The whole makes a complete family cook and physician",
+  "metadata" : [ ],
+  "description" : [ {
+    "@value" : "Jackson, Sarah, The Director: or, Young Woman's best companion, containing above three hundred receipts in cookery, pastry, preserving, ... physick and surgery ... The whole makes a complete family cook and physician, (London: 1754) <http://access.bl.uk/item/viewer/ark:/81055/vdc_100103608891.0x000001>",
+    "@language" : "en"
+  } ],
+  "license" : "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "attribution" : "Item supplied by the British Library",
+  "sequences" : [ {
+    "@id" : "http://e29274c8-1ba2-4359-b29e-a8c1449c51d2",
+    "@type" : "sc:Sequence",
+    "label" : "Normal Sequence",
+    "viewingHint" : "individuals",
+    "canvases" : [ {
+      "@id" : "http://9a08850c-7c3d-4986-8202-89ca12375bac",
+      "@type" : "sc:Canvas",
+      "label" : "Front board",
+      "height" : 1936,
+      "width" : 1118,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://9c72cf40-dfcb-42c8-9df5-d747498bbbc2",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://api.bl.uk/image/iiif/ark:/81055/vdc_100103608910.0x000001/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://api.bl.uk/image/iiif/ark:/81055/vdc_100103608910.0x000001",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "qualities" : [ "gray", "color", "bitonal" ],
+              "supports" : [ "rotationArbitrary", "mirroring", "regionSquare", "profileLinkHeader" ]
+            } ]
+          },
+          "height" : 1936,
+          "width" : 1118
+        },
+        "on" : "http://9a08850c-7c3d-4986-8202-89ca12375bac"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://1a92f789-49a9-4198-9b7f-181b9ca865e2",
+      "@type" : "sc:Canvas",
+      "label" : "Inside front board",
+      "height" : 1810,
+      "width" : 1088,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://fd6e7d4e-de6f-4772-9563-21e845994da1",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://api.bl.uk/image/iiif/ark:/81055/vdc_100103608910.0x000002/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://api.bl.uk/image/iiif/ark:/81055/vdc_100103608910.0x000002",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "qualities" : [ "gray", "color", "bitonal" ],
+              "supports" : [ "rotationArbitrary", "mirroring", "regionSquare", "profileLinkHeader" ]
+            } ]
+          },
+          "height" : 1810,
+          "width" : 1088
+        },
+        "on" : "http://1a92f789-49a9-4198-9b7f-181b9ca865e2"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://ddbffcaf-5961-45d0-bf65-e404ea342836",
+      "@type" : "sc:Canvas",
+      "label" : "FFEP v",
+      "height" : 1817,
+      "width" : 1009,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://03892e5c-50b5-4054-8c40-4f6c40b21357",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://api.bl.uk/image/iiif/ark:/81055/vdc_100103608910.0x000003/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://api.bl.uk/image/iiif/ark:/81055/vdc_100103608910.0x000003",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "qualities" : [ "gray", "color", "bitonal" ],
+              "supports" : [ "rotationArbitrary", "mirroring", "regionSquare", "profileLinkHeader" ]
+            } ]
+          },
+          "height" : 1817,
+          "width" : 1009
+        },
+        "on" : "http://ddbffcaf-5961-45d0-bf65-e404ea342836"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://6909d918-e6fc-4576-8df0-d68c89860bae",
+      "@type" : "sc:Canvas",
+      "label" : "FFEP r",
+      "height" : 1802,
+      "width" : 1027,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://faca3d27-a21f-4c48-a143-bb8afdf26f60",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://api.bl.uk/image/iiif/ark:/81055/vdc_100103608910.0x000004/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://api.bl.uk/image/iiif/ark:/81055/vdc_100103608910.0x000004",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "qualities" : [ "gray", "color", "bitonal" ],
+              "supports" : [ "rotationArbitrary", "mirroring", "regionSquare", "profileLinkHeader" ]
+            } ]
+          },
+          "height" : 1802,
+          "width" : 1027
+        },
+        "on" : "http://6909d918-e6fc-4576-8df0-d68c89860bae"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://2075febb-001d-40d0-9e75-93e77996ee6b",
+      "@type" : "sc:Canvas",
+      "label" : "Titlepage",
+      "height" : 1810,
+      "width" : 1013,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://81330a9a-5ea1-4dbe-a626-d3d80b4d2b2c",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://api.bl.uk/image/iiif/ark:/81055/vdc_100103608910.0x000005/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://api.bl.uk/image/iiif/ark:/81055/vdc_100103608910.0x000005",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "qualities" : [ "gray", "color", "bitonal" ],
+              "supports" : [ "rotationArbitrary", "mirroring", "regionSquare", "profileLinkHeader" ]
+            } ]
+          },
+          "height" : 1810,
+          "width" : 1013
+        },
+        "on" : "http://2075febb-001d-40d0-9e75-93e77996ee6b"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://7c3dbb81-1854-4871-972c-59072f2e4170",
+      "@type" : "sc:Canvas",
+      "label" : "Attribution",
+      "height" : 1809,
+      "width" : 1029,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://5d9c1a1f-a94a-4ab6-ae44-6edcb1f522d2",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://api.bl.uk/image/iiif/ark:/81055/vdc_100103608910.0x000006/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://api.bl.uk/image/iiif/ark:/81055/vdc_100103608910.0x000006",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "qualities" : [ "gray", "color", "bitonal" ],
+              "supports" : [ "rotationArbitrary", "mirroring", "regionSquare", "profileLinkHeader" ]
+            } ]
+          },
+          "height" : 1809,
+          "width" : 1029
+        },
+        "on" : "http://7c3dbb81-1854-4871-972c-59072f2e4170"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://3d8ead35-f21d-4611-8776-37066db1ec7e",
+      "@type" : "sc:Canvas",
+      "label" : "p1",
+      "height" : 1801,
+      "width" : 998,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://1acc5200-02dc-4ece-80ef-b856ae46a1d6",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://api.bl.uk/image/iiif/ark:/81055/vdc_100103608910.0x000007/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://api.bl.uk/image/iiif/ark:/81055/vdc_100103608910.0x000007",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "qualities" : [ "gray", "color", "bitonal" ],
+              "supports" : [ "rotationArbitrary", "mirroring", "regionSquare", "profileLinkHeader" ]
+            } ]
+          },
+          "height" : 1801,
+          "width" : 998
+        },
+        "on" : "http://3d8ead35-f21d-4611-8776-37066db1ec7e"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://f4abddd6-567c-427f-9f9b-6f4a25c2af73",
+      "@type" : "sc:Canvas",
+      "label" : "p2",
+      "height" : 1818,
+      "width" : 1007,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://4c3bdfd4-3494-4de2-8748-22cca0330d8d",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://api.bl.uk/image/iiif/ark:/81055/vdc_100103608910.0x000008/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://api.bl.uk/image/iiif/ark:/81055/vdc_100103608910.0x000008",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "qualities" : [ "gray", "color", "bitonal" ],
+              "supports" : [ "rotationArbitrary", "mirroring", "regionSquare", "profileLinkHeader" ]
+            } ]
+          },
+          "height" : 1818,
+          "width" : 1007
+        },
+        "on" : "http://f4abddd6-567c-427f-9f9b-6f4a25c2af73"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://da5502a0-3801-40ee-a192-5f4de77e52e0",
+      "@type" : "sc:Canvas",
+      "label" : "p3",
+      "height" : 1803,
+      "width" : 1006,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://9c1b0a5f-34ec-4185-869f-ebe44379a227",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://api.bl.uk/image/iiif/ark:/81055/vdc_100103608910.0x000009/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://api.bl.uk/image/iiif/ark:/81055/vdc_100103608910.0x000009",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "qualities" : [ "gray", "color", "bitonal" ],
+              "supports" : [ "rotationArbitrary", "mirroring", "regionSquare", "profileLinkHeader" ]
+            } ]
+          },
+          "height" : 1803,
+          "width" : 1006
+        },
+        "on" : "http://da5502a0-3801-40ee-a192-5f4de77e52e0"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://9b37a0c2-b6ab-482c-98b6-b1098e5d21c9",
+      "@type" : "sc:Canvas",
+      "label" : "p4",
+      "height" : 1810,
+      "width" : 1026,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://28fd95e6-52df-45e0-b20c-7f4abed10b7d",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://api.bl.uk/image/iiif/ark:/81055/vdc_100103608910.0x00000a/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://api.bl.uk/image/iiif/ark:/81055/vdc_100103608910.0x00000a",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "qualities" : [ "gray", "color", "bitonal" ],
+              "supports" : [ "rotationArbitrary", "mirroring", "regionSquare", "profileLinkHeader" ]
+            } ]
+          },
+          "height" : 1810,
+          "width" : 1026
+        },
+        "on" : "http://9b37a0c2-b6ab-482c-98b6-b1098e5d21c9"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://65218ffc-385d-4f19-aeb4-2aefc122a458",
+      "@type" : "sc:Canvas",
+      "label" : "p5",
+      "height" : 1805,
+      "width" : 999,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://76164ad2-fb0e-41e3-a3ea-060727fc0a62",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://api.bl.uk/image/iiif/ark:/81055/vdc_100103608910.0x00000b/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://api.bl.uk/image/iiif/ark:/81055/vdc_100103608910.0x00000b",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "qualities" : [ "gray", "color", "bitonal" ],
+              "supports" : [ "rotationArbitrary", "mirroring", "regionSquare", "profileLinkHeader" ]
+            } ]
+          },
+          "height" : 1805,
+          "width" : 999
+        },
+        "on" : "http://65218ffc-385d-4f19-aeb4-2aefc122a458"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://0c06ddb1-5dc3-4c2b-a392-bb1654d655d1",
+      "@type" : "sc:Canvas",
+      "label" : "p6",
+      "height" : 1823,
+      "width" : 1005,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://0e3c67ba-f84d-45e3-b886-00f5f9bcb2ac",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://api.bl.uk/image/iiif/ark:/81055/vdc_100103608910.0x00000c/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://api.bl.uk/image/iiif/ark:/81055/vdc_100103608910.0x00000c",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "qualities" : [ "gray", "color", "bitonal" ],
+              "supports" : [ "rotationArbitrary", "mirroring", "regionSquare", "profileLinkHeader" ]
+            } ]
+          },
+          "height" : 1823,
+          "width" : 1005
+        },
+        "on" : "http://0c06ddb1-5dc3-4c2b-a392-bb1654d655d1"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://2adbee1d-c1c5-4ed6-9eb2-217a50440626",
+      "@type" : "sc:Canvas",
+      "label" : "p7",
+      "height" : 1809,
+      "width" : 995,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://743a6352-f542-467d-b7b4-8aef6c45d672",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://api.bl.uk/image/iiif/ark:/81055/vdc_100103608910.0x00000d/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://api.bl.uk/image/iiif/ark:/81055/vdc_100103608910.0x00000d",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "qualities" : [ "gray", "color", "bitonal" ],
+              "supports" : [ "rotationArbitrary", "mirroring", "regionSquare", "profileLinkHeader" ]
+            } ]
+          },
+          "height" : 1809,
+          "width" : 995
+        },
+        "on" : "http://2adbee1d-c1c5-4ed6-9eb2-217a50440626"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://81420818-ae4f-4312-a014-3b5ea32a21dd",
+      "@type" : "sc:Canvas",
+      "label" : "p8",
+      "height" : 1822,
+      "width" : 1009,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://6125c6ad-5a53-4ed1-a5e9-6800ea511772",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://api.bl.uk/image/iiif/ark:/81055/vdc_100103608910.0x00000e/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://api.bl.uk/image/iiif/ark:/81055/vdc_100103608910.0x00000e",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "qualities" : [ "gray", "color", "bitonal" ],
+              "supports" : [ "rotationArbitrary", "mirroring", "regionSquare", "profileLinkHeader" ]
+            } ]
+          },
+          "height" : 1822,
+          "width" : 1009
+        },
+        "on" : "http://81420818-ae4f-4312-a014-3b5ea32a21dd"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://aedc5ff4-b39d-40ea-9f5c-4e3c36339b6d",
+      "@type" : "sc:Canvas",
+      "label" : "p9",
+      "height" : 1806,
+      "width" : 1005,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://63d99e27-6aa4-403c-9da9-74c59a9c6a7a",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://api.bl.uk/image/iiif/ark:/81055/vdc_100103608910.0x00000f/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://api.bl.uk/image/iiif/ark:/81055/vdc_100103608910.0x00000f",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "qualities" : [ "gray", "color", "bitonal" ],
+              "supports" : [ "rotationArbitrary", "mirroring", "regionSquare", "profileLinkHeader" ]
+            } ]
+          },
+          "height" : 1806,
+          "width" : 1005
+        },
+        "on" : "http://aedc5ff4-b39d-40ea-9f5c-4e3c36339b6d"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://20a25ab6-7f92-4706-84e9-e25b51eb6dab",
+      "@type" : "sc:Canvas",
+      "label" : "p10",
+      "height" : 1826,
+      "width" : 1014,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://2bff106a-e6fe-4669-9ebd-180087f50e06",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://api.bl.uk/image/iiif/ark:/81055/vdc_100103608910.0x000010/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://api.bl.uk/image/iiif/ark:/81055/vdc_100103608910.0x000010",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "qualities" : [ "gray", "color", "bitonal" ],
+              "supports" : [ "rotationArbitrary", "mirroring", "regionSquare", "profileLinkHeader" ]
+            } ]
+          },
+          "height" : 1826,
+          "width" : 1014
+        },
+        "on" : "http://20a25ab6-7f92-4706-84e9-e25b51eb6dab"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://a7f53aec-59d8-4772-af99-7ac42e2965b9",
+      "@type" : "sc:Canvas",
+      "label" : "p11",
+      "height" : 1809,
+      "width" : 998,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://100aa3c7-fb0e-49e0-829f-b04fc4275258",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://api.bl.uk/image/iiif/ark:/81055/vdc_100103608910.0x000011/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://api.bl.uk/image/iiif/ark:/81055/vdc_100103608910.0x000011",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "qualities" : [ "gray", "color", "bitonal" ],
+              "supports" : [ "rotationArbitrary", "mirroring", "regionSquare", "profileLinkHeader" ]
+            } ]
+          },
+          "height" : 1809,
+          "width" : 998
+        },
+        "on" : "http://a7f53aec-59d8-4772-af99-7ac42e2965b9"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://c90cc86c-e61d-4932-a947-43f372738752",
+      "@type" : "sc:Canvas",
+      "label" : "p12",
+      "height" : 1819,
+      "width" : 1002,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://2200892b-a53f-4d06-b428-12ec0ae16e2f",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://api.bl.uk/image/iiif/ark:/81055/vdc_100103608910.0x000012/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://api.bl.uk/image/iiif/ark:/81055/vdc_100103608910.0x000012",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "qualities" : [ "gray", "color", "bitonal" ],
+              "supports" : [ "rotationArbitrary", "mirroring", "regionSquare", "profileLinkHeader" ]
+            } ]
+          },
+          "height" : 1819,
+          "width" : 1002
+        },
+        "on" : "http://c90cc86c-e61d-4932-a947-43f372738752"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://6ffa3b14-47d0-4eea-9d83-083c89e3eb9d",
+      "@type" : "sc:Canvas",
+      "label" : "p13",
+      "height" : 1808,
+      "width" : 991,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://e4098867-0cc7-4ad6-9f66-e7158329633c",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://api.bl.uk/image/iiif/ark:/81055/vdc_100103608910.0x000013/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://api.bl.uk/image/iiif/ark:/81055/vdc_100103608910.0x000013",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "qualities" : [ "gray", "color", "bitonal" ],
+              "supports" : [ "rotationArbitrary", "mirroring", "regionSquare", "profileLinkHeader" ]
+            } ]
+          },
+          "height" : 1808,
+          "width" : 991
+        },
+        "on" : "http://6ffa3b14-47d0-4eea-9d83-083c89e3eb9d"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://80887f66-aa7e-424c-b4fb-9bb463cea526",
+      "@type" : "sc:Canvas",
+      "label" : "p14",
+      "height" : 1812,
+      "width" : 1005,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://bc5c61c3-953b-40b6-97dd-9330a5442e1b",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://api.bl.uk/image/iiif/ark:/81055/vdc_100103608910.0x000014/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://api.bl.uk/image/iiif/ark:/81055/vdc_100103608910.0x000014",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "qualities" : [ "gray", "color", "bitonal" ],
+              "supports" : [ "rotationArbitrary", "mirroring", "regionSquare", "profileLinkHeader" ]
+            } ]
+          },
+          "height" : 1812,
+          "width" : 1005
+        },
+        "on" : "http://80887f66-aa7e-424c-b4fb-9bb463cea526"
+      } ],
+      "related" : ""
+    } ]
+  } ],
+  "structures" : [ {
+    "@id" : "http://example.org/iiif/book1/range/r0",
+    "@type" : "sc:Range",
+    "label" : "Table of Contents",
+    "members" : [ {
+      "@id" : "http://example.org/iiif/book1/range/r1",
+      "@type" : "sc:Range",
+      "label" : "Titlepage",
+      "canvases" : [ "http://2075febb-001d-40d0-9e75-93e77996ee6b" ]
+    }, {
+      "@id" : "http://example.org/iiif/book1/range/r2",
+      "@type" : "sc:Range",
+      "label" : "p1",
+      "canvases" : [ "http://3d8ead35-f21d-4611-8776-37066db1ec7e" ]
+    }, {
+      "@id" : "http://example.org/iiif/book1/range/r3",
+      "@type" : "sc:Range",
+      "label" : "p2",
+      "canvases" : [ "http://f4abddd6-567c-427f-9f9b-6f4a25c2af73" ]
+    }, {
+      "@id" : "http://example.org/iiif/book1/range/r4",
+      "@type" : "sc:Range",
+      "label" : "p3",
+      "canvases" : [ "http://da5502a0-3801-40ee-a192-5f4de77e52e0" ]
+    }, {
+      "@id" : "http://example.org/iiif/book1/range/r5",
+      "@type" : "sc:Range",
+      "label" : "p4",
+      "canvases" : [ "http://9b37a0c2-b6ab-482c-98b6-b1098e5d21c9" ]
+    }, {
+      "@id" : "http://example.org/iiif/book1/range/r6",
+      "@type" : "sc:Range",
+      "label" : "p5",
+      "canvases" : [ "http://65218ffc-385d-4f19-aeb4-2aefc122a458" ]
+    }, {
+      "@id" : "http://example.org/iiif/book1/range/r7",
+      "@type" : "sc:Range",
+      "label" : "p6",
+      "canvases" : [ "http://0c06ddb1-5dc3-4c2b-a392-bb1654d655d1" ]
+    }, {
+      "@id" : "http://example.org/iiif/book1/range/r8",
+      "@type" : "sc:Range",
+      "label" : "p7",
+      "canvases" : [ "http://2adbee1d-c1c5-4ed6-9eb2-217a50440626" ]
+    }, {
+      "@id" : "http://example.org/iiif/book1/range/r9",
+      "@type" : "sc:Range",
+      "label" : "p8",
+      "canvases" : [ "http://81420818-ae4f-4312-a014-3b5ea32a21dd" ]
+    }, {
+      "@id" : "http://example.org/iiif/book1/range/r10",
+      "@type" : "sc:Range",
+      "label" : "p9",
+      "canvases" : [ "http://aedc5ff4-b39d-40ea-9f5c-4e3c36339b6d" ]
+    }, {
+      "@id" : "http://example.org/iiif/book1/range/r11",
+      "@type" : "sc:Range",
+      "label" : "p10",
+      "canvases" : [ "http://20a25ab6-7f92-4706-84e9-e25b51eb6dab" ]
+    }, {
+      "@id" : "http://example.org/iiif/book1/range/r12",
+      "@type" : "sc:Range",
+      "label" : "p11",
+      "canvases" : [ "http://a7f53aec-59d8-4772-af99-7ac42e2965b9" ]
+    }, {
+      "@id" : "http://example.org/iiif/book1/range/r13",
+      "@type" : "sc:Range",
+      "label" : "p12",
+      "canvases" : [ "http://c90cc86c-e61d-4932-a947-43f372738752" ]
+    }, {
+      "@id" : "http://example.org/iiif/book1/range/r14",
+      "@type" : "sc:Range",
+      "label" : "p13",
+      "canvases" : [ "http://6ffa3b14-47d0-4eea-9d83-083c89e3eb9d" ]
+    }, {
+      "@id" : "http://example.org/iiif/book1/range/r15",
+      "@type" : "sc:Range",
+      "label" : "p14",
+      "canvases" : [ "http://80887f66-aa7e-424c-b4fb-9bb463cea526" ]
+    } ]
+  } ]
+}
