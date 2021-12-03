@@ -1,6 +1,6 @@
 {
   "@context" : "http://iiif.io/api/presentation/2/context.json",
-  "@id" : "https://adamtovell.github.io/IIIFworkshop/manifests/manifest3.json",
+  "@id" : "https://adamtovell.github.io/IIIFworkshop/manifests/manifest3v2.json",
   "@type" : "sc:Manifest",
   "label" : "The Director: or, Young Woman's best companion, containing above three hundred receipts in cookery, pastry, preserving, ... physick and surgery ... The whole makes a complete family cook and physician",
   "metadata" : [ ],
