@@ -13,5 +13,11 @@
     "@type" : "sc:Manifest",
     "@id" : "https://adamtovell.github.io/IIIFworkshop/manifests/manifest9.json",
     "label" : "The Director: or, Young Woman's best companion, containing above three hundred receipts in cookery, pastry, preserving, ... physick and surgery ... The whole makes a complete family cook and physician"
+  }, {
+    "id" : "https://adamtovell.github.io/IIIFworkshop/manifests/nots",
+    "label" : {
+      "en" : [ "[No title]" ]
+    },
+    "type" : "Manifest"
   } ]
 }
