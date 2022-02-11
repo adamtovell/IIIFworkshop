@@ -1,0 +1,508 @@
+{
+  "@context" : [ "http://iiif.io/api/auth/1/context.json", "http://iiif.io/api/presentation/3/context.json" ],
+  "id" : "https://adamtovell.github.io/IIIFworkshop/manifests/nots",
+  "type" : "Manifest",
+  "label" : {
+    "en" : [ "[No title]" ]
+  },
+  "metadata" : [ {
+    "label" : {
+      "en" : [ "Full title" ]
+    },
+    "value" : {
+      "en" : [ "[No Title]" ]
+    }
+  }, {
+    "label" : {
+      "en" : [ "Label" ]
+    },
+    "value" : {
+      "en" : [ "COLUMBIA" ]
+    }
+  }, {
+    "label" : {
+      "en" : [ "Format" ]
+    },
+    "value" : {
+      "en" : [ "1 disc 2 sides 30 cm 78 rpm" ]
+    }
+  }, {
+    "label" : {
+      "en" : [ "Usage" ]
+    },
+    "value" : {
+      "en" : [ "<span>Public domain<br/><br/><img src=&quot;https://i.creativecommons.org/p/mark/1.0/88x31.png&quot;/></span>" ]
+    }
+  }, {
+    "label" : {
+      "en" : [ "Held by" ]
+    },
+    "value" : {
+      "en" : [ "The British Library" ]
+    }
+  }, {
+    "label" : {
+      "en" : [ "Digitised by" ]
+    },
+    "value" : {
+      "en" : [ "The British Library 2022" ]
+    }
+  }, {
+    "label" : {
+      "en" : [ "Digitisation funded by" ]
+    },
+    "value" : {
+      "en" : [ "<span>National Lottery Heritage Fund<br><br><img src='https://www.heritagefund.org.uk/sites/default/files/media/attachments/TNLHLF_Colour_Logo_English_RGB_0_0.jpg'/></span>" ]
+    }
+  }, {
+    "label" : {
+      "en" : [ "Identifier" ]
+    },
+    "value" : {
+      "en" : [ "9CL0018465 9CL0018466 1CL0050094" ]
+    }
+  }, {
+    "label" : {
+      "en" : [ "Shelfmark" ]
+    },
+    "value" : {
+      "en" : [ "9CL0018465", "9CL0018466", "1CL0050094" ]
+    }
+  }, {
+    "label" : {
+      "en" : [ "Link to catalogue" ]
+    },
+    "value" : {
+      "en" : [ "<a href='http://explore.bl.uk/BLVU1:LSCOP-ALL:BLLSA1345926'>View the catalogue record</a>" ]
+    }
+  } ],
+  "rights" : "https://creativecommons.org/publicdomain/mark/1.0/",
+  "requiredStatement" : {
+    "label" : {
+      "en" : [ "Copyright and Usage" ]
+    },
+    "value" : {
+      "en" : [ "<span><a href=\"http://explore.bl.uk/BLVU1:LSCOP-ALL:BLLSA1345926\">Please read the full information about this object</a><br>Public domain<br/><br/><a href=\"https://creativecommons.org/publicdomain/mark/1.0/\"><img src=\"https://i.creativecommons.org/p/mark/1.0/88x31.png\"/></a></span>" ]
+    }
+  },
+  "provider" : [ {
+    "id" : "https://www.bl.uk/about-us",
+    "type" : "Agent",
+    "label" : {
+      "en" : [ "The British Library" ]
+    },
+    "homepage" : [ {
+      "id" : "https://www.bl.uk/",
+      "type" : "Text",
+      "format" : "text/html",
+      "label" : {
+        "en" : [ "The British Library" ]
+      }
+    } ],
+    "logo" : [ {
+      "id" : "https://www.bl.uk/images/bl_logo_100.gif",
+      "type" : "Image",
+      "format" : "image/gif"
+    } ]
+  } ],
+  "services" : [ {
+    "id" : "http://apiirc.ad.bl.uk/auth/iiif/login",
+    "type" : "AuthCookieService1",
+    "profile" : "https://iiif.io/api/auth/1/login",
+    "description" : {
+      "en" : [ "Some portions of this recording may be unavailable due to rights restrictions." ]
+    },
+    "header" : {
+      "en" : [ "Please Log-In" ]
+    },
+    "label" : {
+      "en" : [ "Login to The British Library" ]
+    },
+    "service" : [ {
+      "id" : "http://apiirc.ad.bl.uk/auth/iiif/token",
+      "type" : "AuthTokenService1",
+      "profile" : "https://iiif.io/api/auth/1/token"
+    } ]
+  }, {
+    "id" : "http://access.bl.uk/item/share/ark:/81055/tvdc_100005114232.0x000002",
+    "type" : "Service",
+    "profile" : "https://universalviewer.io/share-extensions-profile"
+  } ],
+  "homepage" : [ {
+    "id" : "http://access.bl.uk/item/viewer/ark:/81055/tvdc_100005114232.0x000002",
+    "type" : "Text",
+    "format" : "text/html",
+    "label" : {
+      "en" : [ "View at the British Library" ]
+    }
+  } ],
+  "behavior" : [ "auto-advance" ],
+  "items" : [ {
+    "id" : "http://apiirc.ad.bl.uk/metadata/iiif/ark:/81055/tvdc_100005114232.0x000004",
+    "type" : "Canvas",
+    "label" : {
+      "en" : [ "Side 1" ]
+    },
+    "items" : [ {
+      "id" : "http://apiirc.ad.bl.uk/metadata/iiif/ark:/81055/tvdc_100005114232.0x000004/anno1",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "id" : "http://apiirc.ad.bl.uk/metadata/iiif/ark:/81055/tvdc_100005114232.0x000004/anno1/1",
+        "type" : "Annotation",
+        "duration" : 209,
+        "motivation" : "painting",
+        "target" : "http://apiirc.ad.bl.uk/metadata/iiif/ark:/81055/tvdc_100005114232.0x000004#t=0,209",
+        "body" : {
+          "type" : "Choice",
+          "choiceHint" : "user",
+          "items" : [ {
+            "id" : "http://apiirc.ad.bl.uk/media/iiif/ark:/81055/tvdc_100005114232.0x00000c/manifest.mpd",
+            "format" : "application/dash+xml",
+            "type" : "Sound",
+            "duration" : 209,
+            "service" : [ ]
+          }, {
+            "id" : "http://apiirc.ad.bl.uk/media/iiif/ark:/81055/tvdc_100005114232.0x00000c/index.m3u8",
+            "format" : "application/vnd.apple.mpegURL",
+            "type" : "Sound",
+            "duration" : 209,
+            "service" : [ ]
+          } ]
+        }
+      } ]
+    } ]
+  }, {
+    "id" : "http://apiirc.ad.bl.uk/metadata/iiif/ark:/81055/tvdc_100005114232.0x000005",
+    "type" : "Canvas",
+    "label" : {
+      "en" : [ "Side 2" ]
+    },
+    "items" : [ {
+      "id" : "http://apiirc.ad.bl.uk/metadata/iiif/ark:/81055/tvdc_100005114232.0x000005/anno2",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "id" : "http://apiirc.ad.bl.uk/metadata/iiif/ark:/81055/tvdc_100005114232.0x000005/anno2/1",
+        "type" : "Annotation",
+        "motivation" : "painting",
+        "duration" : 243,
+        "target" : "http://apiirc.ad.bl.uk/metadata/iiif/ark:/81055/tvdc_100005114232.0x000005#t=0,243",
+        "body" : {
+          "type" : "Choice",
+          "choiceHint" : "user",
+          "items" : [ {
+            "id" : "http://apiirc.ad.bl.uk/media/iiif/ark:/81055/tvdc_100005114232.0x00000e/manifest.mpd",
+            "format" : "application/dash+xml",
+            "type" : "Sound",
+            "duration" : 243,
+            "service" : [ ]
+          }, {
+            "id" : "http://apiirc.ad.bl.uk/media/iiif/ark:/81055/tvdc_100005114232.0x00000e/index.m3u8",
+            "format" : "application/vnd.apple.mpegURL",
+            "type" : "Sound",
+            "duration" : 243,
+            "service" : [ ]
+          } ]
+        }
+      } ]
+    } ]
+  } ],
+  "structures" : [ {
+    "id" : "http://apiirc.ad.bl.uk/metadata/iiif/ark:/81055/tvdc_100005114232.0x000002/top",
+    "type" : "Range",
+    "behavoir" : [ "top" ],
+    "label" : {
+      "en" : [ "[No title]" ]
+    },
+    "metadata" : [ {
+      "label" : {
+        "en" : [ "Full title" ]
+      },
+      "value" : {
+        "en" : [ "[No Title]" ]
+      }
+    }, {
+      "label" : {
+        "en" : [ "Label" ]
+      },
+      "value" : {
+        "en" : [ "COLUMBIA" ]
+      }
+    }, {
+      "label" : {
+        "en" : [ "Format" ]
+      },
+      "value" : {
+        "en" : [ "1 disc 2 sides 30 cm 78 rpm" ]
+      }
+    }, {
+      "label" : {
+        "en" : [ "Usage" ]
+      },
+      "value" : {
+        "en" : [ "<span>Public domain<br/><br/><img src=&quot;https://i.creativecommons.org/p/mark/1.0/88x31.png&quot;/></span>" ]
+      }
+    }, {
+      "label" : {
+        "en" : [ "Held by" ]
+      },
+      "value" : {
+        "en" : [ "The British Library" ]
+      }
+    }, {
+      "label" : {
+        "en" : [ "Digitised by" ]
+      },
+      "value" : {
+        "en" : [ "The British Library 2022" ]
+      }
+    }, {
+      "label" : {
+        "en" : [ "Digitisation funded by" ]
+      },
+      "value" : {
+        "en" : [ "<span>National Lottery Heritage Fund<br><br><img src='https://www.heritagefund.org.uk/sites/default/files/media/attachments/TNLHLF_Colour_Logo_English_RGB_0_0.jpg'/></span>" ]
+      }
+    }, {
+      "label" : {
+        "en" : [ "Identifier" ]
+      },
+      "value" : {
+        "en" : [ "9CL0018465 9CL0018466 1CL0050094" ]
+      }
+    }, {
+      "label" : {
+        "en" : [ "Shelfmark" ]
+      },
+      "value" : {
+        "en" : [ "9CL0018465", "9CL0018466", "1CL0050094" ]
+      }
+    }, {
+      "label" : {
+        "en" : [ "Link to catalogue" ]
+      },
+      "value" : {
+        "en" : [ "<a href='http://explore.bl.uk/BLVU1:LSCOP-ALL:BLLSA1345926'>View the catalogue record</a>" ]
+      }
+    } ],
+    "rights" : "https://creativecommons.org/publicdomain/mark/1.0/",
+    "requiredStatement" : {
+      "label" : {
+        "en" : [ "Copyright and Usage" ]
+      },
+      "value" : {
+        "en" : [ "<span><a href=\"http://explore.bl.uk/BLVU1:LSCOP-ALL:BLLSA1345926\">Please read the full information about this object</a><br>Public domain<br/><br/><a href=\"https://creativecommons.org/publicdomain/mark/1.0/\"><img src=\"https://i.creativecommons.org/p/mark/1.0/88x31.png\"/></a></span>" ]
+      }
+    },
+    "items" : [ {
+      "id" : "http://apiirc.ad.bl.uk/metadata/iiif/ark:/81055/tvdc_100005114232.0x000006",
+      "type" : "Range",
+      "behavior" : [ "sequence" ],
+      "label" : {
+        "en" : [ "Quartet, strings. Andante/Debussy (03:26)" ]
+      },
+      "metadata" : [ {
+        "label" : {
+          "en" : [ "Full title" ]
+        },
+        "value" : {
+          "en" : [ "Quartet, strings. Andante/Debussy" ]
+        }
+      }, {
+        "label" : {
+          "en" : [ "Creator" ]
+        },
+        "value" : {
+          "en" : [ "London String Quartet" ]
+        }
+      }, {
+        "label" : {
+          "en" : [ "Date" ]
+        },
+        "value" : {
+          "en" : [ "1915 (recorded)" ]
+        }
+      }, {
+        "label" : {
+          "en" : [ "Duration" ]
+        },
+        "value" : {
+          "en" : [ "4 min. 11 sec." ]
+        }
+      }, {
+        "label" : {
+          "en" : [ "Category" ]
+        },
+        "value" : {
+          "en" : [ "Classical music: Instrumental", "Package Chamber music" ]
+        }
+      }, {
+        "label" : {
+          "en" : [ "Genre" ]
+        },
+        "value" : {
+          "en" : [ "Chamber music" ]
+        }
+      }, {
+        "label" : {
+          "en" : [ "Usage" ]
+        },
+        "value" : {
+          "en" : [ "<span>Public domain<br/><br/><img src=&quot;https://i.creativecommons.org/p/mark/1.0/88x31.png&quot;/></span>" ]
+        }
+      }, {
+        "label" : {
+          "en" : [ "Held by" ]
+        },
+        "value" : {
+          "en" : [ "The British Library" ]
+        }
+      }, {
+        "label" : {
+          "en" : [ "Digitised by" ]
+        },
+        "value" : {
+          "en" : [ "The British Library 2022" ]
+        }
+      }, {
+        "label" : {
+          "en" : [ "Digitisation funded by" ]
+        },
+        "value" : {
+          "en" : [ "<span>National Lottery Heritage Fund<br><br><img src='https://www.heritagefund.org.uk/sites/default/files/media/attachments/TNLHLF_Colour_Logo_English_RGB_0_0.jpg'/></span>" ]
+        }
+      }, {
+        "label" : {
+          "en" : [ "Identifier" ]
+        },
+        "value" : {
+          "en" : [ "9CL0018465 2 COLUMBIA 9CL0018466 S2 COLUMBIA 1CL0050094 S1 COLUMBIA" ]
+        }
+      }, {
+        "label" : {
+          "en" : [ "Shelfmark" ]
+        },
+        "value" : {
+          "en" : [ "9CL0018465", "9CL0018466", "1CL0050094" ]
+        }
+      }, {
+        "label" : {
+          "en" : [ "Link to catalogue" ]
+        },
+        "value" : {
+          "en" : [ "<a href='http://explore.bl.uk/BLVU1:LSCOP-ALL:BLLSA4941685'>View the catalogue record</a>" ]
+        }
+      } ],
+      "rights" : "https://creativecommons.org/publicdomain/mark/1.0/",
+      "requiredStatement" : {
+        "label" : {
+          "en" : [ "Copyright and Usage" ]
+        },
+        "value" : {
+          "en" : [ "<span><a href=\"http://explore.bl.uk/BLVU1:LSCOP-ALL:BLLSA4941685\">Please read the full information about this object</a><br>Public domain<br/><br/><a href=\"https://creativecommons.org/publicdomain/mark/1.0/\"><img src=\"https://i.creativecommons.org/p/mark/1.0/88x31.png\"/></a></span>" ]
+        }
+      },
+      "items" : [ {
+        "id" : "http://apiirc.ad.bl.uk/metadata/iiif/ark:/81055/tvdc_100005114232.0x000004#t=3,209",
+        "type" : "Canvas"
+      } ]
+    }, {
+      "id" : "http://apiirc.ad.bl.uk/metadata/iiif/ark:/81055/tvdc_100005114232.0x000008",
+      "type" : "Range",
+      "behavior" : [ "sequence" ],
+      "label" : {
+        "en" : [ "Andante cantabile/Tchaikovsky (03:58)" ]
+      },
+      "metadata" : [ {
+        "label" : {
+          "en" : [ "Full title" ]
+        },
+        "value" : {
+          "en" : [ "Andante cantabile/Tchaikovsky" ]
+        }
+      }, {
+        "label" : {
+          "en" : [ "Creator" ]
+        },
+        "value" : {
+          "en" : [ "London String Quartet" ]
+        }
+      }, {
+        "label" : {
+          "en" : [ "Date" ]
+        },
+        "value" : {
+          "en" : [ "1915 (recorded)" ]
+        }
+      }, {
+        "label" : {
+          "en" : [ "Duration" ]
+        },
+        "value" : {
+          "en" : [ "3 min. 38 sec." ]
+        }
+      }, {
+        "label" : {
+          "en" : [ "Usage" ]
+        },
+        "value" : {
+          "en" : [ "<span>Public domain<br/><br/><img src=&quot;https://i.creativecommons.org/p/mark/1.0/88x31.png&quot;/></span>" ]
+        }
+      }, {
+        "label" : {
+          "en" : [ "Held by" ]
+        },
+        "value" : {
+          "en" : [ "The British Library" ]
+        }
+      }, {
+        "label" : {
+          "en" : [ "Digitised by" ]
+        },
+        "value" : {
+          "en" : [ "The British Library 2022" ]
+        }
+      }, {
+        "label" : {
+          "en" : [ "Digitisation funded by" ]
+        },
+        "value" : {
+          "en" : [ "<span>National Lottery Heritage Fund<br><br><img src='https://www.heritagefund.org.uk/sites/default/files/media/attachments/TNLHLF_Colour_Logo_English_RGB_0_0.jpg'/></span>" ]
+        }
+      }, {
+        "label" : {
+          "en" : [ "Identifier" ]
+        },
+        "value" : {
+          "en" : [ "9CL0018465 1 COLUMBIA 9CL0018466 S1 COLUMBIA 1CL0050094 S2 COLUMBIA" ]
+        }
+      }, {
+        "label" : {
+          "en" : [ "Shelfmark" ]
+        },
+        "value" : {
+          "en" : [ "9CL0018465", "9CL0018466", "1CL0050094" ]
+        }
+      }, {
+        "label" : {
+          "en" : [ "Link to catalogue" ]
+        },
+        "value" : {
+          "en" : [ "<a href='http://explore.bl.uk/BLVU1:LSCOP-ALL:BLLSA4941684'>View the catalogue record</a>" ]
+        }
+      } ],
+      "rights" : "https://creativecommons.org/publicdomain/mark/1.0/",
+      "requiredStatement" : {
+        "label" : {
+          "en" : [ "Copyright and Usage" ]
+        },
+        "value" : {
+          "en" : [ "<span><a href=\"http://explore.bl.uk/BLVU1:LSCOP-ALL:BLLSA4941684\">Please read the full information about this object</a><br>Public domain<br/><br/><a href=\"https://creativecommons.org/publicdomain/mark/1.0/\"><img src=\"https://i.creativecommons.org/p/mark/1.0/88x31.png\"/></a></span>" ]
+        }
+      },
+      "items" : [ {
+        "id" : "http://apiirc.ad.bl.uk/metadata/iiif/ark:/81055/tvdc_100005114232.0x000005#t=5,243",
+        "type" : "Canvas"
+      } ]
+    } ]
+  } ]
+}
