@@ -3,14 +3,14 @@
   "id" : "https://example.org/Canvas_issue.json",
   "type" : "Manifest",
   "label" : {
-    "en" : ["[No title]"]
+    "en" : ["La Vie en Rose"]
   },
   "metadata" : [{
     "label" : {
       "en" : ["Full title"]
     },
     "value" : {
-      "en" : ["[No Title]"]
+      "en" : ["La Vie en Rose"]
     }
   }, {
     "label" : {
@@ -196,14 +196,14 @@
     "id" : "https://example.org/Top1-top",
     "type" : "Range",
     "label" : {
-      "en" : ["[No title]"]
+      "en" : ["La Vie en Rose"]
     },
     "metadata" : [{
       "label" : {
         "en" : ["Full title"]
       },
       "value" : {
-        "en" : ["[No Title]"]
+        "en" : ["La Vie en Rose"]
       }
     }, {
       "label" : {
@@ -290,49 +290,49 @@
       "id" : "https://example.org/Range1",
       "type" : "Range",
       "label" : {
-        "en" : ["Quartet, strings. Andante/Debussy (03:26)"]
+        "en" : ["La Vie en Rose"]
       },
       "metadata" : [{
         "label" : {
           "en" : ["Full title"]
         },
         "value" : {
-          "en" : ["Quartet, strings. Andante/Debussy"]
+          "en" : ["La Vie en Rose"]
         }
       }, {
         "label" : {
           "en" : ["Creator"]
         },
         "value" : {
-          "en" : ["London String Quartet"]
+          "en" : ["Edith Piaf"]
         }
       }, {
         "label" : {
           "en" : ["Date"]
         },
         "value" : {
-          "en" : ["1915 (recorded)"]
+          "en" : ["1950"]
         }
       }, {
         "label" : {
           "en" : ["Duration"]
         },
         "value" : {
-          "en" : ["4 min. 11 sec."]
+          "en" : ["3 min. 11 sec."]
         }
       }, {
         "label" : {
           "en" : ["Category"]
         },
         "value" : {
-          "en" : ["Classical music: Instrumental", "Package Chamber music"]
+          "en" : ["Chanson"]
         }
       }, {
         "label" : {
           "en" : ["Genre"]
         },
         "value" : {
-          "en" : ["Chamber music"]
+          "en" : ["Chanson"]
         }
       }, {
         "label" : {
@@ -409,35 +409,35 @@
       "id" : "https://example.org/Range2",
       "type" : "Range",
       "label" : {
-        "en" : ["Andante cantabile/Tchaikovsky (03:58)"]
+        "en" : ["Un Rerain Courait dans la Rue (03:15)"]
       },
       "metadata" : [{
         "label" : {
           "en" : ["Full title"]
         },
         "value" : {
-          "en" : ["Andante cantabile/Tchaikovsky"]
+          "en" : ["Un Rerain Courait dans la Rue"]
         }
       }, {
         "label" : {
           "en" : ["Creator"]
         },
         "value" : {
-          "en" : ["London String Quartet"]
+          "en" : ["Edith Piaf"]
         }
       }, {
         "label" : {
           "en" : ["Date"]
         },
         "value" : {
-          "en" : ["1915 (recorded)"]
+          "en" : ["1950"]
         }
       }, {
         "label" : {
           "en" : ["Duration"]
         },
         "value" : {
-          "en" : ["3 min. 38 sec."]
+          "en" : ["3 min. 15 sec."]
         }
       }, {
         "label" : {
