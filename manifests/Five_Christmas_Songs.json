@@ -1,0 +1,151 @@
+{
+  "@context": [
+    "http://digirati.com/ns/timeliner",
+    "http://www.w3.org/ns/anno.jsonld",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "id": "http://digirati.com/iiif/v3/temporary/manifest",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "Five Christmas Songs"
+    ]
+  },
+  "summary": {
+    "en": [
+      ""
+    ]
+  },
+  "items": [
+    {
+      "id": "http://digirati.com/iiif/v3/temporary/canvas/c1",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Untitled Item"
+        ]
+      },
+      "items": [
+        {
+          "id": "http://digirati.com/iiif/v3/temporary/list/c1-ap",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://digirati.com/iiif/v3/temporary/annotation/c1-1",
+              "type": "Annotation",
+              "motivation": "painting",
+              "label": {
+                "en": [
+                  "Untitled audio"
+                ]
+              },
+              "body": {
+                "id": "https://archive.org/download/78_five-christmas-songs_tempos-carolaires_gbia0119025a/FIVE%20CHRISTMAS%20SONGS%20-%20Tempo%27s%20Carolaires.mp3",
+                "type": "Audio",
+                "duration": 152.04
+              },
+              "target": "http://digirati.com/iiif/v3/temporary/canvas/c"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "id": "id-1638541965794",
+      "type": "Range",
+      "label": {
+        "en": [
+          "Jingle bells"
+        ]
+      },
+      "items": [
+        {
+          "id": "http://digirati.com/iiif/v3/temporary/canvas/c1#t=113.513158,152.04",
+          "type": "Canvas"
+        }
+      ],
+      "tl:backgroundColour": "#ACD4E2"
+    },
+    {
+      "id": "id-1638541872507",
+      "type": "Range",
+      "label": {
+        "en": [
+          "It came upon a midnight clear"
+        ]
+      },
+      "items": [
+        {
+          "id": "http://digirati.com/iiif/v3/temporary/canvas/c1#t=56.815877,85.564716",
+          "type": "Canvas"
+        }
+      ],
+      "tl:backgroundColour": "#ACD4E2"
+    },
+    {
+      "id": "id-1638541815507",
+      "type": "Range",
+      "label": {
+        "en": [
+          "Hark the herald angels"
+        ]
+      },
+      "items": [
+        {
+          "id": "http://digirati.com/iiif/v3/temporary/canvas/c1#t=28.328765,56.815877",
+          "type": "Canvas"
+        }
+      ],
+      "tl:backgroundColour": "#ACD4E2"
+    },
+    {
+      "id": "http://digirati.com/iiif/v3/temporary/range/r0",
+      "type": "Range",
+      "label": {
+        "en": [
+          "Deck the halls"
+        ]
+      },
+      "items": [
+        {
+          "id": "http://digirati.com/iiif/v3/temporary/canvas/c1#t=0,28.328765",
+          "type": "Canvas"
+        }
+      ],
+      "tl:backgroundColour": "#ACD4E2"
+    },
+    {
+      "id": "id-1638541921690",
+      "type": "Range",
+      "label": {
+        "en": [
+          "We three kings"
+        ]
+      },
+      "items": [
+        {
+          "id": "http://digirati.com/iiif/v3/temporary/canvas/c1#t=85.564716,113.513158",
+          "type": "Canvas"
+        }
+      ],
+      "tl:backgroundColour": "#ACD4E2"
+    }
+  ],
+  "annotations": [],
+  "tl:settings": {
+    "tl:backgroundColour": "#595959",
+    "tl:bubblesStyle": "rounded",
+    "tl:blackAndWhite": false,
+    "tl:showTimes": true,
+    "tl:autoScaleHeightOnResize": false,
+    "tl:startPlayingWhenBubbleIsClicked": false,
+    "tl:stopPlayingAtTheEndOfSection": false,
+    "tl:startPlayingAtEndOfSection": false,
+    "tl:zoomToSectionIncrementally": false,
+    "tl:showMarkers": true,
+    "tl:bubbleHeight": 80,
+    "tl:colourPalette": "default"
+  }
+}
