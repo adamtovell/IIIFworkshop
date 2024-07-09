@@ -41,7 +41,7 @@
               },
               "body": {
                 "id": "https://archive.org/download/78_five-christmas-songs_tempos-carolaires_gbia0119025a/FIVE%20CHRISTMAS%20SONGS%20-%20Tempo%27s%20Carolaires.mp3",
-                "type": "Audio",
+                "type": "Sound",
                 "duration": 152.04
               },
               "target": "http://digirati.com/iiif/v3/temporary/canvas/c"
