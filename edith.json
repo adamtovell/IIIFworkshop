@@ -290,7 +290,7 @@
       "id" : "https://example.org/Range1",
       "type" : "Range",
       "label" : {
-        "en" : ["La Vie en Rose"]
+        "en" : ["La Vie en Rose (03:11)"]
       },
       "metadata" : [{
         "label" : {
