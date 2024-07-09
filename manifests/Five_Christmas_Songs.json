@@ -40,7 +40,7 @@
                 ]
               },
               "body": {
-                "id": "https://archive.org/download/78_five-christmas-songs_tempos-carolaires_gbia0119025a/FIVE%20CHRISTMAS%20SONGS%20-%20Tempo%27s%20Carolaires.mp3",
+                "id": "https://cdn.jsdelivr.net/gh/adamtovell/IIIFworkshop@7a3b78f80ab4a288dbe8fa9a2f8832eb00d29929/Carolaires.mp3",
                 "type": "Sound",
                 "duration": 152.04
               },
