@@ -1,0 +1,640 @@
+{
+	"@context":["http://iiif.io/api/auth/1/context.json","http://iiif.io/api/presentation/3/context.json"],
+	"id":"https://apiirc.ad.bl.uk/metadata/iiif/ark:/81055/tvdc_100005129704.0x000002/manifest.json",
+	"type":"Manifest",
+	"label":{"en":["English Folk-Music: Kristensen-Grainger Collection"]},
+	"metadata": [
+	 	{
+	 	 	"label":{"en":["Full title"]},
+	 	 	"value":{"en":["English Folk-Music: Kristensen-Grainger Collection"]}
+	 	},
+	 	{
+	 	 	"label":{"en":["Date"]},
+	 	 	"value":{"en":["1906 (published)"]}
+	 	},
+	 	{
+	 	 	"label":{"en":["Collection"]},
+	 	 	"value":{"en":["Percy Grainger Collection"]}
+	 	},
+	 	{
+	 	 	"label":{"en":["Format"]},
+	 	 	"value":{"en":["1 disc 1 side 30 cm 78 rpm mono centre to start","2 image files"]}
+	 	},
+	 	{
+	 	 	"label":{"en":["Usage"]},
+	 	 	"value":{"en":["<span>Public domain<br/><br/><a href='https://creativecommons.org/publicdomain/mark/1.0/'><img src='https://i.creativecommons.org/p/mark/1.0/88x31.png' alt='Public Domain Mark 1.0 License logo'/></a></span>"]}
+	 	},
+	 	{
+	 	 	"label":{"en":["Held by"]},
+	 	 	"value":{"en":["<span>The British Library<br><br><img src='https://www.bl.uk/britishlibrary/resources/global/images/bl_logo_100.gif' alt='British Library logo'/></span>"]}
+	 	},
+	 	{
+	 	 	"label":{"en":["Digitised by"]},
+	 	 	"value":{"en":["<span>The British Library, 2022<br><br><img src='https://www.bl.uk/britishlibrary/resources/global/images/bl_logo_100.gif' alt='British Library Logo'/></span>"]}
+	 	},
+	 	{
+	 	 	"label":{"en":["Digitisation funded by"]},
+	 	 	"value":{"en":["<span>National Lottery Heritage Fund<br><br><img src='https://www.heritagefund.org.uk/sites/default/files/media/attachments/TNLHLF_Colour_Logo_English_RGB_0_0.jpg' alt='National Lottery Heritage Fund logo'/></span>"]}
+	 	},
+	 	{
+	 	 	"label":{"en":["Identifier"]},
+	 	 	"value":{"en":["1LL0010264"]}
+	 	},
+	 	{
+	 	 	"label":{"en":["Shelfmark"]},
+	 	 	"value":{"en":["1LL0010264"]}
+	 	},
+	 	{
+	 	 	"label":{"en":["Link to catalogue"]},
+	 	 	"value":{"en":["<a href='http://explore.bl.uk/BLVU1:LSCOP-ALL:BLLSA7744461'>View the catalogue record</a>"]}
+	 	},
+	 	{
+	 	 	"label":{"en":["Contents"]},
+	 	 	"value":{"en":["From cylinder 35, 36 Melody 143, 103 Sung by George Wray"]}
+	 	}
+	],"rights":"https://creativecommons.org/publicdomain/mark/1.0/",
+	"requiredStatement": 
+	{
+	 	"label":{"en":["Copyright and Usage"]},
+	 	"value":{"en":["<span><a href=\"http://explore.bl.uk/BLVU1:LSCOP-ALL:BLLSA7744461\">Please read the full information about this object</a><br>Please read our <a href=\"https://www.bl.uk/help/ethical-terms-of-use\">Ethical Terms of Use</a><br/>Public domain<br/><br/><a href=\"https://creativecommons.org/publicdomain/mark/1.0/\"><img src=\"https://i.creativecommons.org/p/mark/1.0/88x31.png\" alt=\"Public Domain Mark 1.0 License logo\"/></a></span>"]}
+	},
+	
+	"provider":[
+	 	
+	 	{
+	 	 	"id":"https://www.bl.uk/about-us",
+	 	 	"type":"Agent",
+	 	 	"label":{"en": [ "The British Library" ]},
+	 	 	"homepage": [
+	 	 	 	{
+	 	 	 	 	"id":"https://www.bl.uk/",
+	 	 	 	 	"type":"Text",
+	 	 	 	 	"format":"text/html",
+	 	 	 	 	"label":{"en":["The British Library"]}
+	 	 	 	}
+	 	 	],
+	 	 	"logo": [
+	 	 	 	{
+	 	 	 	 	"id":"https://www.bl.uk/images/bl_logo_100.gif",
+	 	 	 	 	"type":"Image",
+	 	 	 	 	"format":"image/gif"
+	 	 	 	}
+	 	 	]
+	 	}
+	],
+	"services": [
+	 	{
+	 	 	"id":"https://apiirc.ad.bl.uk/auth/iiif/login",
+	 	 	"type":"AuthCookieService1",
+	 	 	"profile":"http://iiif.io/api/auth/1/login",
+	 	 	"description":{"en":["Some portions of this recording may be unavailable due to rights restrictions."]},
+	 	 	"service": [
+	 	 	 	{
+	 	 	 	 	"id":"https://apiirc.ad.bl.uk/auth/iiif/token",
+	 	 	 	 	"type":"AuthTokenService1",
+	 	 	 	 	"profile":"http://iiif.io/api/auth/1/token"
+	 	 	 	}
+	 	 	]
+	 	},
+	 	{
+	 	 	"id":"http://access.bl.uk/item/share/ark:/81055/tvdc_100005129704.0x000002",
+	 	 	"type":"Service",
+	 	 	"profile":"https://universalviewer.io/share-extensions-profile"
+	 	}
+	],
+	"accompanyingCanvas": {
+	 	"id":"https://apiirc.ad.bl.uk/metadata/iiif/ark:/81055/tvdc_100005129704.0x000002/c/poster",
+	 	"type":"Canvas",
+	 	"label":{"en":["Illustration"]},
+	 	"width":1552,
+	 	"height":1552,
+	 	"items": [
+	 	 	{
+	 	 	 	"id":"https://apiirc.ad.bl.uk/metadata/iiif/ark:/81055/tvdc_100005129704.0x000002/c/a1",
+	 	 	 	"type":"AnnotationPage",
+	 	 	 	"items": [
+	 	 	 	 	{
+	 	 	 	 	 	"id":"https://apiirc.ad.bl.uk/metadata/iiif/ark:/81055/tvdc_100005129704.0x000002/c/a1/a1",
+	 	 	 	 	 	"type":"Annotation",
+	 	 	 	 	 	"motivation":"painting",
+	 	 	 	 	 	"target":"https://apiirc.ad.bl.uk/metadata/iiif/ark:/81055/tvdc_100005129704.0x000002/c/poster",
+	 	 	 	 	 	"body": [{
+	 	 	 	 	 	 	"id":"https://apiirc.ad.bl.uk/image/static/ark:/81055/tvdc_100005129704.0x000013?tvdc_100005129704.0x000002",
+	 	 	 	 	 	 	"type":"Image",
+	 	 	 	 	 	 	"width":1552,
+	 	 	 	 	 	 	"height":1552,
+	 	 	 	 	 	 	"format":"image/jpeg"
+	 	 	 	 	 	}]
+	 	 	 	 	}
+	 	 	 	]
+	 	 	}
+	 	]
+	},
+	"thumbnail": {
+	 	"id":"https://apiirc.ad.bl.uk/image/static/ark:/81055/tvdc_100005129704.0x000013?tvdc_100005129704.0x000002",
+	 	"type":"Image",
+	 	"width":1552,
+	 	"height":1552,
+	 	"format":"image/jpeg"
+	},
+	"homepage": [
+	 	{
+	 	 	"id":"https://accessirc.ad.bl.uk/UniversalViewer/ark:/81055/tvdc_100005129704.0x000002",
+	 	 	"type":"Text",
+	 	 	"format":"text/html",
+	 	 	"label":{"en":["View at the British Library"]}
+	 	}
+	],
+	"related": [
+	 	{
+	 	 	"id":"https://accessirc.ad.bl.uk/UniversalViewer/ark:/81055/tvdc_100005129704.0x000002",
+	 	 	"type":"Text",
+	 	 	"format":"text/html",
+	 	 	"label":{"en":["View at the British Library"]}
+	 	}
+	],
+	"behavior":["auto-advance"],
+	"items": [
+		{
+	 	 	"id":"https://apiirc.ad.bl.uk/metadata/iiif/ark:/81055/tvdc_100005129704.0x000004",
+	 	 	"type":"Canvas",
+	 	 	"label":{"en":["Disc 1 Side 1"]},
+	 	 	"duration":270.00,
+	 	 	"items": [
+	 	 	 	{
+	 	 	 	 	"id":"https://apiirc.ad.bl.uk/metadata/iiif/ark:/81055/tvdc_100005129704.0x000004/anno1",
+	 	 	 	 	"type":"AnnotationPage",
+	 	 	 	 	"items": [
+	 	 	 	 	 	{
+	 	 	 	 	 	 	"id":"https://apiirc.ad.bl.uk/metadata/iiif/ark:/81055/tvdc_100005129704.0x000004/anno1/1",
+	 	 	 	 	 	 	"type":"Annotation",
+	 	 	 	 	 	 	"motivation":"painting",
+	 	 	 	 	 	 	"target":"https://apiirc.ad.bl.uk/metadata/iiif/ark:/81055/tvdc_100005129704.0x000004#t=00.00,270.00",
+	 	 	 	 	 	 	"body": [{
+	 	 	 	 	 	 	 	"type":"Choice",
+	 	 	 	 	 	 	 	"items":[
+	 	 	 	 	 	 	 	 	{
+	 	 	 	 	 	 	 	 	 	"id":"https://apiirc.ad.bl.uk/media/iiif/ark:/81055/tvdc_100005129704.0x000012/manifest.mpd",
+	 	 	 	 	 	 	 	 	 	"format":"application/dash+xml",
+	 	 	 	 	 	 	 	 	 	"type":"Sound",
+	 	 	 	 	 	 	 	 	 	"service": [
+	 	 	 	 	 	 	 	 	 	 	{
+	 	 	 	 	 	 	 	 	 	 	 	"id":"https://apiirc.ad.bl.uk/auth/iiif/login",
+	 	 	 	 	 	 	 	 	 	 	 	"type":"AuthCookieService1"
+	 	 	 	 	 	 	 	 	 	 	},
+	 	 	 	 	 	 	 	 	 	 	{
+	 	 	 	 	 	 	 	 	 	 	 	"id":"https://apiirc.ad.bl.uk/media/dash/ark:/81055/tvdc_100005129704.0x000012/probe.json",
+	 	 	 	 	 	 	 	 	 	 	 	"type":"AuthProbeService1",
+	 	 	 	 	 	 	 	 	 	 	 	"profile":"http://iiif.io/api/auth/1/probe"
+	 	 	 	 	 	 	 	 	 	 	}
+	 	 	 	 	 	 	 	 	 	]
+	 	 	 	 	 	 	 	 	},
+	 	 	 	 	 	 	 	 	{
+	 	 	 	 	 	 	 	 	 	"id":"https://apiirc.ad.bl.uk/media/iiif/ark:/81055/tvdc_100005129704.0x000012/index.m3u8",
+	 	 	 	 	 	 	 	 	 	"format":"application/vnd.apple.mpegURL",
+	 	 	 	 	 	 	 	 	 	"type":"Sound",
+	 	 	 	 	 	 	 	 	 	"service": [
+	 	 	 	 	 	 	 	 	 	 	{
+	 	 	 	 	 	 	 	 	 	 	 	"id":"https://apiirc.ad.bl.uk/auth/iiif/login",
+	 	 	 	 	 	 	 	 	 	 	 	"type":"AuthCookieService1"
+	 	 	 	 	 	 	 	 	 	 	},
+	 	 	 	 	 	 	 	 	 	 	{
+	 	 	 	 	 	 	 	 	 	 	 	"id":"https://apiirc.ad.bl.uk/media/hls/ark:/81055/tvdc_100005129704.0x000012/probe.json",
+	 	 	 	 	 	 	 	 	 	 	 	"type":"AuthProbeService1",
+	 	 	 	 	 	 	 	 	 	 	 	"profile":"http://iiif.io/api/auth/1/probe"
+	 	 	 	 	 	 	 	 	 	 	}
+	 	 	 	 	 	 	 	 	 	]
+	 	 	 	 	 	 	 	 	}
+	 	 	 	 	 	 	 	]
+	 	 	 	 	 	 	}],
+	 	 	 	 	 	 	"seeAlso": [
+	 	 	 	 	 	 	 	{
+	 	 	 	 	 	 	 	 	"id":"https://apiirc.ad.bl.uk/waveform/tvdc_100005129704.0x000012",
+	 	 	 	 	 	 	 	 	"type":"Dataset",
+	 	 	 	 	 	 	 	 	"format":"application/octet-stream",
+	 	 	 	 	 	 	 	 	"profile":"http://waveform.prototyping.bbc.co.uk"
+	 	 	 	 	 	 	 	}
+	 	 	 	 	 	 	]
+	 	 	 	 	 	}
+	 	 	 	 	]
+	 	 	 	}
+	 	 	],
+	 	 	"thumbnail": [
+	 	 	 	{
+	 	 	 	 	"id":"https://apiirc.ad.bl.uk/hub-logo/audio-cd.png",
+	 	 	 	 	"Type":"Image"
+	 	 	 	}
+	 	 	]
+	 	}
+	],
+	"structures": [
+	 	{
+	 	 	"id":"https://apiirc.ad.bl.uk/metadata/iiif/ark:/81055/tvdc_100005129704.0x000002/top",
+	 	 	"type":"Range",
+	 	 	"label":{"en":["English Folk-Music: Kristensen-Grainger Collection"]},
+	 	 	"metadata": [
+	 	 	 	{
+	 	 	 	 	"label":{"en":["Full title"]},
+	 	 	 	 	"value":{"en":["English Folk-Music: Kristensen-Grainger Collection"]}
+	 	 	 	},
+	 	 	 	{
+	 	 	 	 	"label":{"en":["Date"]},
+	 	 	 	 	"value":{"en":["1906 (published)"]}
+	 	 	 	},
+	 	 	 	{
+	 	 	 	 	"label":{"en":["Collection"]},
+	 	 	 	 	"value":{"en":["Percy Grainger Collection"]}
+	 	 	 	},
+	 	 	 	{
+	 	 	 	 	"label":{"en":["Format"]},
+	 	 	 	 	"value":{"en":["1 disc 1 side 30 cm 78 rpm mono centre to start","2 image files"]}
+	 	 	 	},
+	 	 	 	{
+	 	 	 	 	"label":{"en":["Usage"]},
+	 	 	 	 	"value":{"en":["<span>Public domain<br/><br/><a href='https://creativecommons.org/publicdomain/mark/1.0/'><img src='https://i.creativecommons.org/p/mark/1.0/88x31.png' alt='Public Domain Mark 1.0 License logo'/></a></span>"]}
+	 	 	 	},
+	 	 	 	{
+	 	 	 	 	"label":{"en":["Held by"]},
+	 	 	 	 	"value":{"en":["<span>The British Library<br><br><img src='https://www.bl.uk/britishlibrary/resources/global/images/bl_logo_100.gif' alt='British Library logo'/></span>"]}
+	 	 	 	},
+	 	 	 	{
+	 	 	 	 	"label":{"en":["Digitised by"]},
+	 	 	 	 	"value":{"en":["<span>The British Library, 2022<br><br><img src='https://www.bl.uk/britishlibrary/resources/global/images/bl_logo_100.gif' alt='British Library Logo'/></span>"]}
+	 	 	 	},
+	 	 	 	{
+	 	 	 	 	"label":{"en":["Digitisation funded by"]},
+	 	 	 	 	"value":{"en":["<span>National Lottery Heritage Fund<br><br><img src='https://www.heritagefund.org.uk/sites/default/files/media/attachments/TNLHLF_Colour_Logo_English_RGB_0_0.jpg' alt='National Lottery Heritage Fund logo'/></span>"]}
+	 	 	 	},
+	 	 	 	{
+	 	 	 	 	"label":{"en":["Identifier"]},
+	 	 	 	 	"value":{"en":["1LL0010264"]}
+	 	 	 	},
+	 	 	 	{
+	 	 	 	 	"label":{"en":["Shelfmark"]},
+	 	 	 	 	"value":{"en":["1LL0010264"]}
+	 	 	 	},
+	 	 	 	{
+	 	 	 	 	"label":{"en":["Link to catalogue"]},
+	 	 	 	 	"value":{"en":["<a href='http://explore.bl.uk/BLVU1:LSCOP-ALL:BLLSA7744461'>View the catalogue record</a>"]}
+	 	 	 	},
+	 	 	 	{
+	 	 	 	 	"label":{"en":["Contents"]},
+	 	 	 	 	"value":{"en":["From cylinder 35, 36 Melody 143, 103 Sung by George Wray"]}
+	 	 	 	}
+	 	 	],
+	 	 	"rights":"https://creativecommons.org/publicdomain/mark/1.0/",
+	 	 	"requiredStatement": 
+	 	 	{
+	 	 	 	"label":{"en":["Copyright and Usage"]},
+	 	 	 	"value":{"en":["<span><a href=\"http://explore.bl.uk/BLVU1:LSCOP-ALL:BLLSA7744461\">Please read the full information about this object</a><br>Please read our <a href=\"https://www.bl.uk/help/ethical-terms-of-use\">Ethical Terms of Use</a><br/>Public domain<br/><br/><a href=\"https://creativecommons.org/publicdomain/mark/1.0/\"><img src=\"https://i.creativecommons.org/p/mark/1.0/88x31.png\" alt=\"Public Domain Mark 1.0 License logo\"/></a></span>"]}
+	 	 	},
+	 	 	"rendering": [
+	 	 	 	{
+	 	 	 	 	"id":"https://accessirc.ad.bl.uk/audio/download/ark:/81055/tvdc_100005129704.0x000002/ark:/81055/tvdc_100005129704.0x000002/top",
+	 	 	 	 	"type":"Audio",
+	 	 	 	 	"label":{"en":["Download this recording"]},
+	 	 	 	 	"format":"audio/mp4"
+	 	 	 	}
+	 	 	],
+	 	 	"items":[
+	 	 	 	{
+	 	 	 	 	"id":"https://apiirc.ad.bl.uk/metadata/iiif/ark:/81055/tvdc_100005129704.0x000005",
+	 	 	 	 	"type":"Range",
+	 	 	 	 	"label":{"en":["Lord Melbourne (Duke of Marlborough)"]},
+	 	 	 	 	"metadata": [
+	 	 	 	 	 	{
+	 	 	 	 	 	 	"label":{"en":["Full title"]},
+	 	 	 	 	 	 	"value":{"en":["Lord Melbourne (Duke of Marlborough)"]}
+	 	 	 	 	 	},
+	 	 	 	 	 	{
+	 	 	 	 	 	 	"label":{"en":["Creator"]},
+	 	 	 	 	 	 	"value":{"en":["Wray, George (singer, male)","Grainger, Percy, 1882-1961 (sound recordist)"]}
+	 	 	 	 	 	},
+	 	 	 	 	 	{
+	 	 	 	 	 	 	"label":{"en":["Date"]},
+	 	 	 	 	 	 	"value":{"en":["1906-07-28 (recorded)"]}
+	 	 	 	 	 	},
+	 	 	 	 	 	{
+	 	 	 	 	 	 	"label":{"en":["Place of creation"]},
+	 	 	 	 	 	 	"value":{"en":["Brigg, Lincolnshire, England, UK (recorded)","England (place of origin)","England (Lincolnshire) (place of origin)"]}
+	 	 	 	 	 	},
+	 	 	 	 	 	{
+	 	 	 	 	 	 	"label":{"en":["Duration"]},
+	 	 	 	 	 	 	"value":{"en":["0 min. 35 sec."]}
+	 	 	 	 	 	},
+	 	 	 	 	 	{
+	 	 	 	 	 	 	"label":{"en":["Collection"]},
+	 	 	 	 	 	 	"value":{"en":["Percy Grainger Collection"]}
+	 	 	 	 	 	},
+	 	 	 	 	 	{
+	 	 	 	 	 	 	"label":{"en":["Category"]},
+	 	 	 	 	 	 	"value":{"en":["World and traditional music: Europe"]}
+	 	 	 	 	 	},
+	 	 	 	 	 	{
+	 	 	 	 	 	 	"label":{"en":["Genre"]},
+	 	 	 	 	 	 	"value":{"en":["Field recordings","Folk songs and music"]}
+	 	 	 	 	 	},
+	 	 	 	 	 	{
+	 	 	 	 	 	 	"label":{"en":["Usage"]},
+	 	 	 	 	 	 	"value":{"en":["<span>Public domain<br/><br/><a href='https://creativecommons.org/publicdomain/mark/1.0/'><img src='https://i.creativecommons.org/p/mark/1.0/88x31.png' alt='Public Domain Mark 1.0 License logo'/></a></span>"]}
+	 	 	 	 	 	},
+	 	 	 	 	 	{
+	 	 	 	 	 	 	"label":{"en":["Held by"]},
+	 	 	 	 	 	 	"value":{"en":["<span>The British Library<br><br><img src='https://www.bl.uk/britishlibrary/resources/global/images/bl_logo_100.gif' alt='British Library logo'/></span>"]}
+	 	 	 	 	 	},
+	 	 	 	 	 	{
+	 	 	 	 	 	 	"label":{"en":["Digitised by"]},
+	 	 	 	 	 	 	"value":{"en":["<span>The British Library, 2022<br><br><img src='https://www.bl.uk/britishlibrary/resources/global/images/bl_logo_100.gif' alt='British Library Logo'/></span>"]}
+	 	 	 	 	 	},
+	 	 	 	 	 	{
+	 	 	 	 	 	 	"label":{"en":["Digitisation funded by"]},
+	 	 	 	 	 	 	"value":{"en":["<span>National Lottery Heritage Fund<br><br><img src='https://www.heritagefund.org.uk/sites/default/files/media/attachments/TNLHLF_Colour_Logo_English_RGB_0_0.jpg' alt='National Lottery Heritage Fund logo'/></span>"]}
+	 	 	 	 	 	},
+	 	 	 	 	 	{
+	 	 	 	 	 	 	"label":{"en":["Identifier"]},
+	 	 	 	 	 	 	"value":{"en":["1LL0010264 S1 BD1"]}
+	 	 	 	 	 	},
+	 	 	 	 	 	{
+	 	 	 	 	 	 	"label":{"en":["Shelfmark"]},
+	 	 	 	 	 	 	"value":{"en":["1LL0010264"]}
+	 	 	 	 	 	},
+	 	 	 	 	 	{
+	 	 	 	 	 	 	"label":{"en":["Link to catalogue"]},
+	 	 	 	 	 	 	"value":{"en":["<a href='http://explore.bl.uk/BLVU1:LSCOP-ALL:BLLSA8069253'>View the catalogue record</a>"]}
+	 	 	 	 	 	},
+	 	 	 	 	 	{
+	 	 	 	 	 	 	"label":{"en":["Description"]},
+	 	 	 	 	 	 	"value":{"en":["Performance note: two verses only.","This recording is sourced from a collection of lacquer discs created by the Library of Congress in 1940, featuring English folk songs dubbed from wax cylinders originally recorded by Percy Grainger between 1906 and 1908.","Recording note: moderate surface noise."]}
+	 	 	 	 	 	}
+	 	 	 	 	],
+	 	 	 	 	"rights":"https://creativecommons.org/publicdomain/mark/1.0/",
+	 	 	 	 	"requiredStatement": 
+	 	 	 	 	{
+	 	 	 	 	 	"label":{"en":["Copyright and Usage"]},
+	 	 	 	 	 	"value":{"en":["<span><a href=\"http://explore.bl.uk/BLVU1:LSCOP-ALL:BLLSA8069253\">Please read the full information about this object</a><br>Please read our <a href=\"https://www.bl.uk/help/ethical-terms-of-use\">Ethical Terms of Use</a><br/>Public domain<br/><br/><a href=\"https://creativecommons.org/publicdomain/mark/1.0/\"><img src=\"https://i.creativecommons.org/p/mark/1.0/88x31.png\" alt=\"Public Domain Mark 1.0 License logo\"/></a></span>"]}
+	 	 	 	 	},
+	 	 	 	 	"rendering": [
+	 	 	 	 	 	{
+	 	 	 	 	 	 	"id":"https://accessirc.ad.bl.uk/audio/download/ark:/81055/tvdc_100005129704.0x000002/ark:/81055/tvdc_100005129704.0x000005",
+	 	 	 	 	 	 	"type":"Audio",
+	 	 	 	 	 	 	"label":{"en":["Download this recording"]},
+	 	 	 	 	 	 	"format":"audio/mp4"
+	 	 	 	 	 	}
+	 	 	 	 	],
+	 	 	 	 	"items":[
+	 	 	 	 	 	{
+	 	 	 	 	 	 	"id":"https://apiirc.ad.bl.uk/metadata/iiif/ark:/81055/tvdc_100005129704.0x000004#t=10.00,45.00",
+	 	 	 	 	 	 	"type":"Canvas"
+	 	 	 	 	 	}
+	 	 	 	 	]
+	 	 	 	},
+	 	 	 	{
+	 	 	 	 	"id":"https://apiirc.ad.bl.uk/metadata/iiif/ark:/81055/tvdc_100005129704.0x000007",
+	 	 	 	 	"type":"Range",
+	 	 	 	 	"label":{"en":["Six dukes went a-fishin'"]},
+	 	 	 	 	"metadata": [
+	 	 	 	 	 	{
+	 	 	 	 	 	 	"label":{"en":["Full title"]},
+	 	 	 	 	 	 	"value":{"en":["Six dukes went a-fishin'"]}
+	 	 	 	 	 	},
+	 	 	 	 	 	{
+	 	 	 	 	 	 	"label":{"en":["Creator"]},
+	 	 	 	 	 	 	"value":{"en":["Gouldthorpe, George (singer, male)","Grainger, Percy, 1882-1961 (sound recordist)"]}
+	 	 	 	 	 	},
+	 	 	 	 	 	{
+	 	 	 	 	 	 	"label":{"en":["Date"]},
+	 	 	 	 	 	 	"value":{"en":["1906-07-28 (recorded)"]}
+	 	 	 	 	 	},
+	 	 	 	 	 	{
+	 	 	 	 	 	 	"label":{"en":["Place of creation"]},
+	 	 	 	 	 	 	"value":{"en":["Brigg, Lincolnshire, England, UK (recorded)","England (place of origin)","England (Lincolnshire) (place of origin)"]}
+	 	 	 	 	 	},
+	 	 	 	 	 	{
+	 	 	 	 	 	 	"label":{"en":["Duration"]},
+	 	 	 	 	 	 	"value":{"en":["1 min. 32 sec."]}
+	 	 	 	 	 	},
+	 	 	 	 	 	{
+	 	 	 	 	 	 	"label":{"en":["Collection"]},
+	 	 	 	 	 	 	"value":{"en":["Percy Grainger Collection"]}
+	 	 	 	 	 	},
+	 	 	 	 	 	{
+	 	 	 	 	 	 	"label":{"en":["Category"]},
+	 	 	 	 	 	 	"value":{"en":["World and traditional music: Europe"]}
+	 	 	 	 	 	},
+	 	 	 	 	 	{
+	 	 	 	 	 	 	"label":{"en":["Genre"]},
+	 	 	 	 	 	 	"value":{"en":["Field recordings","Folk songs and music"]}
+	 	 	 	 	 	},
+	 	 	 	 	 	{
+	 	 	 	 	 	 	"label":{"en":["Usage"]},
+	 	 	 	 	 	 	"value":{"en":["<span>Public domain<br/><br/><a href='https://creativecommons.org/publicdomain/mark/1.0/'><img src='https://i.creativecommons.org/p/mark/1.0/88x31.png' alt='Public Domain Mark 1.0 License logo'/></a></span>"]}
+	 	 	 	 	 	},
+	 	 	 	 	 	{
+	 	 	 	 	 	 	"label":{"en":["Held by"]},
+	 	 	 	 	 	 	"value":{"en":["<span>The British Library<br><br><img src='https://www.bl.uk/britishlibrary/resources/global/images/bl_logo_100.gif' alt='British Library logo'/></span>"]}
+	 	 	 	 	 	},
+	 	 	 	 	 	{
+	 	 	 	 	 	 	"label":{"en":["Digitised by"]},
+	 	 	 	 	 	 	"value":{"en":["<span>The British Library, 2022<br><br><img src='https://www.bl.uk/britishlibrary/resources/global/images/bl_logo_100.gif' alt='British Library Logo'/></span>"]}
+	 	 	 	 	 	},
+	 	 	 	 	 	{
+	 	 	 	 	 	 	"label":{"en":["Digitisation funded by"]},
+	 	 	 	 	 	 	"value":{"en":["<span>National Lottery Heritage Fund<br><br><img src='https://www.heritagefund.org.uk/sites/default/files/media/attachments/TNLHLF_Colour_Logo_English_RGB_0_0.jpg' alt='National Lottery Heritage Fund logo'/></span>"]}
+	 	 	 	 	 	},
+	 	 	 	 	 	{
+	 	 	 	 	 	 	"label":{"en":["Identifier"]},
+	 	 	 	 	 	 	"value":{"en":["1LL0010264 S1 BD2"]}
+	 	 	 	 	 	},
+	 	 	 	 	 	{
+	 	 	 	 	 	 	"label":{"en":["Shelfmark"]},
+	 	 	 	 	 	 	"value":{"en":["1LL0010264"]}
+	 	 	 	 	 	},
+	 	 	 	 	 	{
+	 	 	 	 	 	 	"label":{"en":["Link to catalogue"]},
+	 	 	 	 	 	 	"value":{"en":["<a href='http://explore.bl.uk/BLVU1:LSCOP-ALL:BLLSA8069254'>View the catalogue record</a>"]}
+	 	 	 	 	 	},
+	 	 	 	 	 	{
+	 	 	 	 	 	 	"label":{"en":["Description"]},
+	 	 	 	 	 	 	"value":{"en":["This recording is sourced from a collection of lacquer discs created by the Library of Congress in 1940, featuring English folk songs dubbed from wax cylinders originally recorded by Percy Grainger between 1906 and 1908.","Recording note: moderate surface noise."]}
+	 	 	 	 	 	}
+	 	 	 	 	],
+	 	 	 	 	"rights":"https://creativecommons.org/publicdomain/mark/1.0/",
+	 	 	 	 	"requiredStatement": 
+	 	 	 	 	{
+	 	 	 	 	 	"label":{"en":["Copyright and Usage"]},
+	 	 	 	 	 	"value":{"en":["<span><a href=\"http://explore.bl.uk/BLVU1:LSCOP-ALL:BLLSA8069254\">Please read the full information about this object</a><br>Please read our <a href=\"https://www.bl.uk/help/ethical-terms-of-use\">Ethical Terms of Use</a><br/>Public domain<br/><br/><a href=\"https://creativecommons.org/publicdomain/mark/1.0/\"><img src=\"https://i.creativecommons.org/p/mark/1.0/88x31.png\" alt=\"Public Domain Mark 1.0 License logo\"/></a></span>"]}
+	 	 	 	 	},
+	 	 	 	 	"rendering": [
+	 	 	 	 	 	{
+	 	 	 	 	 	 	"id":"https://accessirc.ad.bl.uk/audio/download/ark:/81055/tvdc_100005129704.0x000002/ark:/81055/tvdc_100005129704.0x000007",
+	 	 	 	 	 	 	"type":"Audio",
+	 	 	 	 	 	 	"label":{"en":["Download this recording"]},
+	 	 	 	 	 	 	"format":"audio/mp4"
+	 	 	 	 	 	}
+	 	 	 	 	],
+	 	 	 	 	"items":[
+	 	 	 	 	 	{
+	 	 	 	 	 	 	"id":"https://apiirc.ad.bl.uk/metadata/iiif/ark:/81055/tvdc_100005129704.0x000007/nn1",
+	 	 	 	 	 	 	"type":"Range",
+	 	 	 	 	 	 	"behavior":["no-nav"],
+	 	 	 	 	 	 	"items":[
+	 	 	 	 	 	 	 	{
+	 	 	 	 	 	 	 	 	"id":"https://apiirc.ad.bl.uk/metadata/iiif/ark:/81055/tvdc_100005129704.0x000004#t=50.00,60.00",
+	 	 	 	 	 	 	 	 	"type":"Canvas"
+	 	 	 	 	 	 	 	}
+	 	 	 	 	 	 	]
+	 	 	 	 	 	},
+	 	 	 	 	 	{
+	 	 	 	 	 	 	"id":"https://apiirc.ad.bl.uk/metadata/iiif/ark:/81055/tvdc_100005129704.0x000009",
+	 	 	 	 	 	 	"type":"Range",
+	 	 	 	 	 	 	"label":{"en":["[No Title]"]},
+	 	 	 	 	 	 	
+	 	 	 	 	 	 	"requiredStatement": 
+	 	 	 	 	 	 	{
+	 	 	 	 	 	 	 	"label":{"en":["Copyright and Usage"]},
+	 	 	 	 	 	 	 	"value":{"en":["<span><a href=\"http://explore.bl.uk/BLVU1:LSCOP-ALL:BLLSA\">Please read the full information about this object</a><br>This material is sensitive and may not be used by members of the public.</span>"]}
+	 	 	 	 	 	 	},
+	 	 	 	 	 	 	"rendering": [
+	 	 	 	 	 	 	 	{
+	 	 	 	 	 	 	 	 	"id":"https://accessirc.ad.bl.uk/audio/download/ark:/81055/tvdc_100005129704.0x000002/ark:/81055/tvdc_100005129704.0x000009",
+	 	 	 	 	 	 	 	 	"type":"Audio",
+	 	 	 	 	 	 	 	 	"label":{"en":["Download this recording"]},
+	 	 	 	 	 	 	 	 	"format":"audio/mp4"
+	 	 	 	 	 	 	 	}
+	 	 	 	 	 	 	],
+	 	 	 	 	 	 	"items":[
+	 	 	 	 	 	 	 	{
+	 	 	 	 	 	 	 	 	"id":"https://apiirc.ad.bl.uk/metadata/iiif/ark:/81055/tvdc_100005129704.0x000004#t=60.00,70.00",
+	 	 	 	 	 	 	 	 	"type":"Canvas"
+	 	 	 	 	 	 	 	}
+	 	 	 	 	 	 	]
+	 	 	 	 	 	}
+	 	 	 	 	]
+	 	 	 	},
+	 	 	 	{
+	 	 	 	 	"id":"https://apiirc.ad.bl.uk/metadata/iiif/ark:/81055/tvdc_100005129704.0x00000b",
+	 	 	 	 	"type":"Range",
+	 	 	 	 	"label":{"en":["Lord Melbourne (Duke of Marlborough)"]},
+	 	 	 	 	"metadata": [
+	 	 	 	 	 	{
+	 	 	 	 	 	 	"label":{"en":["Full title"]},
+	 	 	 	 	 	 	"value":{"en":["Lord Melbourne (Duke of Marlborough)"]}
+	 	 	 	 	 	},
+	 	 	 	 	 	{
+	 	 	 	 	 	 	"label":{"en":["Creator"]},
+	 	 	 	 	 	 	"value":{"en":["Wray, George (singer, male)","Grainger, Percy, 1882-1961 (sound recordist)"]}
+	 	 	 	 	 	},
+	 	 	 	 	 	{
+	 	 	 	 	 	 	"label":{"en":["Date"]},
+	 	 	 	 	 	 	"value":{"en":["1906-07-28 (recorded)"]}
+	 	 	 	 	 	},
+	 	 	 	 	 	{
+	 	 	 	 	 	 	"label":{"en":["Place of creation"]},
+	 	 	 	 	 	 	"value":{"en":["Brigg, Lincolnshire, England, UK (recorded)","England (place of origin)","England (Lincolnshire) (place of origin)"]}
+	 	 	 	 	 	},
+	 	 	 	 	 	{
+	 	 	 	 	 	 	"label":{"en":["Duration"]},
+	 	 	 	 	 	 	"value":{"en":["2 min. 04 sec."]}
+	 	 	 	 	 	},
+	 	 	 	 	 	{
+	 	 	 	 	 	 	"label":{"en":["Collection"]},
+	 	 	 	 	 	 	"value":{"en":["Percy Grainger Collection"]}
+	 	 	 	 	 	},
+	 	 	 	 	 	{
+	 	 	 	 	 	 	"label":{"en":["Category"]},
+	 	 	 	 	 	 	"value":{"en":["World and traditional music: Europe"]}
+	 	 	 	 	 	},
+	 	 	 	 	 	{
+	 	 	 	 	 	 	"label":{"en":["Genre"]},
+	 	 	 	 	 	 	"value":{"en":["Field recordings","Folk songs and music"]}
+	 	 	 	 	 	},
+	 	 	 	 	 	{
+	 	 	 	 	 	 	"label":{"en":["Usage"]},
+	 	 	 	 	 	 	"value":{"en":["<span>Public domain<br/><br/><a href='https://creativecommons.org/publicdomain/mark/1.0/'><img src='https://i.creativecommons.org/p/mark/1.0/88x31.png' alt='Public Domain Mark 1.0 License logo'/></a></span>"]}
+	 	 	 	 	 	},
+	 	 	 	 	 	{
+	 	 	 	 	 	 	"label":{"en":["Held by"]},
+	 	 	 	 	 	 	"value":{"en":["<span>The British Library<br><br><img src='https://www.bl.uk/britishlibrary/resources/global/images/bl_logo_100.gif' alt='British Library logo'/></span>"]}
+	 	 	 	 	 	},
+	 	 	 	 	 	{
+	 	 	 	 	 	 	"label":{"en":["Digitised by"]},
+	 	 	 	 	 	 	"value":{"en":["<span>The British Library, 2022<br><br><img src='https://www.bl.uk/britishlibrary/resources/global/images/bl_logo_100.gif' alt='British Library Logo'/></span>"]}
+	 	 	 	 	 	},
+	 	 	 	 	 	{
+	 	 	 	 	 	 	"label":{"en":["Digitisation funded by"]},
+	 	 	 	 	 	 	"value":{"en":["<span>National Lottery Heritage Fund<br><br><img src='https://www.heritagefund.org.uk/sites/default/files/media/attachments/TNLHLF_Colour_Logo_English_RGB_0_0.jpg' alt='National Lottery Heritage Fund logo'/></span>"]}
+	 	 	 	 	 	},
+	 	 	 	 	 	{
+	 	 	 	 	 	 	"label":{"en":["Identifier"]},
+	 	 	 	 	 	 	"value":{"en":["1LL0010264 S1 BD3"]}
+	 	 	 	 	 	},
+	 	 	 	 	 	{
+	 	 	 	 	 	 	"label":{"en":["Shelfmark"]},
+	 	 	 	 	 	 	"value":{"en":["1LL0010264"]}
+	 	 	 	 	 	},
+	 	 	 	 	 	{
+	 	 	 	 	 	 	"label":{"en":["Link to catalogue"]},
+	 	 	 	 	 	 	"value":{"en":["<a href='http://explore.bl.uk/BLVU1:LSCOP-ALL:BLLSA8069255'>View the catalogue record</a>"]}
+	 	 	 	 	 	},
+	 	 	 	 	 	{
+	 	 	 	 	 	 	"label":{"en":["Description"]},
+	 	 	 	 	 	 	"value":{"en":["Performance note: final words cut off.","This recording is sourced from a collection of lacquer discs created by the Library of Congress in 1940, featuring English folk songs dubbed from wax cylinders originally recorded by Percy Grainger between 1906 and 1908.","Recording note: loud surface noise."]}
+	 	 	 	 	 	}
+	 	 	 	 	],
+	 	 	 	 	"rights":"https://creativecommons.org/publicdomain/mark/1.0/",
+	 	 	 	 	"requiredStatement": 
+	 	 	 	 	{
+	 	 	 	 	 	"label":{"en":["Copyright and Usage"]},
+	 	 	 	 	 	"value":{"en":["<span><a href=\"http://explore.bl.uk/BLVU1:LSCOP-ALL:BLLSA8069255\">Please read the full information about this object</a><br>Please read our <a href=\"https://www.bl.uk/help/ethical-terms-of-use\">Ethical Terms of Use</a><br/>Public domain<br/><br/><a href=\"https://creativecommons.org/publicdomain/mark/1.0/\"><img src=\"https://i.creativecommons.org/p/mark/1.0/88x31.png\" alt=\"Public Domain Mark 1.0 License logo\"/></a></span>"]}
+	 	 	 	 	},
+	 	 	 	 	"rendering": [
+	 	 	 	 	 	{
+	 	 	 	 	 	 	"id":"https://accessirc.ad.bl.uk/audio/download/ark:/81055/tvdc_100005129704.0x000002/ark:/81055/tvdc_100005129704.0x00000b",
+	 	 	 	 	 	 	"type":"Audio",
+	 	 	 	 	 	 	"label":{"en":["Download this recording"]},
+	 	 	 	 	 	 	"format":"audio/mp4"
+	 	 	 	 	 	}
+	 	 	 	 	],
+	 	 	 	 	"items":[
+	 	 	 	 	 	{
+	 	 	 	 	 	 	"id":"https://apiirc.ad.bl.uk/metadata/iiif/ark:/81055/tvdc_100005129704.0x00000b/nn1",
+	 	 	 	 	 	 	"type":"Range",
+	 	 	 	 	 	 	"behavior":["no-nav"],
+	 	 	 	 	 	 	"items":[
+	 	 	 	 	 	 	 	{
+	 	 	 	 	 	 	 	 	"id":"https://apiirc.ad.bl.uk/metadata/iiif/ark:/81055/tvdc_100005129704.0x000004#t=146.00,180.00",
+	 	 	 	 	 	 	 	 	"type":"Canvas"
+	 	 	 	 	 	 	 	}
+	 	 	 	 	 	 	]
+	 	 	 	 	 	},
+	 	 	 	 	 	{
+	 	 	 	 	 	 	"id":"https://apiirc.ad.bl.uk/metadata/iiif/ark:/81055/tvdc_100005129704.0x00000d",
+	 	 	 	 	 	 	"type":"Range",
+	 	 	 	 	 	 	"label":{"en":["[No Title]"]},
+	 	 	 	 	 	 	
+	 	 	 	 	 	 	"requiredStatement": 
+	 	 	 	 	 	 	{
+	 	 	 	 	 	 	 	"label":{"en":["Copyright and Usage"]},
+	 	 	 	 	 	 	 	"value":{"en":["<span><a href=\"http://explore.bl.uk/BLVU1:LSCOP-ALL:BLLSA\">Please read the full information about this object</a><br>This material is sensitive and may not be used by members of the public.</span>"]}
+	 	 	 	 	 	 	},
+	 	 	 	 	 	 	"rendering": [
+	 	 	 	 	 	 	 	{
+	 	 	 	 	 	 	 	 	"id":"https://accessirc.ad.bl.uk/audio/download/ark:/81055/tvdc_100005129704.0x000002/ark:/81055/tvdc_100005129704.0x00000d",
+	 	 	 	 	 	 	 	 	"type":"Audio",
+	 	 	 	 	 	 	 	 	"label":{"en":["Download this recording"]},
+	 	 	 	 	 	 	 	 	"format":"audio/mp4"
+	 	 	 	 	 	 	 	}
+	 	 	 	 	 	 	],
+	 	 	 	 	 	 	"items":[
+	 	 	 	 	 	 	 	{
+	 	 	 	 	 	 	 	 	"id":"https://apiirc.ad.bl.uk/metadata/iiif/ark:/81055/tvdc_100005129704.0x000004#t=180.00,190.00",
+	 	 	 	 	 	 	 	 	"type":"Canvas"
+	 	 	 	 	 	 	 	}
+	 	 	 	 	 	 	]
+	 	 	 	 	 	}
+	 	 	 	 	]
+	 	 	 	}
+	 	 	]
+	 	}
+	]
+}

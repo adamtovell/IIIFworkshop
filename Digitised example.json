@@ -1,0 +1,1383 @@
+{
+  "@context" : ["http://iiif.io/api/auth/1/context.json", "http://iiif.io/api/presentation/3/context.json"],
+  "id" : "https://api-beta.bl.uk/metadata/iiif/ark:/81055/vdc_100055775652.0x000002/manifest.json",
+  "type" : "Manifest",
+  "rendering" : [{
+      "id" : "https://access-beta.bl.uk/audio/download/ark:/81055/vdc_100055775652.0x000002/",
+      "type" : "Audio",
+      "label" : {
+        "en" : ["Download this recording (Opens in new tab)"]
+      },
+      "format" : "audio/mp4"
+    }],
+  "label" : {
+    "en" : ["Sparpatak [Sárpatak] / Gypsie band / Szentirany / Bratscha player Maros Műresz ensemble"]
+  },
+  "metadata" : [{
+      "label" : {
+        "en" : ["Full title"]
+      },
+      "value" : {
+        "en" : ["Sparpatak [Sárpatak] / Gypsie band / Szentirany / Bratscha player Maros Műresz ensemble"]
+      }
+    }, {
+      "label" : {
+        "en" : ["Place of creation"]
+      },
+      "value" : {
+        "en" : ["Romania (place of origin)"]
+      }
+    }, {
+      "label" : {
+        "en" : ["Collection"]
+      },
+      "value" : {
+        "en" : ["Susanne Kratzer Collection"]
+      }
+    }, {
+      "label" : {
+        "en" : ["Format"]
+      },
+      "value" : {
+        "en" : ["2 compact cassettes stereo"]
+      }
+    }, {
+      "label" : {
+        "en" : ["Usage"]
+      },
+      "value" : {
+        "en" : ["<span>This material is made available under a non-commercial streaming only licence. We have been unable to locate all owners of the copyright in this material. Please contact copyright@bl.uk with any information you have regarding this item.</span>"]
+      }
+    }, {
+      "label" : {
+        "en" : ["Acknowledgements"]
+      },
+      "value" : {
+        "en" : ["<span>© Susanne Kratzer</span>"]
+      }
+    }, {
+      "label" : {
+        "en" : ["Held by"]
+      },
+      "value" : {
+        "en" : ["<span>The British Library<br><br><img src='https://www.bl.uk/britishlibrary/resources/global/images/bl_logo_100.gif' alt='British Library logo'/></span>"]
+      }
+    }, {
+      "label" : {
+        "en" : ["Digitised by"]
+      },
+      "value" : {
+        "en" : ["<span>The British Library, 2018<br><br><img src='https://www.bl.uk/britishlibrary/resources/global/images/bl_logo_100.gif' alt='British Library Logo'/></span>"]
+      }
+    }, {
+      "label" : {
+        "en" : ["Digitisation funded by"]
+      },
+      "value" : {
+        "en" : ["<span>National Lottery Heritage Fund<br><br><img src='https://www.heritagefund.org.uk/sites/default/files/media/attachments/TNLHLF_Colour_Logo_English_RGB_0_0.jpg' alt='National Lottery Heritage Fund logo'/></span>"]
+      }
+    }, {
+      "label" : {
+        "en" : ["Identifier"]
+      },
+      "value" : {
+        "en" : ["C778/7-C778/8"]
+      }
+    }, {
+      "label" : {
+        "en" : ["Shelfmark"]
+      },
+      "value" : {
+        "en" : ["C778/7", "C778/8"]
+      }
+    }, {
+      "label" : {
+        "en" : ["Link to catalogue"]
+      },
+      "value" : {
+        "en" : ["<a href='http://explore.bl.uk/BLVU1:LSCOP-ALL:BLLSA4320262'>View the catalogue record</a>"]
+      }
+    }],
+  "requiredStatement" : {
+    "label" : {
+      "en" : ["Copyright and Usage"]
+    },
+    "value" : {
+      "en" : ["<span><a href=\"http://explore.bl.uk/BLVU1:LSCOP-ALL:BLLSA4320262\">Please read the full information about this object</a><br>Please read our <a href=\"https://www.bl.uk/help/ethical-terms-of-use\">Ethical Terms of Use</a><br/>This material is made available under a non-commercial streaming only licence. We have been unable to locate all owners of the copyright in this material. Please contact copyright@bl.uk with any information you have regarding this item.</span>"]
+    }
+  },
+  "provider" : [{
+      "id" : "https://www.bl.uk/about-us",
+      "type" : "Agent",
+      "label" : {
+        "en" : ["The British Library"]
+      },
+      "homepage" : [{
+          "id" : "https://www.bl.uk/",
+          "type" : "Text",
+          "format" : "text/html",
+          "label" : {
+            "en" : ["The British Library"]
+          }
+        }],
+      "logo" : [{
+          "id" : "https://www.bl.uk/images/bl_logo_100.gif",
+          "type" : "Image",
+          "format" : "image/gif"
+        }]
+    }],
+  "services" : [{
+      "id" : "https://api-beta.bl.uk/auth/iiif/login",
+      "type" : "AuthCookieService1",
+      "profile" : "http://iiif.io/api/auth/1/login",
+      "description" : {
+        "en" : ["Some portions of this recording may be unavailable due to rights restrictions."]
+      },
+      "service" : [{
+          "id" : "https://api-beta.bl.uk/auth/iiif/token",
+          "type" : "AuthTokenService1",
+          "profile" : "http://iiif.io/api/auth/1/token"
+        }]
+    }, {
+      "id" : "http://access.bl.uk/item/share/ark:/81055/vdc_100055775652.0x000002",
+      "type" : "Service",
+      "profile" : "https://universalviewer.io/share-extensions-profile"
+    }],
+  "homepage" : [{
+      "id" : "https://access-beta.bl.uk/UniversalViewer/ark:/81055/vdc_100055775652.0x000002",
+      "type" : "Text",
+      "format" : "text/html",
+      "label" : {
+        "en" : ["View at the British Library"]
+      }
+    }],
+  "related" : [{
+      "id" : "https://access-beta.bl.uk/UniversalViewer/ark:/81055/vdc_100055775652.0x000002",
+      "type" : "Text",
+      "format" : "text/html",
+      "label" : {
+        "en" : ["View at the British Library"]
+      }
+    }],
+  "behavior" : ["auto-advance"],
+  "items" : [{
+      "id" : "https://api-beta.bl.uk/metadata/iiif/ark:/81055/vdc_100055775652.0x000004",
+      "type" : "Canvas",
+      "label" : {
+        "en" : ["Tape 1 Tape 1 Side 1"]
+      },
+      "duration" : 2448.7600000000002,
+      "items" : [{
+          "id" : "https://api-beta.bl.uk/metadata/iiif/ark:/81055/vdc_100055775652.0x000004/anno1",
+          "type" : "AnnotationPage",
+          "items" : [{
+              "id" : "https://api-beta.bl.uk/metadata/iiif/ark:/81055/vdc_100055775652.0x000004/anno1/1",
+              "type" : "Annotation",
+              "motivation" : "painting",
+              "target" : "https://api-beta.bl.uk/metadata/iiif/ark:/81055/vdc_100055775652.0x000004#t=00.00,2448.76",
+              "body" : [{
+                  "type" : "Choice",
+                  "items" : [{
+                      "id" : "https://api-beta.bl.uk/media/iiif/ark:/81055/vdc_100055775652.0x00001c/manifest.mpd",
+                      "format" : "application/dash+xml",
+                      "type" : "Sound",
+                      "service" : [{
+                          "id" : "https://api-beta.bl.uk/auth/iiif/login",
+                          "type" : "AuthCookieService1"
+                        }, {
+                          "id" : "https://api-beta.bl.uk/media/dash/ark:/81055/vdc_100055775652.0x00001c/probe.json",
+                          "type" : "AuthProbeService1",
+                          "profile" : "http://iiif.io/api/auth/1/probe"
+                        }]
+                    }, {
+                      "id" : "https://api-beta.bl.uk/media/iiif/ark:/81055/vdc_100055775652.0x00001c/index.m3u8",
+                      "format" : "application/vnd.apple.mpegURL",
+                      "type" : "Sound",
+                      "service" : [{
+                          "id" : "https://api-beta.bl.uk/auth/iiif/login",
+                          "type" : "AuthCookieService1"
+                        }, {
+                          "id" : "https://api-beta.bl.uk/media/hls/ark:/81055/vdc_100055775652.0x00001c/probe.json",
+                          "type" : "AuthProbeService1",
+                          "profile" : "http://iiif.io/api/auth/1/probe"
+                        }]
+                    }]
+                }],
+              "seeAlso" : [{
+                  "id" : "https://api-beta.bl.uk/waveform/vdc_100055775652.0x00001c",
+                  "type" : "Dataset",
+                  "format" : "application/octet-stream",
+                  "profile" : "http://waveform.prototyping.bbc.co.uk"
+                }]
+            }]
+        }],
+      "thumbnail" : [{
+          "id" : "https://api-beta.bl.uk/hub-logo/audio-tape.png",
+          "Type" : "Image"
+        }]
+    }, {
+      "id" : "https://api-beta.bl.uk/metadata/iiif/ark:/81055/vdc_100055775652.0x000005",
+      "type" : "Canvas",
+      "label" : {
+        "en" : ["Tape 1 Tape 1 Side 2"]
+      },
+      "duration" : 1132.8,
+      "items" : [{
+          "id" : "https://api-beta.bl.uk/metadata/iiif/ark:/81055/vdc_100055775652.0x000005/anno2",
+          "type" : "AnnotationPage",
+          "items" : [{
+              "id" : "https://api-beta.bl.uk/metadata/iiif/ark:/81055/vdc_100055775652.0x000005/anno2/1",
+              "type" : "Annotation",
+              "motivation" : "painting",
+              "target" : "https://api-beta.bl.uk/metadata/iiif/ark:/81055/vdc_100055775652.0x000005#t=00.00,1132.80",
+              "body" : [{
+                  "type" : "Choice",
+                  "items" : [{
+                      "id" : "https://api-beta.bl.uk/media/iiif/ark:/81055/vdc_100055775652.0x00001e/manifest.mpd",
+                      "format" : "application/dash+xml",
+                      "type" : "Sound",
+                      "service" : [{
+                          "id" : "https://api-beta.bl.uk/auth/iiif/login",
+                          "type" : "AuthCookieService1"
+                        }, {
+                          "id" : "https://api-beta.bl.uk/media/dash/ark:/81055/vdc_100055775652.0x00001e/probe.json",
+                          "type" : "AuthProbeService1",
+                          "profile" : "http://iiif.io/api/auth/1/probe"
+                        }]
+                    }, {
+                      "id" : "https://api-beta.bl.uk/media/iiif/ark:/81055/vdc_100055775652.0x00001e/index.m3u8",
+                      "format" : "application/vnd.apple.mpegURL",
+                      "type" : "Sound",
+                      "service" : [{
+                          "id" : "https://api-beta.bl.uk/auth/iiif/login",
+                          "type" : "AuthCookieService1"
+                        }, {
+                          "id" : "https://api-beta.bl.uk/media/hls/ark:/81055/vdc_100055775652.0x00001e/probe.json",
+                          "type" : "AuthProbeService1",
+                          "profile" : "http://iiif.io/api/auth/1/probe"
+                        }]
+                    }]
+                }],
+              "seeAlso" : [{
+                  "id" : "https://api-beta.bl.uk/waveform/vdc_100055775652.0x00001e",
+                  "type" : "Dataset",
+                  "format" : "application/octet-stream",
+                  "profile" : "http://waveform.prototyping.bbc.co.uk"
+                }]
+            }]
+        }],
+      "thumbnail" : [{
+          "id" : "https://api-beta.bl.uk/hub-logo/audio-tape.png",
+          "Type" : "Image"
+        }]
+    }, {
+      "id" : "https://api-beta.bl.uk/metadata/iiif/ark:/81055/vdc_100055775652.0x000007",
+      "type" : "Canvas",
+      "label" : {
+        "en" : ["Tape 2 Tape 2 Side 1"]
+      },
+      "duration" : 2835.6799999999998,
+      "items" : [{
+          "id" : "https://api-beta.bl.uk/metadata/iiif/ark:/81055/vdc_100055775652.0x000007/anno3",
+          "type" : "AnnotationPage",
+          "items" : [{
+              "id" : "https://api-beta.bl.uk/metadata/iiif/ark:/81055/vdc_100055775652.0x000007/anno3/1",
+              "type" : "Annotation",
+              "motivation" : "painting",
+              "target" : "https://api-beta.bl.uk/metadata/iiif/ark:/81055/vdc_100055775652.0x000007#t=00.00,2835.68",
+              "body" : [{
+                  "type" : "Choice",
+                  "items" : [{
+                      "id" : "https://api-beta.bl.uk/media/iiif/ark:/81055/vdc_100055775652.0x000020/manifest.mpd",
+                      "format" : "application/dash+xml",
+                      "type" : "Sound",
+                      "service" : [{
+                          "id" : "https://api-beta.bl.uk/auth/iiif/login",
+                          "type" : "AuthCookieService1"
+                        }, {
+                          "id" : "https://api-beta.bl.uk/media/dash/ark:/81055/vdc_100055775652.0x000020/probe.json",
+                          "type" : "AuthProbeService1",
+                          "profile" : "http://iiif.io/api/auth/1/probe"
+                        }]
+                    }, {
+                      "id" : "https://api-beta.bl.uk/media/iiif/ark:/81055/vdc_100055775652.0x000020/index.m3u8",
+                      "format" : "application/vnd.apple.mpegURL",
+                      "type" : "Sound",
+                      "service" : [{
+                          "id" : "https://api-beta.bl.uk/auth/iiif/login",
+                          "type" : "AuthCookieService1"
+                        }, {
+                          "id" : "https://api-beta.bl.uk/media/hls/ark:/81055/vdc_100055775652.0x000020/probe.json",
+                          "type" : "AuthProbeService1",
+                          "profile" : "http://iiif.io/api/auth/1/probe"
+                        }]
+                    }]
+                }],
+              "seeAlso" : [{
+                  "id" : "https://api-beta.bl.uk/waveform/vdc_100055775652.0x000020",
+                  "type" : "Dataset",
+                  "format" : "application/octet-stream",
+                  "profile" : "http://waveform.prototyping.bbc.co.uk"
+                }]
+            }]
+        }],
+      "thumbnail" : [{
+          "id" : "https://api-beta.bl.uk/hub-logo/audio-tape.png",
+          "Type" : "Image"
+        }]
+    }, {
+      "id" : "https://api-beta.bl.uk/metadata/iiif/ark:/81055/vdc_100055775652.0x000008",
+      "type" : "Canvas",
+      "label" : {
+        "en" : ["Tape 2 Tape 2 Side 2"]
+      },
+      "duration" : 2832.4400000000001,
+      "items" : [{
+          "id" : "https://api-beta.bl.uk/metadata/iiif/ark:/81055/vdc_100055775652.0x000008/anno4",
+          "type" : "AnnotationPage",
+          "items" : [{
+              "id" : "https://api-beta.bl.uk/metadata/iiif/ark:/81055/vdc_100055775652.0x000008/anno4/1",
+              "type" : "Annotation",
+              "motivation" : "painting",
+              "target" : "https://api-beta.bl.uk/metadata/iiif/ark:/81055/vdc_100055775652.0x000008#t=00.00,2832.44",
+              "body" : [{
+                  "type" : "Choice",
+                  "items" : [{
+                      "id" : "https://api-beta.bl.uk/media/iiif/ark:/81055/vdc_100055775652.0x000022/manifest.mpd",
+                      "format" : "application/dash+xml",
+                      "type" : "Sound",
+                      "service" : [{
+                          "id" : "https://api-beta.bl.uk/auth/iiif/login",
+                          "type" : "AuthCookieService1"
+                        }, {
+                          "id" : "https://api-beta.bl.uk/media/dash/ark:/81055/vdc_100055775652.0x000022/probe.json",
+                          "type" : "AuthProbeService1",
+                          "profile" : "http://iiif.io/api/auth/1/probe"
+                        }]
+                    }, {
+                      "id" : "https://api-beta.bl.uk/media/iiif/ark:/81055/vdc_100055775652.0x000022/index.m3u8",
+                      "format" : "application/vnd.apple.mpegURL",
+                      "type" : "Sound",
+                      "service" : [{
+                          "id" : "https://api-beta.bl.uk/auth/iiif/login",
+                          "type" : "AuthCookieService1"
+                        }, {
+                          "id" : "https://api-beta.bl.uk/media/hls/ark:/81055/vdc_100055775652.0x000022/probe.json",
+                          "type" : "AuthProbeService1",
+                          "profile" : "http://iiif.io/api/auth/1/probe"
+                        }]
+                    }]
+                }],
+              "seeAlso" : [{
+                  "id" : "https://api-beta.bl.uk/waveform/vdc_100055775652.0x000022",
+                  "type" : "Dataset",
+                  "format" : "application/octet-stream",
+                  "profile" : "http://waveform.prototyping.bbc.co.uk"
+                }]
+            }]
+        }],
+      "thumbnail" : [{
+          "id" : "https://api-beta.bl.uk/hub-logo/audio-tape.png",
+          "Type" : "Image"
+        }]
+    }],
+  "structures" : [{
+      "id" : "https://api-beta.bl.uk/metadata/iiif/ark:/81055/vdc_100055775652.0x000002/top",
+      "type" : "Range",
+      "label" : {
+        "en" : ["Sparpatak [Sárpatak] / Gypsie band / Szentirany / Bratscha player Maros Műresz ensemble"]
+      },
+      "metadata" : [{
+          "label" : {
+            "en" : ["Full title"]
+          },
+          "value" : {
+            "en" : ["Sparpatak [Sárpatak] / Gypsie band / Szentirany / Bratscha player Maros Műresz ensemble"]
+          }
+        }, {
+          "label" : {
+            "en" : ["Place of creation"]
+          },
+          "value" : {
+            "en" : ["Romania (place of origin)"]
+          }
+        }, {
+          "label" : {
+            "en" : ["Collection"]
+          },
+          "value" : {
+            "en" : ["Susanne Kratzer Collection"]
+          }
+        }, {
+          "label" : {
+            "en" : ["Format"]
+          },
+          "value" : {
+            "en" : ["2 compact cassettes stereo"]
+          }
+        }, {
+          "label" : {
+            "en" : ["Usage"]
+          },
+          "value" : {
+            "en" : ["<span>This material is made available under a non-commercial streaming only licence. We have been unable to locate all owners of the copyright in this material. Please contact copyright@bl.uk with any information you have regarding this item.</span>"]
+          }
+        }, {
+          "label" : {
+            "en" : ["Acknowledgements"]
+          },
+          "value" : {
+            "en" : ["<span>© Susanne Kratzer</span>"]
+          }
+        }, {
+          "label" : {
+            "en" : ["Held by"]
+          },
+          "value" : {
+            "en" : ["<span>The British Library<br><br><img src='https://www.bl.uk/britishlibrary/resources/global/images/bl_logo_100.gif' alt='British Library logo'/></span>"]
+          }
+        }, {
+          "label" : {
+            "en" : ["Digitised by"]
+          },
+          "value" : {
+            "en" : ["<span>The British Library, 2018<br><br><img src='https://www.bl.uk/britishlibrary/resources/global/images/bl_logo_100.gif' alt='British Library Logo'/></span>"]
+          }
+        }, {
+          "label" : {
+            "en" : ["Digitisation funded by"]
+          },
+          "value" : {
+            "en" : ["<span>National Lottery Heritage Fund<br><br><img src='https://www.heritagefund.org.uk/sites/default/files/media/attachments/TNLHLF_Colour_Logo_English_RGB_0_0.jpg' alt='National Lottery Heritage Fund logo'/></span>"]
+          }
+        }, {
+          "label" : {
+            "en" : ["Identifier"]
+          },
+          "value" : {
+            "en" : ["C778/7-C778/8"]
+          }
+        }, {
+          "label" : {
+            "en" : ["Shelfmark"]
+          },
+          "value" : {
+            "en" : ["C778/7", "C778/8"]
+          }
+        }, {
+          "label" : {
+            "en" : ["Link to catalogue"]
+          },
+          "value" : {
+            "en" : ["<a href='http://explore.bl.uk/BLVU1:LSCOP-ALL:BLLSA4320262'>View the catalogue record</a>"]
+          }
+        }],
+      "requiredStatement" : {
+        "label" : {
+          "en" : ["Copyright and Usage"]
+        },
+        "value" : {
+          "en" : ["<span><a href=\"http://explore.bl.uk/BLVU1:LSCOP-ALL:BLLSA4320262\">Please read the full information about this object</a><br>Please read our <a href=\"https://www.bl.uk/help/ethical-terms-of-use\">Ethical Terms of Use</a><br/>This material is made available under a non-commercial streaming only licence. We have been unable to locate all owners of the copyright in this material. Please contact copyright@bl.uk with any information you have regarding this item.</span>"]
+        }
+      },
+      "rendering" : [{
+          "id" : "https://access-beta.bl.uk/audio/download/ark:/81055/vdc_100055775652.0x000002/ark:/81055/vdc_100055775652.0x000002/top",
+          "type" : "Audio",
+          "label" : {
+            "en" : ["Download this recording"]
+          },
+          "format" : "audio/mp4"
+        }],
+      "items" : [{
+          "id" : "https://api-beta.bl.uk/metadata/iiif/ark:/81055/vdc_100055775652.0x000009",
+          "type" : "Range",
+          "label" : {
+            "en" : ["Maros Művészegyüttes ensemble perform in the village of Sárpatak"]
+          },
+          "metadata" : [{
+              "label" : {
+                "en" : ["Full title"]
+              },
+              "value" : {
+                "en" : ["Maros Művészegyüttes ensemble perform in the village of Sárpatak"]
+              }
+            }, {
+              "label" : {
+                "en" : ["Creator"]
+              },
+              "value" : {
+                "en" : ["Maros Művészegyüttes (folk dance ensemble)", "Kratzer, Susanne, 1965- (sound recordist)"]
+              }
+            }, {
+              "label" : {
+                "en" : ["Date"]
+              },
+              "value" : {
+                "en" : ["1996-03-09 (recorded)"]
+              }
+            }, {
+              "label" : {
+                "en" : ["Place of creation"]
+              },
+              "value" : {
+                "en" : ["Sárpatak, Central Romania (formerly Transylvania), Romania (recorded)", "Romania (place of origin)"]
+              }
+            }, {
+              "label" : {
+                "en" : ["Duration"]
+              },
+              "value" : {
+                "en" : ["29 min. 01 sec."]
+              }
+            }, {
+              "label" : {
+                "en" : ["Language"]
+              },
+              "value" : {
+                "en" : ["Hungarian"]
+              }
+            }, {
+              "label" : {
+                "en" : ["Culture"]
+              },
+              "value" : {
+                "en" : ["Hungarian"]
+              }
+            }, {
+              "label" : {
+                "en" : ["Collection"]
+              },
+              "value" : {
+                "en" : ["Susanne Kratzer Collection"]
+              }
+            }, {
+              "label" : {
+                "en" : ["Category"]
+              },
+              "value" : {
+                "en" : ["World and traditional music: Europe"]
+              }
+            }, {
+              "label" : {
+                "en" : ["Genre"]
+              },
+              "value" : {
+                "en" : ["Folk dance music", "Folk songs and music", "Field recordings"]
+              }
+            }, {
+              "label" : {
+                "en" : ["Usage"]
+              },
+              "value" : {
+                "en" : ["<span>This material can only be used for research and private study purposes</span>"]
+              }
+            }, {
+              "label" : {
+                "en" : ["Acknowledgements"]
+              },
+              "value" : {
+                "en" : ["<span>© Maros Művészegyüttes; Susanne Kratzer</span>"]
+              }
+            }, {
+              "label" : {
+                "en" : ["Held by"]
+              },
+              "value" : {
+                "en" : ["<span>The British Library<br><br><img src='https://www.bl.uk/britishlibrary/resources/global/images/bl_logo_100.gif' alt='British Library logo'/></span>"]
+              }
+            }, {
+              "label" : {
+                "en" : ["Identifier"]
+              },
+              "value" : {
+                "en" : ["C778/7 S1 C1"]
+              }
+            }, {
+              "label" : {
+                "en" : ["Shelfmark"]
+              },
+              "value" : {
+                "en" : ["C778/7"]
+              }
+            }, {
+              "label" : {
+                "en" : ["Link to catalogue"]
+              },
+              "value" : {
+                "en" : ["<a href='http://explore.bl.uk/BLVU1:LSCOP-ALL:BLLSA8071593'>View the catalogue record</a>"]
+              }
+            }, {
+              "label" : {
+                "en" : ["Description"]
+              },
+              "value" : {
+                "en" : ["Folk ensemble 'Maros Művészegyüttes' [Maros Art Association] from Marosvásárhely [Târgu Mureş], performing in Sárpatak on 09/03/96. Communal dance.", "Spelling of folk ensemble's name by recordist as follows: 'Maros Műres Egyűttes ensemble'. Believe recordist refers to Hungarian-Romanian folk dance ensemble Maros Művészegyüttes [Maros Art Association].", "Starts abruptly", "Sárpatak is also known by its Romanian name: Şapartoc"]
+              }
+            }],
+          "requiredStatement" : {
+            "label" : {
+              "en" : ["Copyright and Usage"]
+            },
+            "value" : {
+              "en" : ["<span><a href=\"http://explore.bl.uk/BLVU1:LSCOP-ALL:BLLSA8071593\">Please read the full information about this object</a><br>Please read our <a href=\"https://www.bl.uk/help/ethical-terms-of-use\">Ethical Terms of Use</a><br/>This material can only be used for research and private study purposes</span>"]
+            }
+          },
+          "rendering" : [{
+              "id" : "https://access-beta.bl.uk/audio/download/ark:/81055/vdc_100055775652.0x000002/ark:/81055/vdc_100055775652.0x000009",
+              "type" : "Audio",
+              "label" : {
+                "en" : ["Download this recording"]
+              },
+              "format" : "audio/mp4"
+            }],
+          "items" : [{
+              "id" : "https://api-beta.bl.uk/metadata/iiif/ark:/81055/vdc_100055775652.0x000004#t=0.00,1741.40",
+              "type" : "Canvas"
+            }]
+        }, {
+          "id" : "https://api-beta.bl.uk/metadata/iiif/ark:/81055/vdc_100055775652.0x000009/pr-nn2",
+          "type" : "Range",
+          "behavior" : ["no-nav"],
+          "items" : [{
+              "id" : "https://api-beta.bl.uk/metadata/iiif/ark:/81055/vdc_100055775652.0x000004#t=1741.40,1746.80",
+              "type" : "Canvas"
+            }]
+        }, {
+          "id" : "https://api-beta.bl.uk/metadata/iiif/ark:/81055/vdc_100055775652.0x00000b",
+          "type" : "Range",
+          "label" : {
+            "en" : ["Gypsy band (evening dance in Szászcsávás)"]
+          },
+          "metadata" : [{
+              "label" : {
+                "en" : ["Full title"]
+              },
+              "value" : {
+                "en" : ["Gypsy band (evening dance in Szászcsávás)"]
+              }
+            }, {
+              "label" : {
+                "en" : ["Creator"]
+              },
+              "value" : {
+                "en" : ["unidentified (folk dance ensemble)", "Kratzer, Susanne, 1965- (sound recordist)"]
+              }
+            }, {
+              "label" : {
+                "en" : ["Date"]
+              },
+              "value" : {
+                "en" : ["1996-03-10 (recorded)"]
+              }
+            }, {
+              "label" : {
+                "en" : ["Place of creation"]
+              },
+              "value" : {
+                "en" : ["Szászcsávás, Central Romania (formerly Transylvania), Romania (recorded)", "Romania (place of origin)"]
+              }
+            }, {
+              "label" : {
+                "en" : ["Duration"]
+              },
+              "value" : {
+                "en" : ["26 min. 20 sec."]
+              }
+            }, {
+              "label" : {
+                "en" : ["Language"]
+              },
+              "value" : {
+                "en" : ["Romany"]
+              }
+            }, {
+              "label" : {
+                "en" : ["Culture"]
+              },
+              "value" : {
+                "en" : ["Roma", "Hungarian"]
+              }
+            }, {
+              "label" : {
+                "en" : ["Collection"]
+              },
+              "value" : {
+                "en" : ["Susanne Kratzer Collection"]
+              }
+            }, {
+              "label" : {
+                "en" : ["Category"]
+              },
+              "value" : {
+                "en" : ["World and traditional music: Europe"]
+              }
+            }, {
+              "label" : {
+                "en" : ["Genre"]
+              },
+              "value" : {
+                "en" : ["Folk dance music", "Folk songs and music", "Field recordings"]
+              }
+            }, {
+              "label" : {
+                "en" : ["Usage"]
+              },
+              "value" : {
+                "en" : ["<span>This material is made available under a non-commercial streaming only licence. We have been unable to locate all owners of the copyright in this material. Please contact copyright@bl.uk with any information you have regarding this item.</span>"]
+              }
+            }, {
+              "label" : {
+                "en" : ["Acknowledgements"]
+              },
+              "value" : {
+                "en" : ["<span>© Susanne Kratzer</span>"]
+              }
+            }, {
+              "label" : {
+                "en" : ["Held by"]
+              },
+              "value" : {
+                "en" : ["<span>The British Library<br><br><img src='https://www.bl.uk/britishlibrary/resources/global/images/bl_logo_100.gif' alt='British Library logo'/></span>"]
+              }
+            }, {
+              "label" : {
+                "en" : ["Digitised by"]
+              },
+              "value" : {
+                "en" : ["<span>The British Library, 2018<br><br><img src='https://www.bl.uk/britishlibrary/resources/global/images/bl_logo_100.gif' alt='British Library Logo'/></span>"]
+              }
+            }, {
+              "label" : {
+                "en" : ["Digitisation funded by"]
+              },
+              "value" : {
+                "en" : ["<span>National Lottery Heritage Fund<br><br><img src='https://www.heritagefund.org.uk/sites/default/files/media/attachments/TNLHLF_Colour_Logo_English_RGB_0_0.jpg' alt='National Lottery Heritage Fund logo'/></span>"]
+              }
+            }, {
+              "label" : {
+                "en" : ["Identifier"]
+              },
+              "value" : {
+                "en" : ["C778/7 S1 C2-S2 C1"]
+              }
+            }, {
+              "label" : {
+                "en" : ["Shelfmark"]
+              },
+              "value" : {
+                "en" : ["C778/7"]
+              }
+            }, {
+              "label" : {
+                "en" : ["Link to catalogue"]
+              },
+              "value" : {
+                "en" : ["<a href='http://explore.bl.uk/BLVU1:LSCOP-ALL:BLLSA8071605'>View the catalogue record</a>"]
+              }
+            }, {
+              "label" : {
+                "en" : ["Description"]
+              },
+              "value" : {
+                "en" : ["Short break in the recording where the recordist changed cassette side.", "Szászcsávás is also known by its Romanian name: Ceuaş"]
+              }
+            }],
+          "requiredStatement" : {
+            "label" : {
+              "en" : ["Copyright and Usage"]
+            },
+            "value" : {
+              "en" : ["<span><a href=\"http://explore.bl.uk/BLVU1:LSCOP-ALL:BLLSA8071605\">Please read the full information about this object</a><br>Please read our <a href=\"https://www.bl.uk/help/ethical-terms-of-use\">Ethical Terms of Use</a><br/>This material is made available under a non-commercial streaming only licence. We have been unable to locate all owners of the copyright in this material. Please contact copyright@bl.uk with any information you have regarding this item.</span>"]
+            }
+          },
+          "rendering" : [{
+              "id" : "https://access-beta.bl.uk/audio/download/ark:/81055/vdc_100055775652.0x000002/ark:/81055/vdc_100055775652.0x00000b",
+              "type" : "Audio",
+              "label" : {
+                "en" : ["Download this recording"]
+              },
+              "format" : "audio/mp4"
+            }],
+          "items" : [{
+              "id" : "https://api-beta.bl.uk/metadata/iiif/ark:/81055/vdc_100055775652.0x000004#t=1746.80,2448.76",
+              "type" : "Canvas"
+            }, {
+              "id" : "https://api-beta.bl.uk/metadata/iiif/ark:/81055/vdc_100055775652.0x000005#t=0.00,879.16",
+              "type" : "Canvas"
+            }]
+        }, {
+          "id" : "https://api-beta.bl.uk/metadata/iiif/ark:/81055/vdc_100055775652.0x00000e",
+          "type" : "Range",
+          "label" : {
+            "en" : ["Dance evening and interview in Szentirány"]
+          },
+          "metadata" : [{
+              "label" : {
+                "en" : ["Full title"]
+              },
+              "value" : {
+                "en" : ["Dance evening and interview in Szentirány"]
+              }
+            }, {
+              "label" : {
+                "en" : ["Creator"]
+              },
+              "value" : {
+                "en" : ["unidentified (folk dance ensemble(s))", "Bör, Gyuszi (speaker, male; interviewee)", "Kratzer, Susanne, 1965- (speaker, female; interviewer)", "unidentified (speaker, female; translator)", "Kratzer, Susanne, 1965- (sound recordist)"]
+              }
+            }, {
+              "label" : {
+                "en" : ["Date"]
+              },
+              "value" : {
+                "en" : ["1996-03-11 (recorded)"]
+              }
+            }, {
+              "label" : {
+                "en" : ["Place of creation"]
+              },
+              "value" : {
+                "en" : ["Szentirány, Central Romania (formerly Transylvania), Romania (recorded)", "Romania (place of origin)"]
+              }
+            }, {
+              "label" : {
+                "en" : ["Duration"]
+              },
+              "value" : {
+                "en" : ["1 hr. 38 min. 41 sec."]
+              }
+            }, {
+              "label" : {
+                "en" : ["Language"]
+              },
+              "value" : {
+                "en" : ["Hungarian", "English"]
+              }
+            }, {
+              "label" : {
+                "en" : ["Culture"]
+              },
+              "value" : {
+                "en" : ["Hungarian"]
+              }
+            }, {
+              "label" : {
+                "en" : ["Collection"]
+              },
+              "value" : {
+                "en" : ["Susanne Kratzer Collection"]
+              }
+            }, {
+              "label" : {
+                "en" : ["Category"]
+              },
+              "value" : {
+                "en" : ["World and traditional music: Europe"]
+              }
+            }, {
+              "label" : {
+                "en" : ["Genre"]
+              },
+              "value" : {
+                "en" : ["Folk dance music", "Folk songs and music", "Interviews", "Field recordings"]
+              }
+            }, {
+              "label" : {
+                "en" : ["Usage"]
+              },
+              "value" : {
+                "en" : ["<span>This material is made available under a non-commercial streaming only licence. We have been unable to locate all owners of the copyright in this material. Please contact copyright@bl.uk with any information you have regarding this item.</span>"]
+              }
+            }, {
+              "label" : {
+                "en" : ["Acknowledgements"]
+              },
+              "value" : {
+                "en" : ["<span>© Gyuszi Bör; Susanne Kratzer</span>"]
+              }
+            }, {
+              "label" : {
+                "en" : ["Held by"]
+              },
+              "value" : {
+                "en" : ["<span>The British Library<br><br><img src='https://www.bl.uk/britishlibrary/resources/global/images/bl_logo_100.gif' alt='British Library logo'/></span>"]
+              }
+            }, {
+              "label" : {
+                "en" : ["Identifier"]
+              },
+              "value" : {
+                "en" : ["C778/7 S2 C2-C778/8 S2 C2"]
+              }
+            }, {
+              "label" : {
+                "en" : ["Shelfmark"]
+              },
+              "value" : {
+                "en" : ["C778/7", "C778/8"]
+              }
+            }, {
+              "label" : {
+                "en" : ["Link to catalogue"]
+              },
+              "value" : {
+                "en" : ["<a href='http://explore.bl.uk/BLVU1:LSCOP-ALL:BLLSA8071691'>View the catalogue record</a>"]
+              }
+            }, {
+              "label" : {
+                "en" : ["Description"]
+              },
+              "value" : {
+                "en" : ["Folk dance music with unidentified ensembles, including an interview with the viola player from the folk dance group Maros Művészegyüttes.", "The recordist also captured some pre-recorded music being played from the public address system [about 29 min. into the recording].", "Individual items listed separately.", "The first fifteen minutes of the recording are affected by failing batteries during recording (increasingly higher pitch and faster speed).", "Some breaks and some silences in the recording."]
+              }
+            }],
+          "requiredStatement" : {
+            "label" : {
+              "en" : ["Copyright and Usage"]
+            },
+            "value" : {
+              "en" : ["<span><a href=\"http://explore.bl.uk/BLVU1:LSCOP-ALL:BLLSA8071691\">Please read the full information about this object</a><br>Please read our <a href=\"https://www.bl.uk/help/ethical-terms-of-use\">Ethical Terms of Use</a><br/>This material is made available under a non-commercial streaming only licence. We have been unable to locate all owners of the copyright in this material. Please contact copyright@bl.uk with any information you have regarding this item.</span>"]
+            }
+          },
+          "rendering" : [{
+              "id" : "https://access-beta.bl.uk/audio/download/ark:/81055/vdc_100055775652.0x000002/ark:/81055/vdc_100055775652.0x00000e",
+              "type" : "Audio",
+              "label" : {
+                "en" : ["Download this recording"]
+              },
+              "format" : "audio/mp4"
+            }],
+          "items" : [{
+              "id" : "https://api-beta.bl.uk/metadata/iiif/ark:/81055/vdc_100055775652.0x00000f",
+              "type" : "Range",
+              "label" : {
+                "en" : ["Dance evening in Szentirány (part 1)"]
+              },
+              "metadata" : [{
+                  "label" : {
+                    "en" : ["Full title"]
+                  },
+                  "value" : {
+                    "en" : ["Dance evening in Szentirány (part 1)"]
+                  }
+                }, {
+                  "label" : {
+                    "en" : ["Creator"]
+                  },
+                  "value" : {
+                    "en" : ["unidentified (folk dance ensemble(s))", "Kratzer, Susanne, 1965- (sound recordist)"]
+                  }
+                }, {
+                  "label" : {
+                    "en" : ["Date"]
+                  },
+                  "value" : {
+                    "en" : ["1996-03-11 (recorded)"]
+                  }
+                }, {
+                  "label" : {
+                    "en" : ["Place of creation"]
+                  },
+                  "value" : {
+                    "en" : ["Szentirány, Central Romania (formerly Transylvania), Romania (recorded)", "Romania (place of origin)"]
+                  }
+                }, {
+                  "label" : {
+                    "en" : ["Duration"]
+                  },
+                  "value" : {
+                    "en" : ["34 min. 10 sec."]
+                  }
+                }, {
+                  "label" : {
+                    "en" : ["Culture"]
+                  },
+                  "value" : {
+                    "en" : ["Hungarian"]
+                  }
+                }, {
+                  "label" : {
+                    "en" : ["Collection"]
+                  },
+                  "value" : {
+                    "en" : ["Susanne Kratzer Collection"]
+                  }
+                }, {
+                  "label" : {
+                    "en" : ["Category"]
+                  },
+                  "value" : {
+                    "en" : ["World and traditional music: Europe"]
+                  }
+                }, {
+                  "label" : {
+                    "en" : ["Genre"]
+                  },
+                  "value" : {
+                    "en" : ["Folk dance music", "Folk songs and music", "Field recordings"]
+                  }
+                }, {
+                  "label" : {
+                    "en" : ["Usage"]
+                  },
+                  "value" : {
+                    "en" : ["<span>This material is made available under a non-commercial streaming only licence. We have been unable to locate all owners of the copyright in this material. Please contact copyright@bl.uk with any information you have regarding this item.</span>"]
+                  }
+                }, {
+                  "label" : {
+                    "en" : ["Acknowledgements"]
+                  },
+                  "value" : {
+                    "en" : ["<span>© Gyuszi Bör; Susanne Kratzer</span>"]
+                  }
+                }, {
+                  "label" : {
+                    "en" : ["Held by"]
+                  },
+                  "value" : {
+                    "en" : ["<span>The British Library<br><br><img src='https://www.bl.uk/britishlibrary/resources/global/images/bl_logo_100.gif' alt='British Library logo'/></span>"]
+                  }
+                }, {
+                  "label" : {
+                    "en" : ["Identifier"]
+                  },
+                  "value" : {
+                    "en" : ["C778/7 S2 C2-C778/8 S1 C1"]
+                  }
+                }, {
+                  "label" : {
+                    "en" : ["Shelfmark"]
+                  },
+                  "value" : {
+                    "en" : ["C778/7", "C778/8"]
+                  }
+                }, {
+                  "label" : {
+                    "en" : ["Link to catalogue"]
+                  },
+                  "value" : {
+                    "en" : ["<a href='http://explore.bl.uk/BLVU1:LSCOP-ALL:BLLSA8071689'>View the catalogue record</a>"]
+                  }
+                }, {
+                  "label" : {
+                    "en" : ["Description"]
+                  },
+                  "value" : {
+                    "en" : ["Folk dance music with unidentified ensembles. Because a musician from the folk dance group Maros Művészegyüttes was interviewed on the same tape, it is likely that Maros Művészegyüttes were playing at this event.", "The recordist also captured some pre-recorded music being played from the public address system [about 29 min. into the recording].", "The first fifteen minutes of the recording are affected by failing batteries during recording (increasingly higher pitch and faster speed).", "Break in the recording, with over two minutes of silence, about 26 min. 30 sec. into the recording."]
+                  }
+                }],
+              "requiredStatement" : {
+                "label" : {
+                  "en" : ["Copyright and Usage"]
+                },
+                "value" : {
+                  "en" : ["<span><a href=\"http://explore.bl.uk/BLVU1:LSCOP-ALL:BLLSA8071689\">Please read the full information about this object</a><br>Please read our <a href=\"https://www.bl.uk/help/ethical-terms-of-use\">Ethical Terms of Use</a><br/>This material is made available under a non-commercial streaming only licence. We have been unable to locate all owners of the copyright in this material. Please contact copyright@bl.uk with any information you have regarding this item.</span>"]
+                }
+              },
+              "rendering" : [{
+                  "id" : "https://access-beta.bl.uk/audio/download/ark:/81055/vdc_100055775652.0x000002/ark:/81055/vdc_100055775652.0x00000f",
+                  "type" : "Audio",
+                  "label" : {
+                    "en" : ["Download this recording"]
+                  },
+                  "format" : "audio/mp4"
+                }],
+              "items" : [{
+                  "id" : "https://api-beta.bl.uk/metadata/iiif/ark:/81055/vdc_100055775652.0x000005#t=879.32,1132.80",
+                  "type" : "Canvas"
+                }, {
+                  "id" : "https://api-beta.bl.uk/metadata/iiif/ark:/81055/vdc_100055775652.0x000007#t=0.00,1796.92",
+                  "type" : "Canvas"
+                }]
+            }, {
+              "id" : "https://api-beta.bl.uk/metadata/iiif/ark:/81055/vdc_100055775652.0x000010",
+              "type" : "Range",
+              "label" : {
+                "en" : ["Interview with Bör Gyuszi, viola player in the Maros Művészegyüttes ensemble"]
+              },
+              "metadata" : [{
+                  "label" : {
+                    "en" : ["Full title"]
+                  },
+                  "value" : {
+                    "en" : ["Interview with Bör Gyuszi, viola player in the Maros Művészegyüttes ensemble"]
+                  }
+                }, {
+                  "label" : {
+                    "en" : ["Creator"]
+                  },
+                  "value" : {
+                    "en" : ["Bör, Gyuszi (speaker, male; interviewee)", "Kratzer, Susanne, 1965- (speaker, female; interviewer)", "unidentified (speaker, female; translator)", "Kratzer, Susanne, 1965- (sound recordist)"]
+                  }
+                }, {
+                  "label" : {
+                    "en" : ["Date"]
+                  },
+                  "value" : {
+                    "en" : ["1996-03-11 (recorded)"]
+                  }
+                }, {
+                  "label" : {
+                    "en" : ["Place of creation"]
+                  },
+                  "value" : {
+                    "en" : ["Szentirány, Central Romania (formerly Transylvania), Romania (recorded)", "Romania (place of origin)"]
+                  }
+                }, {
+                  "label" : {
+                    "en" : ["Duration"]
+                  },
+                  "value" : {
+                    "en" : ["35 min. 25 sec."]
+                  }
+                }, {
+                  "label" : {
+                    "en" : ["Language"]
+                  },
+                  "value" : {
+                    "en" : ["Hungarian", "English"]
+                  }
+                }, {
+                  "label" : {
+                    "en" : ["Culture"]
+                  },
+                  "value" : {
+                    "en" : ["Hungarian"]
+                  }
+                }, {
+                  "label" : {
+                    "en" : ["Collection"]
+                  },
+                  "value" : {
+                    "en" : ["Susanne Kratzer Collection"]
+                  }
+                }, {
+                  "label" : {
+                    "en" : ["Category"]
+                  },
+                  "value" : {
+                    "en" : ["World and traditional music: Europe"]
+                  }
+                }, {
+                  "label" : {
+                    "en" : ["Genre"]
+                  },
+                  "value" : {
+                    "en" : ["Interviews", "Field recordings"]
+                  }
+                }, {
+                  "label" : {
+                    "en" : ["Usage"]
+                  },
+                  "value" : {
+                    "en" : ["<span>This material can only be used for research and private study purposes</span>"]
+                  }
+                }, {
+                  "label" : {
+                    "en" : ["Acknowledgements"]
+                  },
+                  "value" : {
+                    "en" : ["<span>© Gyuszi Bör; Susanne Kratzer</span>"]
+                  }
+                }, {
+                  "label" : {
+                    "en" : ["Held by"]
+                  },
+                  "value" : {
+                    "en" : ["<span>The British Library<br><br><img src='https://www.bl.uk/britishlibrary/resources/global/images/bl_logo_100.gif' alt='British Library logo'/></span>"]
+                  }
+                }, {
+                  "label" : {
+                    "en" : ["Identifier"]
+                  },
+                  "value" : {
+                    "en" : ["C778/8 S1 C2-S2 C1"]
+                  }
+                }, {
+                  "label" : {
+                    "en" : ["Shelfmark"]
+                  },
+                  "value" : {
+                    "en" : ["C778/8"]
+                  }
+                }, {
+                  "label" : {
+                    "en" : ["Link to catalogue"]
+                  },
+                  "value" : {
+                    "en" : ["<a href='http://explore.bl.uk/BLVU1:LSCOP-ALL:BLLSA8071686'>View the catalogue record</a>"]
+                  }
+                }, {
+                  "label" : {
+                    "en" : ["Description"]
+                  },
+                  "value" : {
+                    "en" : ["Bör Gyuszi is interviewed about the changes undergone by Hungarian folk music in Romania between the 1960s and the 1990s.", "Spelling of folk ensemble's name by recordist as follows: 'Maros Műres Egyűttes ensemble'. Believe recordist refers to Hungarian-Romanian folk dance ensemble Maros Művészegyüttes [Maros Art Association].", "Short break in the recording where the recordist changed cassette side.", "Low level.", "Ends abruptly."]
+                  }
+                }],
+              "requiredStatement" : {
+                "label" : {
+                  "en" : ["Copyright and Usage"]
+                },
+                "value" : {
+                  "en" : ["<span><a href=\"http://explore.bl.uk/BLVU1:LSCOP-ALL:BLLSA8071686\">Please read the full information about this object</a><br>Please read our <a href=\"https://www.bl.uk/help/ethical-terms-of-use\">Ethical Terms of Use</a><br/>This material can only be used for research and private study purposes</span>"]
+                }
+              },
+              "rendering" : [{
+                  "id" : "https://access-beta.bl.uk/audio/download/ark:/81055/vdc_100055775652.0x000002/ark:/81055/vdc_100055775652.0x000010",
+                  "type" : "Audio",
+                  "label" : {
+                    "en" : ["Download this recording"]
+                  },
+                  "format" : "audio/mp4"
+                }],
+              "items" : [{
+                  "id" : "https://api-beta.bl.uk/metadata/iiif/ark:/81055/vdc_100055775652.0x000008#t=0.00,1087.96",
+                  "type" : "Canvas"
+                }, {
+                  "id" : "https://api-beta.bl.uk/metadata/iiif/ark:/81055/vdc_100055775652.0x000007#t=1798.32,2835.40",
+                  "type" : "Canvas"
+                }]
+            }, {
+              "id" : "https://api-beta.bl.uk/metadata/iiif/ark:/81055/vdc_100055775652.0x000011",
+              "type" : "Range",
+              "label" : {
+                "en" : ["Dance evening in Szentirány (part 2)"]
+              },
+              "metadata" : [{
+                  "label" : {
+                    "en" : ["Full title"]
+                  },
+                  "value" : {
+                    "en" : ["Dance evening in Szentirány (part 2)"]
+                  }
+                }, {
+                  "label" : {
+                    "en" : ["Creator"]
+                  },
+                  "value" : {
+                    "en" : ["unidentified (folk dance ensemble(s))", "Kratzer, Susanne, 1965- (sound recordist)"]
+                  }
+                }, {
+                  "label" : {
+                    "en" : ["Date"]
+                  },
+                  "value" : {
+                    "en" : ["1996-03-11 (recorded)"]
+                  }
+                }, {
+                  "label" : {
+                    "en" : ["Place of creation"]
+                  },
+                  "value" : {
+                    "en" : ["Szentirány, Central Romania (formerly Transylvania), Romania (recorded)", "Romania (place of origin)"]
+                  }
+                }, {
+                  "label" : {
+                    "en" : ["Duration"]
+                  },
+                  "value" : {
+                    "en" : ["29 min. 03 sec."]
+                  }
+                }, {
+                  "label" : {
+                    "en" : ["Culture"]
+                  },
+                  "value" : {
+                    "en" : ["Hungarian", "Romanian"]
+                  }
+                }, {
+                  "label" : {
+                    "en" : ["Collection"]
+                  },
+                  "value" : {
+                    "en" : ["Susanne Kratzer Collection"]
+                  }
+                }, {
+                  "label" : {
+                    "en" : ["Category"]
+                  },
+                  "value" : {
+                    "en" : ["World and traditional music: Europe"]
+                  }
+                }, {
+                  "label" : {
+                    "en" : ["Genre"]
+                  },
+                  "value" : {
+                    "en" : ["Folk dance music", "Folk songs and music", "Field recordings"]
+                  }
+                }, {
+                  "label" : {
+                    "en" : ["Usage"]
+                  },
+                  "value" : {
+                    "en" : ["<span>This material is made available under a non-commercial streaming only licence. We have been unable to locate all owners of the copyright in this material. Please contact copyright@bl.uk with any information you have regarding this item.</span>"]
+                  }
+                }, {
+                  "label" : {
+                    "en" : ["Acknowledgements"]
+                  },
+                  "value" : {
+                    "en" : ["<span>© Gyuszi Bör; Susanne Kratzer</span>"]
+                  }
+                }, {
+                  "label" : {
+                    "en" : ["Held by"]
+                  },
+                  "value" : {
+                    "en" : ["<span>The British Library<br><br><img src='https://www.bl.uk/britishlibrary/resources/global/images/bl_logo_100.gif' alt='British Library logo'/></span>"]
+                  }
+                }, {
+                  "label" : {
+                    "en" : ["Identifier"]
+                  },
+                  "value" : {
+                    "en" : ["C778/8 S2 C2"]
+                  }
+                }, {
+                  "label" : {
+                    "en" : ["Shelfmark"]
+                  },
+                  "value" : {
+                    "en" : ["C778/8"]
+                  }
+                }, {
+                  "label" : {
+                    "en" : ["Link to catalogue"]
+                  },
+                  "value" : {
+                    "en" : ["<a href='http://explore.bl.uk/BLVU1:LSCOP-ALL:BLLSA8071634'>View the catalogue record</a>"]
+                  }
+                }, {
+                  "label" : {
+                    "en" : ["Description"]
+                  },
+                  "value" : {
+                    "en" : ["Folk dance music with unidentified ensembles. Because a musician from the folk dance group Maros Művészegyüttes was interviewed on the same tape, it is likely that Maros Művészegyüttes were playing at this event.", "Starts and ends abruptly."]
+                  }
+                }],
+              "requiredStatement" : {
+                "label" : {
+                  "en" : ["Copyright and Usage"]
+                },
+                "value" : {
+                  "en" : ["<span><a href=\"http://explore.bl.uk/BLVU1:LSCOP-ALL:BLLSA8071634\">Please read the full information about this object</a><br>Please read our <a href=\"https://www.bl.uk/help/ethical-terms-of-use\">Ethical Terms of Use</a><br/>This material is made available under a non-commercial streaming only licence. We have been unable to locate all owners of the copyright in this material. Please contact copyright@bl.uk with any information you have regarding this item.</span>"]
+                }
+              },
+              "rendering" : [{
+                  "id" : "https://access-beta.bl.uk/audio/download/ark:/81055/vdc_100055775652.0x000002/ark:/81055/vdc_100055775652.0x000011",
+                  "type" : "Audio",
+                  "label" : {
+                    "en" : ["Download this recording"]
+                  },
+                  "format" : "audio/mp4"
+                }],
+              "items" : [{
+                  "id" : "https://api-beta.bl.uk/metadata/iiif/ark:/81055/vdc_100055775652.0x000008#t=1089.40,2832.44",
+                  "type" : "Canvas"
+                }]
+            }]
+        }]
+    }]
+}

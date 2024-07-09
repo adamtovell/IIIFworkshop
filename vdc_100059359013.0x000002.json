@@ -1,0 +1,576 @@
+{
+  "@context" : ["http://iiif.io/api/auth/1/context.json", "http://iiif.io/api/presentation/3/context.json"],
+  "id" : "https://api-beta.bl.uk/metadata/iiif/ark:/81055/vdc_100059359013.0x000002/manifest.json",
+  "type" : "Manifest",
+  "rendering" : [{
+      "id" : "https://access-beta.bl.uk/audio/download/ark:/81055/vdc_100059359013.0x000002/",
+      "type" : "Audio",
+      "label" : {
+        "en" : ["Download this recording (Opens in new tab)"]
+      },
+      "format" : "audio/mp4"
+    }],
+  "label" : {
+    "en" : ["[No title]"]
+  },
+  "metadata" : [{
+      "label" : {
+        "en" : ["Full title"]
+      },
+      "value" : {
+        "en" : ["[No Title]"]
+      }
+    }, {
+      "label" : {
+        "en" : ["Collection"]
+      },
+      "value" : {
+        "en" : ["Tolstoy waltz"]
+      }
+    }, {
+      "label" : {
+        "en" : ["Format"]
+      },
+      "value" : {
+        "en" : ["1 DAT cassette"]
+      }
+    }, {
+      "label" : {
+        "en" : ["Usage"]
+      },
+      "value" : {
+        "en" : ["<span>This material is made available under a non-commercial streaming only licence.</span>"]
+      }
+    }, {
+      "label" : {
+        "en" : ["Held by"]
+      },
+      "value" : {
+        "en" : ["<span>The British Library<br><br><img src='https://www.bl.uk/britishlibrary/resources/global/images/bl_logo_100.gif' alt='British Library logo'/></span>"]
+      }
+    }, {
+      "label" : {
+        "en" : ["Digitised by"]
+      },
+      "value" : {
+        "en" : ["<span>The British Library, 2013<br><br><img src='https://www.bl.uk/britishlibrary/resources/global/images/bl_logo_100.gif' alt='British Library Logo'/></span>"]
+      }
+    }, {
+      "label" : {
+        "en" : ["Digitisation funded by"]
+      },
+      "value" : {
+        "en" : ["<span>National Lottery Heritage Fund<br><br><img src='https://www.heritagefund.org.uk/sites/default/files/media/attachments/TNLHLF_Colour_Logo_English_RGB_0_0.jpg' alt='National Lottery Heritage Fund logo'/></span>"]
+      }
+    }, {
+      "label" : {
+        "en" : ["Identifier"]
+      },
+      "value" : {
+        "en" : ["C863/1"]
+      }
+    }, {
+      "label" : {
+        "en" : ["Shelfmark"]
+      },
+      "value" : {
+        "en" : ["C863/1"]
+      }
+    }, {
+      "label" : {
+        "en" : ["Link to catalogue"]
+      },
+      "value" : {
+        "en" : ["<a href='http://explore.bl.uk/BLVU1:LSCOP-ALL:BLLSA8081952'>View the catalogue record</a>"]
+      }
+    }],
+  "requiredStatement" : {
+    "label" : {
+      "en" : ["Copyright and Usage"]
+    },
+    "value" : {
+      "en" : ["<span><a href=\"http://explore.bl.uk/BLVU1:LSCOP-ALL:BLLSA8081952\">Please read the full information about this object</a><br>This material is made available under a non-commercial streaming only licence.</span>"]
+    }
+  },
+  "provider" : [{
+      "id" : "https://www.bl.uk/about-us",
+      "type" : "Agent",
+      "label" : {
+        "en" : ["The British Library"]
+      },
+      "homepage" : [{
+          "id" : "https://www.bl.uk/",
+          "type" : "Text",
+          "format" : "text/html",
+          "label" : {
+            "en" : ["The British Library"]
+          }
+        }],
+      "logo" : [{
+          "id" : "https://www.bl.uk/images/bl_logo_100.gif",
+          "type" : "Image",
+          "format" : "image/gif"
+        }]
+    }],
+  "services" : [{
+      "id" : "https://api-beta.bl.uk/auth/iiif/login",
+      "type" : "AuthCookieService1",
+      "profile" : "http://iiif.io/api/auth/1/login",
+      "description" : {
+        "en" : ["Some portions of this recording may be unavailable due to rights restrictions."]
+      },
+      "service" : [{
+          "id" : "https://api-beta.bl.uk/auth/iiif/token",
+          "type" : "AuthTokenService1",
+          "profile" : "http://iiif.io/api/auth/1/token"
+        }]
+    }, {
+      "id" : "http://access.bl.uk/item/share/ark:/81055/vdc_100059359013.0x000002",
+      "type" : "Service",
+      "profile" : "https://universalviewer.io/share-extensions-profile"
+    }],
+  "homepage" : [{
+      "id" : "https://access-beta.bl.uk/UniversalViewer/ark:/81055/vdc_100059359013.0x000002",
+      "type" : "Text",
+      "format" : "text/html",
+      "label" : {
+        "en" : ["View at the British Library"]
+      }
+    }],
+  "related" : [{
+      "id" : "https://access-beta.bl.uk/UniversalViewer/ark:/81055/vdc_100059359013.0x000002",
+      "type" : "Text",
+      "format" : "text/html",
+      "label" : {
+        "en" : ["View at the British Library"]
+      }
+    }],
+  "behavior" : ["auto-advance"],
+  "items" : [{
+      "id" : "https://api-beta.bl.uk/metadata/iiif/ark:/81055/vdc_100059359013.0x000004",
+      "type" : "Canvas",
+      "label" : {
+        "en" : ["Tape 1 Tape 1 Side 1"]
+      },
+      "duration" : 464.19999999999999,
+      "items" : [{
+          "id" : "https://api-beta.bl.uk/metadata/iiif/ark:/81055/vdc_100059359013.0x000004/anno1",
+          "type" : "AnnotationPage",
+          "items" : [{
+              "id" : "https://api-beta.bl.uk/metadata/iiif/ark:/81055/vdc_100059359013.0x000004/anno1/1",
+              "type" : "Annotation",
+              "motivation" : "painting",
+              "target" : "https://api-beta.bl.uk/metadata/iiif/ark:/81055/vdc_100059359013.0x000004#t=00.00,464.20",
+              "body" : [{
+                  "type" : "Choice",
+                  "items" : [{
+                      "id" : "https://api-beta.bl.uk/media/iiif/ark:/81055/vdc_100059359013.0x00000b/manifest.mpd",
+                      "format" : "application/dash+xml",
+                      "type" : "Sound",
+                      "service" : [{
+                          "id" : "https://api-beta.bl.uk/auth/iiif/login",
+                          "type" : "AuthCookieService1"
+                        }, {
+                          "id" : "https://api-beta.bl.uk/media/dash/ark:/81055/vdc_100059359013.0x00000b/probe.json",
+                          "type" : "AuthProbeService1",
+                          "profile" : "http://iiif.io/api/auth/1/probe"
+                        }]
+                    }, {
+                      "id" : "https://api-beta.bl.uk/media/iiif/ark:/81055/vdc_100059359013.0x00000b/index.m3u8",
+                      "format" : "application/vnd.apple.mpegURL",
+                      "type" : "Sound",
+                      "service" : [{
+                          "id" : "https://api-beta.bl.uk/auth/iiif/login",
+                          "type" : "AuthCookieService1"
+                        }, {
+                          "id" : "https://api-beta.bl.uk/media/hls/ark:/81055/vdc_100059359013.0x00000b/probe.json",
+                          "type" : "AuthProbeService1",
+                          "profile" : "http://iiif.io/api/auth/1/probe"
+                        }]
+                    }]
+                }],
+              "seeAlso" : [{
+                  "id" : "https://api-beta.bl.uk/waveform/vdc_100059359013.0x00000b",
+                  "type" : "Dataset",
+                  "format" : "application/octet-stream",
+                  "profile" : "http://waveform.prototyping.bbc.co.uk"
+                }]
+            }]
+        }],
+      "thumbnail" : [{
+          "id" : "https://api-beta.bl.uk/hub-logo/audio-tape.png",
+          "Type" : "Image"
+        }]
+    }],
+  "structures" : [{
+      "id" : "https://api-beta.bl.uk/metadata/iiif/ark:/81055/vdc_100059359013.0x000002/top",
+      "type" : "Range",
+      "label" : {
+        "en" : ["[No title]"]
+      },
+      "metadata" : [{
+          "label" : {
+            "en" : ["Full title"]
+          },
+          "value" : {
+            "en" : ["[No Title]"]
+          }
+        }, {
+          "label" : {
+            "en" : ["Collection"]
+          },
+          "value" : {
+            "en" : ["Tolstoy waltz"]
+          }
+        }, {
+          "label" : {
+            "en" : ["Format"]
+          },
+          "value" : {
+            "en" : ["1 DAT cassette"]
+          }
+        }, {
+          "label" : {
+            "en" : ["Usage"]
+          },
+          "value" : {
+            "en" : ["<span>This material is made available under a non-commercial streaming only licence.</span>"]
+          }
+        }, {
+          "label" : {
+            "en" : ["Held by"]
+          },
+          "value" : {
+            "en" : ["<span>The British Library<br><br><img src='https://www.bl.uk/britishlibrary/resources/global/images/bl_logo_100.gif' alt='British Library logo'/></span>"]
+          }
+        }, {
+          "label" : {
+            "en" : ["Digitised by"]
+          },
+          "value" : {
+            "en" : ["<span>The British Library, 2013<br><br><img src='https://www.bl.uk/britishlibrary/resources/global/images/bl_logo_100.gif' alt='British Library Logo'/></span>"]
+          }
+        }, {
+          "label" : {
+            "en" : ["Digitisation funded by"]
+          },
+          "value" : {
+            "en" : ["<span>National Lottery Heritage Fund<br><br><img src='https://www.heritagefund.org.uk/sites/default/files/media/attachments/TNLHLF_Colour_Logo_English_RGB_0_0.jpg' alt='National Lottery Heritage Fund logo'/></span>"]
+          }
+        }, {
+          "label" : {
+            "en" : ["Identifier"]
+          },
+          "value" : {
+            "en" : ["C863/1"]
+          }
+        }, {
+          "label" : {
+            "en" : ["Shelfmark"]
+          },
+          "value" : {
+            "en" : ["C863/1"]
+          }
+        }, {
+          "label" : {
+            "en" : ["Link to catalogue"]
+          },
+          "value" : {
+            "en" : ["<a href='http://explore.bl.uk/BLVU1:LSCOP-ALL:BLLSA8081952'>View the catalogue record</a>"]
+          }
+        }],
+      "requiredStatement" : {
+        "label" : {
+          "en" : ["Copyright and Usage"]
+        },
+        "value" : {
+          "en" : ["<span><a href=\"http://explore.bl.uk/BLVU1:LSCOP-ALL:BLLSA8081952\">Please read the full information about this object</a><br>This material is made available under a non-commercial streaming only licence.</span>"]
+        }
+      },
+      "rendering" : [{
+          "id" : "https://access-beta.bl.uk/audio/download/ark:/81055/vdc_100059359013.0x000002/ark:/81055/vdc_100059359013.0x000002/top",
+          "type" : "Audio",
+          "label" : {
+            "en" : ["Download this recording"]
+          },
+          "format" : "audio/mp4"
+        }],
+      "items" : [{
+          "id" : "https://api-beta.bl.uk/metadata/iiif/ark:/81055/vdc_100059359013.0x000005",
+          "type" : "Range",
+          "label" : {
+            "en" : ["Tolstoy waltz [session]"]
+          },
+          "metadata" : [{
+              "label" : {
+                "en" : ["Full title"]
+              },
+              "value" : {
+                "en" : ["Tolstoy waltz [session]"]
+              }
+            }, {
+              "label" : {
+                "en" : ["Creator"]
+              },
+              "value" : {
+                "en" : ["Cooper, Imogen, 1949- (piano / speaker, female)", "Summers, Jonathan (sound recordist / speaker, male)"]
+              }
+            }, {
+              "label" : {
+                "en" : ["Date"]
+              },
+              "value" : {
+                "en" : ["1997-10-17 (recorded)"]
+              }
+            }, {
+              "label" : {
+                "en" : ["Place of creation"]
+              },
+              "value" : {
+                "en" : ["Home of Imogen Cooper, London, England, UK (recorded)"]
+              }
+            }, {
+              "label" : {
+                "en" : ["Collection"]
+              },
+              "value" : {
+                "en" : ["Tolstoy waltz"]
+              }
+            }, {
+              "label" : {
+                "en" : ["Category"]
+              },
+              "value" : {
+                "en" : ["Classical music: Instrumental"]
+              }
+            }, {
+              "label" : {
+                "en" : ["Genre"]
+              },
+              "value" : {
+                "en" : ["Waltzes", "Instrumental music", "Sessions"]
+              }
+            }, {
+              "label" : {
+                "en" : ["Usage"]
+              },
+              "value" : {
+                "en" : ["<span>This material is made available under a non-commercial streaming only licence.</span>"]
+              }
+            }, {
+              "label" : {
+                "en" : ["Held by"]
+              },
+              "value" : {
+                "en" : ["<span>The British Library<br><br><img src='https://www.bl.uk/britishlibrary/resources/global/images/bl_logo_100.gif' alt='British Library logo'/></span>"]
+              }
+            }, {
+              "label" : {
+                "en" : ["Digitised by"]
+              },
+              "value" : {
+                "en" : ["<span>The British Library, 2013<br><br><img src='https://www.bl.uk/britishlibrary/resources/global/images/bl_logo_100.gif' alt='British Library Logo'/></span>"]
+              }
+            }, {
+              "label" : {
+                "en" : ["Digitisation funded by"]
+              },
+              "value" : {
+                "en" : ["<span>National Lottery Heritage Fund<br><br><img src='https://www.heritagefund.org.uk/sites/default/files/media/attachments/TNLHLF_Colour_Logo_English_RGB_0_0.jpg' alt='National Lottery Heritage Fund logo'/></span>"]
+              }
+            }, {
+              "label" : {
+                "en" : ["Identifier"]
+              },
+              "value" : {
+                "en" : ["C863/1 S1"]
+              }
+            }, {
+              "label" : {
+                "en" : ["Shelfmark"]
+              },
+              "value" : {
+                "en" : ["C863/1"]
+              }
+            }, {
+              "label" : {
+                "en" : ["Link to catalogue"]
+              },
+              "value" : {
+                "en" : ["<a href='http://explore.bl.uk/BLVU1:LSCOP-ALL:BLLSA8102313'>View the catalogue record</a>"]
+              }
+            }, {
+              "label" : {
+                "en" : ["Description"]
+              },
+              "value" : {
+                "en" : ["Multiple takes and some false-starts performing the work, with talk between performer and recordist."]
+              }
+            }],
+          "requiredStatement" : {
+            "label" : {
+              "en" : ["Copyright and Usage"]
+            },
+            "value" : {
+              "en" : ["<span><a href=\"http://explore.bl.uk/BLVU1:LSCOP-ALL:BLLSA8102313\">Please read the full information about this object</a><br>This material is made available under a non-commercial streaming only licence.</span>"]
+            }
+          },
+          "rendering" : [{
+              "id" : "https://access-beta.bl.uk/audio/download/ark:/81055/vdc_100059359013.0x000002/ark:/81055/vdc_100059359013.0x000005",
+              "type" : "Audio",
+              "label" : {
+                "en" : ["Download this recording"]
+              },
+              "format" : "audio/mp4"
+            }],
+          "items" : [{
+              "id" : "https://api-beta.bl.uk/metadata/iiif/ark:/81055/vdc_100059359013.0x000005/nn1",
+              "type" : "Range",
+              "behavior" : ["no-nav"],
+              "items" : [{
+                  "id" : "https://api-beta.bl.uk/metadata/iiif/ark:/81055/vdc_100059359013.0x000004#t=0.00,399.12",
+                  "type" : "Canvas"
+                }]
+            }, {
+              "id" : "https://api-beta.bl.uk/metadata/iiif/ark:/81055/vdc_100059359013.0x000006",
+              "type" : "Range",
+              "label" : {
+                "en" : ["Tolstoy's waltz for piano performed by Imogen Cooper"]
+              },
+              "metadata" : [{
+                  "label" : {
+                    "en" : ["Full title"]
+                  },
+                  "value" : {
+                    "en" : ["Waltz/Tolstoy"]
+                  }
+                }, {
+                  "label" : {
+                    "en" : ["Creator"]
+                  },
+                  "value" : {
+                    "en" : ["Cooper, Imogen, 1949- (piano)", "Summers, Jonathan (sound recordist)"]
+                  }
+                }, {
+                  "label" : {
+                    "en" : ["Date"]
+                  },
+                  "value" : {
+                    "en" : ["1997-10-17 (recorded)"]
+                  }
+                }, {
+                  "label" : {
+                    "en" : ["Place of creation"]
+                  },
+                  "value" : {
+                    "en" : ["Home of Imogen Cooper, London, England, UK (recorded)"]
+                  }
+                }, {
+                  "label" : {
+                    "en" : ["Collection"]
+                  },
+                  "value" : {
+                    "en" : ["Tolstoy waltz"]
+                  }
+                }, {
+                  "label" : {
+                    "en" : ["Category"]
+                  },
+                  "value" : {
+                    "en" : ["Classical music: Instrumental"]
+                  }
+                }, {
+                  "label" : {
+                    "en" : ["Genre"]
+                  },
+                  "value" : {
+                    "en" : ["Waltzes", "Instrumental music"]
+                  }
+                }, {
+                  "label" : {
+                    "en" : ["Usage"]
+                  },
+                  "value" : {
+                    "en" : ["<span>This material is made available under a non-commercial streaming only licence.</span>"]
+                  }
+                }, {
+                  "label" : {
+                    "en" : ["Acknowledgements"]
+                  },
+                  "value" : {
+                    "en" : ["<span>© Imogen Cooper; British Library Board</span>"]
+                  }
+                }, {
+                  "label" : {
+                    "en" : ["Held by"]
+                  },
+                  "value" : {
+                    "en" : ["<span>The British Library<br><br><img src='https://www.bl.uk/britishlibrary/resources/global/images/bl_logo_100.gif' alt='British Library logo'/></span>"]
+                  }
+                }, {
+                  "label" : {
+                    "en" : ["Digitised by"]
+                  },
+                  "value" : {
+                    "en" : ["<span>The British Library, 2013<br><br><img src='https://www.bl.uk/britishlibrary/resources/global/images/bl_logo_100.gif' alt='British Library Logo'/></span>"]
+                  }
+                }, {
+                  "label" : {
+                    "en" : ["Digitisation funded by"]
+                  },
+                  "value" : {
+                    "en" : ["<span>National Lottery Heritage Fund<br><br><img src='https://www.heritagefund.org.uk/sites/default/files/media/attachments/TNLHLF_Colour_Logo_English_RGB_0_0.jpg' alt='National Lottery Heritage Fund logo'/></span>"]
+                  }
+                }, {
+                  "label" : {
+                    "en" : ["Identifier"]
+                  },
+                  "value" : {
+                    "en" : ["C863/1 S1 C1"]
+                  }
+                }, {
+                  "label" : {
+                    "en" : ["Shelfmark"]
+                  },
+                  "value" : {
+                    "en" : ["C863/1"]
+                  }
+                }, {
+                  "label" : {
+                    "en" : ["Link to catalogue"]
+                  },
+                  "value" : {
+                    "en" : ["<a href='http://explore.bl.uk/BLVU1:LSCOP-ALL:BLLSA7597158'>View the catalogue record</a>"]
+                  }
+                }, {
+                  "label" : {
+                    "en" : ["Description"]
+                  },
+                  "value" : {
+                    "en" : ["Preferred take from a private recording session."]
+                  }
+                }],
+              "requiredStatement" : {
+                "label" : {
+                  "en" : ["Copyright and Usage"]
+                },
+                "value" : {
+                  "en" : ["<span><a href=\"http://explore.bl.uk/BLVU1:LSCOP-ALL:BLLSA7597158\">Please read the full information about this object</a><br>This material is made available under a non-commercial streaming only licence.</span>"]
+                }
+              },
+              "rendering" : [{
+                  "id" : "https://access-beta.bl.uk/audio/download/ark:/81055/vdc_100059359013.0x000002/ark:/81055/vdc_100059359013.0x000006",
+                  "type" : "Audio",
+                  "label" : {
+                    "en" : ["Download this recording"]
+                  },
+                  "format" : "audio/mp4"
+                }],
+              "items" : [{
+                  "id" : "https://api-beta.bl.uk/metadata/iiif/ark:/81055/vdc_100059359013.0x000004#t=399.12,446.08",
+                  "type" : "Canvas"
+                }]
+            }]
+        }]
+    }]
+}

@@ -1,0 +1,936 @@
+{
+  "@context" : ["http://iiif.io/api/auth/1/context.json", "http://iiif.io/api/presentation/3/context.json"],
+  "id" : "https://apiirc.ad.bl.uk/metadata/iiif/ark:/81055/tvdc_100005130669.0x000002/manifest.json",
+  "type" : "Manifest",
+  "label" : {
+    "en" : ["Lorna Tracey"]
+  },
+  "rendering" : [{
+      "id" : "https://accessirc.ad.bl.uk/audio/download/ark:/81055/tvdc_100005130669.0x000002/",
+      "type" : "Audio",
+      "label" : {
+        "en" : ["Download this recording (Opens in new tab)"]
+      },
+      "format" : "audio/mp4"
+    }],
+  "metadata" : [{
+      "label" : {
+        "en" : ["Full title"]
+      },
+      "value" : {
+        "en" : ["Lorna Tracey"]
+      }
+    }, {
+      "label" : {
+        "en" : ["Date"]
+      },
+      "value" : {
+        "en" : ["1981-04-30 (published)"]
+      }
+    }, {
+      "label" : {
+        "en" : ["Collection"]
+      },
+      "value" : {
+        "en" : ["Poetry Society"]
+      }
+    }, {
+      "label" : {
+        "en" : ["Format"]
+      },
+      "value" : {
+        "en" : ["1 tape reel 18 cm 9.5 cm/sec stereo"]
+      }
+    }, {
+      "label" : {
+        "en" : ["Usage"]
+      },
+      "value" : {
+        "en" : ["<span>Public domain<br/><br/><a href='https://creativecommons.org/publicdomain/mark/1.0/'><img src='https://i.creativecommons.org/p/mark/1.0/88x31.png' alt='Public Domain Mark 1.0 License logo'/></a></span>"]
+      }
+    }, {
+      "label" : {
+        "en" : ["Held by"]
+      },
+      "value" : {
+        "en" : ["<span>The British Library<br><br><img src='https://www.bl.uk/britishlibrary/resources/global/images/bl_logo_100.gif' alt='British Library logo'/></span>"]
+      }
+    }, {
+      "label" : {
+        "en" : ["Digitised by"]
+      },
+      "value" : {
+        "en" : ["<span>The British Library, 2018<br><br><img src='https://www.bl.uk/britishlibrary/resources/global/images/bl_logo_100.gif' alt='British Library Logo'/></span>"]
+      }
+    }, {
+      "label" : {
+        "en" : ["Digitisation funded by"]
+      },
+      "value" : {
+        "en" : ["<span>National Lottery Heritage Fund<br><br><img src='https://www.heritagefund.org.uk/sites/default/files/media/attachments/TNLHLF_Colour_Logo_English_RGB_0_0.jpg' alt='National Lottery Heritage Fund logo'/></span>"]
+      }
+    }, {
+      "label" : {
+        "en" : ["Identifier"]
+      },
+      "value" : {
+        "en" : ["C15/45"]
+      }
+    }, {
+      "label" : {
+        "en" : ["Shelfmark"]
+      },
+      "value" : {
+        "en" : ["C15/45"]
+      }
+    }, {
+      "label" : {
+        "en" : ["Link to catalogue"]
+      },
+      "value" : {
+        "en" : ["<a href='http://explore.bl.uk/BLVU1:LSCOP-ALL:BLLSA4506971'>View the catalogue record</a>"]
+      }
+    }, {
+      "label" : {
+        "en" : ["Contents"]
+      },
+      "value" : {
+        "en" : ["A reading by Lorna Tracy to celebrate the launch of her short story collection 'Amateur passions' Introduced by Emmanuel Litvinov"]
+      }
+    }],
+  "rights" : "https://creativecommons.org/publicdomain/mark/1.0/",
+  "requiredStatement" : {
+    "label" : {
+      "en" : ["Copyright and Usage"]
+    },
+    "value" : {
+      "en" : ["<span><a href=\"http://explore.bl.uk/BLVU1:LSCOP-ALL:BLLSA4506971\">Please read the full information about this object</a><br>Public domain<br/><br/><a href=\"https://creativecommons.org/publicdomain/mark/1.0/\"><img src=\"https://i.creativecommons.org/p/mark/1.0/88x31.png\" alt=\"Public Domain Mark 1.0 License logo\"/></a></span>"]
+    }
+  },
+  "provider" : [{
+      "id" : "https://www.bl.uk/about-us",
+      "type" : "Agent",
+      "label" : {
+        "en" : ["The British Library"]
+      },
+      "homepage" : [{
+          "id" : "https://www.bl.uk/",
+          "type" : "Text",
+          "format" : "text/html",
+          "label" : {
+            "en" : ["The British Library"]
+          }
+        }],
+      "logo" : [{
+          "id" : "https://www.bl.uk/images/bl_logo_100.gif",
+          "type" : "Image",
+          "format" : "image/gif"
+        }]
+    }],
+  "services" : [{
+      "id" : "https://apiirc.ad.bl.uk/auth/iiif/login",
+      "type" : "AuthCookieService1",
+      "profile" : "http://iiif.io/api/auth/1/login",
+      "description" : {
+        "en" : ["Some portions of this recording may be unavailable due to rights restrictions."]
+      },
+      "header" : {
+        "en" : ["Please Log-In"]
+      },
+      "label" : {
+        "en" : ["Login to The British Library"]
+      },
+      "service" : [{
+          "id" : "http://apiirc.ad.bl.uk/auth/iiif/token",
+          "type" : "AuthTokenService1",
+          "profile" : "http://iiif.io/api/auth/1/token"
+        }]
+    }, {
+      "id" : "http://access.bl.uk/item/share/ark:/81055/tvdc_100005130669.0x000002",
+      "type" : "Service",
+      "profile" : "https://universalviewer.io/share-extensions-profile"
+    }],
+  "homepage" : [{
+      "id" : "https://accessirc.ad.bl.uk/UniversalViewer/ark:/81055/tvdc_100005130669.0x000002",
+      "type" : "Text",
+      "format" : "text/html",
+      "label" : {
+        "en" : ["View at the British Library"]
+      }
+    }],
+  "behavior" : ["auto-advance"],
+  "items" : [{
+      "id" : "https://apiirc.ad.bl.uk/metadata/iiif/ark:/81055/tvdc_100005130669.0x000004",
+      "type" : "Canvas",
+      "label" : {
+        "en" : ["Tape 1 Side 1"]
+      },
+      "duration" : 4107.6800000000003,
+      "items" : [{
+          "id" : "https://apiirc.ad.bl.uk/metadata/iiif/ark:/81055/tvdc_100005130669.0x000004/anno1",
+          "type" : "AnnotationPage",
+          "items" : [{
+              "id" : "https://apiirc.ad.bl.uk/metadata/iiif/ark:/81055/tvdc_100005130669.0x000004/anno1/1",
+              "type" : "Annotation",
+              "motivation" : "painting",
+              "target" : "https://apiirc.ad.bl.uk/metadata/iiif/ark:/81055/tvdc_100005130669.0x000004#t=00.00,4107.68",
+              "body" : [{
+                  "type" : "Choice",
+                  "items" : [{
+                      "id" : "https://apiirc.ad.bl.uk/media/iiif/ark:/81055/tvdc_100005130669.0x00000f/manifest.mpd",
+                      "format" : "application/dash+xml",
+                      "type" : "Sound",
+                      "service" : [{
+                          "id" : "https://apiirc.ad.bl.uk/auth/iiif/login",
+                          "type" : "AuthCookieService1"
+                        }, {
+                          "id" : "https://apiirc.ad.bl.uk/media/dash/ark:/81055/tvdc_100005130669.0x00000f/probe.json",
+                          "type" : "AuthProbeService1",
+                          "profile" : "http://iiif.io/api/auth/1/probe"
+                        }]
+                    }, {
+                      "id" : "https://apiirc.ad.bl.uk/media/iiif/ark:/81055/tvdc_100005130669.0x00000f/index.m3u8",
+                      "format" : "application/vnd.apple.mpegURL",
+                      "type" : "Sound",
+                      "service" : [{
+                          "id" : "https://apiirc.ad.bl.uk/auth/iiif/login",
+                          "type" : "AuthCookieService1"
+                        }, {
+                          "id" : "https://apiirc.ad.bl.uk/media/hls/ark:/81055/tvdc_100005130669.0x00000f/probe.json",
+                          "type" : "AuthProbeService1",
+                          "profile" : "http://iiif.io/api/auth/1/probe"
+                        }]
+                    }]
+                }],
+              "seeAlso" : [{
+                  "id" : "https://apiirc.ad.bl.uk/waveform/tvdc_100005130669.0x00000f",
+                  "type" : "Dataset",
+                  "format" : "application/octet-stream",
+                  "profile" : "http://waveform.prototyping.bbc.co.uk"
+                }]
+            }]
+        }],
+      "thumbnail" : [{
+          "id" : "https://apiirc.ad.bl.uk/hub-logo/audio-tape.png",
+          "Type" : "Image"
+        }]
+    }],
+  "structures" : [{
+      "id" : "https://apiirc.ad.bl.uk/metadata/iiif/ark:/81055/tvdc_100005130669.0x000002/top",
+      "type" : "Range",
+      "label" : {
+        "en" : ["Lorna Tracey"]
+      },
+      "rendering" : [{
+          "id" : "https://apiirc.ad.bl.uk/item/download/ark:/81055/tvdc_100005130669.0x000002/ark:/81055/tvdc_100005130669.0x000002/top",
+          "type" : "Audio",
+          "label" : {
+            "en" : ["Download this recording"]
+          },
+          "format" : "audio/mp4"
+        }],
+      "metadata" : [{
+          "label" : {
+            "en" : ["Full title"]
+          },
+          "value" : {
+            "en" : ["Lorna Tracey"]
+          }
+        }, {
+          "label" : {
+            "en" : ["Date"]
+          },
+          "value" : {
+            "en" : ["1981-04-30 (published)"]
+          }
+        }, {
+          "label" : {
+            "en" : ["Collection"]
+          },
+          "value" : {
+            "en" : ["Poetry Society"]
+          }
+        }, {
+          "label" : {
+            "en" : ["Format"]
+          },
+          "value" : {
+            "en" : ["1 tape reel 18 cm 9.5 cm/sec stereo"]
+          }
+        }, {
+          "label" : {
+            "en" : ["Usage"]
+          },
+          "value" : {
+            "en" : ["<span>Public domain<br/><br/><a href='https://creativecommons.org/publicdomain/mark/1.0/'><img src='https://i.creativecommons.org/p/mark/1.0/88x31.png' alt='Public Domain Mark 1.0 License logo'/></a></span>"]
+          }
+        }, {
+          "label" : {
+            "en" : ["Held by"]
+          },
+          "value" : {
+            "en" : ["<span>The British Library<br><br><img src='https://www.bl.uk/britishlibrary/resources/global/images/bl_logo_100.gif' alt='British Library logo'/></span>"]
+          }
+        }, {
+          "label" : {
+            "en" : ["Digitised by"]
+          },
+          "value" : {
+            "en" : ["<span>The British Library, 2018<br><br><img src='https://www.bl.uk/britishlibrary/resources/global/images/bl_logo_100.gif' alt='British Library Logo'/></span>"]
+          }
+        }, {
+          "label" : {
+            "en" : ["Digitisation funded by"]
+          },
+          "value" : {
+            "en" : ["<span>National Lottery Heritage Fund<br><br><img src='https://www.heritagefund.org.uk/sites/default/files/media/attachments/TNLHLF_Colour_Logo_English_RGB_0_0.jpg' alt='National Lottery Heritage Fund logo'/></span>"]
+          }
+        }, {
+          "label" : {
+            "en" : ["Identifier"]
+          },
+          "value" : {
+            "en" : ["C15/45"]
+          }
+        }, {
+          "label" : {
+            "en" : ["Shelfmark"]
+          },
+          "value" : {
+            "en" : ["C15/45"]
+          }
+        }, {
+          "label" : {
+            "en" : ["Link to catalogue"]
+          },
+          "value" : {
+            "en" : ["<a href='http://explore.bl.uk/BLVU1:LSCOP-ALL:BLLSA4506971'>View the catalogue record</a>"]
+          }
+        }, {
+          "label" : {
+            "en" : ["Contents"]
+          },
+          "value" : {
+            "en" : ["A reading by Lorna Tracy to celebrate the launch of her short story collection 'Amateur passions' Introduced by Emmanuel Litvinov"]
+          }
+        }],
+      "rights" : "https://creativecommons.org/publicdomain/mark/1.0/",
+      "requiredStatement" : {
+        "label" : {
+          "en" : ["Copyright and Usage"]
+        },
+        "value" : {
+          "en" : ["<span><a href=\"http://explore.bl.uk/BLVU1:LSCOP-ALL:BLLSA4506971\">Please read the full information about this object</a><br>Public domain<br/><br/><a href=\"https://creativecommons.org/publicdomain/mark/1.0/\"><img src=\"https://i.creativecommons.org/p/mark/1.0/88x31.png\" alt=\"Public Domain Mark 1.0 License logo\"/></a></span>"]
+        }
+      },
+      "items" : [{
+          "id" : "https://apiirc.ad.bl.uk/metadata/iiif/ark:/81055/tvdc_100005130669.0x000005",
+          "type" : "Range",
+          "label" : {
+            "en" : ["Reading by Lorna Tracy (1:08:28)"]
+          },
+          "rendering" : [{
+              "id" : "https://apiirc.ad.bl.uk/item/download/ark:/81055/tvdc_100005130669.0x000002/ark:/81055/tvdc_100005130669.0x000005",
+              "type" : "Audio",
+              "label" : {
+                "en" : ["Download this recording"]
+              },
+              "format" : "audio/mp4"
+            }],
+          "metadata" : [{
+              "label" : {
+                "en" : ["Full title"]
+              },
+              "value" : {
+                "en" : ["Reading by Lorna Tracy"]
+              }
+            }, {
+              "label" : {
+                "en" : ["Creator"]
+              },
+              "value" : {
+                "en" : ["Tracy, Lorna, 1934- (speaker, female)", "Livitnoff, Emanuel, 1915-2011 (speaker, male; presenter)", "unverified (speaker, female)", "Poetry Society (sound recordist)"]
+              }
+            }, {
+              "label" : {
+                "en" : ["Date"]
+              },
+              "value" : {
+                "en" : ["1981-04-30 (recorded)"]
+              }
+            }, {
+              "label" : {
+                "en" : ["Place of creation"]
+              },
+              "value" : {
+                "en" : ["National Poetry Centre, 21 Earls Court Square, London, England, UK (recorded)"]
+              }
+            }, {
+              "label" : {
+                "en" : ["Duration"]
+              },
+              "value" : {
+                "en" : ["1 hr. 08 min. 27 sec."]
+              }
+            }, {
+              "label" : {
+                "en" : ["Language"]
+              },
+              "value" : {
+                "en" : ["English"]
+              }
+            }, {
+              "label" : {
+                "en" : ["Collection"]
+              },
+              "value" : {
+                "en" : ["Poetry Society"]
+              }
+            }, {
+              "label" : {
+                "en" : ["Category"]
+              },
+              "value" : {
+                "en" : ["Art and literature: Literature"]
+              }
+            }, {
+              "label" : {
+                "en" : ["Genre"]
+              },
+              "value" : {
+                "en" : ["Live performance", "Prose"]
+              }
+            }, {
+              "label" : {
+                "en" : ["Usage"]
+              },
+              "value" : {
+                "en" : ["<span>Public domain<br/><br/><a href='https://creativecommons.org/publicdomain/mark/1.0/'><img src='https://i.creativecommons.org/p/mark/1.0/88x31.png' alt='Public Domain Mark 1.0 License logo'/></a></span>"]
+              }
+            }, {
+              "label" : {
+                "en" : ["Held by"]
+              },
+              "value" : {
+                "en" : ["<span>The British Library<br><br><img src='https://www.bl.uk/britishlibrary/resources/global/images/bl_logo_100.gif' alt='British Library logo'/></span>"]
+              }
+            }, {
+              "label" : {
+                "en" : ["Digitised by"]
+              },
+              "value" : {
+                "en" : ["<span>The British Library, 2018<br><br><img src='https://www.bl.uk/britishlibrary/resources/global/images/bl_logo_100.gif' alt='British Library Logo'/></span>"]
+              }
+            }, {
+              "label" : {
+                "en" : ["Digitisation funded by"]
+              },
+              "value" : {
+                "en" : ["<span>National Lottery Heritage Fund<br><br><img src='https://www.heritagefund.org.uk/sites/default/files/media/attachments/TNLHLF_Colour_Logo_English_RGB_0_0.jpg' alt='National Lottery Heritage Fund logo'/></span>"]
+              }
+            }, {
+              "label" : {
+                "en" : ["Identifier"]
+              },
+              "value" : {
+                "en" : ["C15/45 C1-3"]
+              }
+            }, {
+              "label" : {
+                "en" : ["Shelfmark"]
+              },
+              "value" : {
+                "en" : ["C15/45"]
+              }
+            }, {
+              "label" : {
+                "en" : ["Link to catalogue"]
+              },
+              "value" : {
+                "en" : ["<a href='http://explore.bl.uk/BLVU1:LSCOP-ALL:BLLSA8482369'>View the catalogue record</a>"]
+              }
+            }, {
+              "label" : {
+                "en" : ["Description"]
+              },
+              "value" : {
+                "en" : ["A reading by Lorna Tracy to celebrate the launch of her short story collection 'Amateur passions'.", "Individual stories are catalogued separately.", "Recording begins with 20 seconds of test tone"]
+              }
+            }],
+          "rights" : "https://creativecommons.org/publicdomain/mark/1.0/",
+          "requiredStatement" : {
+            "label" : {
+              "en" : ["Copyright and Usage"]
+            },
+            "value" : {
+              "en" : ["<span><a href=\"http://explore.bl.uk/BLVU1:LSCOP-ALL:BLLSA8482369\">Please read the full information about this object</a><br>Public domain<br/><br/><a href=\"https://creativecommons.org/publicdomain/mark/1.0/\"><img src=\"https://i.creativecommons.org/p/mark/1.0/88x31.png\" alt=\"Public Domain Mark 1.0 License logo\"/></a></span>"]
+            }
+          },
+          "items" : [{
+              "id" : "https://apiirc.ad.bl.uk/metadata/iiif/ark:/81055/tvdc_100005130669.0x000005/nn1",
+              "type" : "Range",
+              "behavior" : ["no-nav"],
+              "items" : [{
+                  "id" : "https://apiirc.ad.bl.uk/metadata/iiif/ark:/81055/tvdc_100005130669.0x000004#t=0.00,307.72",
+                  "type" : "Canvas"
+                }]
+            }, {
+              "id" : "https://apiirc.ad.bl.uk/metadata/iiif/ark:/81055/tvdc_100005130669.0x000006",
+              "type" : "Range",
+              "label" : {
+                "en" : ["A Shetland set (06:56)"]
+              },
+              "rendering" : [{
+                  "id" : "https://apiirc.ad.bl.uk/item/download/ark:/81055/tvdc_100005130669.0x000002/ark:/81055/tvdc_100005130669.0x000006",
+                  "type" : "Audio",
+                  "label" : {
+                    "en" : ["Download this recording"]
+                  },
+                  "format" : "audio/mp4"
+                }],
+              "metadata" : [{
+                  "label" : {
+                    "en" : ["Full title"]
+                  },
+                  "value" : {
+                    "en" : ["A Shetland set"]
+                  }
+                }, {
+                  "label" : {
+                    "en" : ["Creator"]
+                  },
+                  "value" : {
+                    "en" : ["Tracy, Lorna, 1934- (speaker, female)", "Poetry Society (sound recordist)"]
+                  }
+                }, {
+                  "label" : {
+                    "en" : ["Date"]
+                  },
+                  "value" : {
+                    "en" : ["1981-04-30 (recorded)"]
+                  }
+                }, {
+                  "label" : {
+                    "en" : ["Place of creation"]
+                  },
+                  "value" : {
+                    "en" : ["National Poetry Centre, 21 Earls Court Square, London, England, UK (recorded)"]
+                  }
+                }, {
+                  "label" : {
+                    "en" : ["Duration"]
+                  },
+                  "value" : {
+                    "en" : ["6 min. 55 sec."]
+                  }
+                }, {
+                  "label" : {
+                    "en" : ["Language"]
+                  },
+                  "value" : {
+                    "en" : ["English"]
+                  }
+                }, {
+                  "label" : {
+                    "en" : ["Collection"]
+                  },
+                  "value" : {
+                    "en" : ["Poetry Society"]
+                  }
+                }, {
+                  "label" : {
+                    "en" : ["Category"]
+                  },
+                  "value" : {
+                    "en" : ["Art and literature: Literature"]
+                  }
+                }, {
+                  "label" : {
+                    "en" : ["Genre"]
+                  },
+                  "value" : {
+                    "en" : ["Live performance", "Prose"]
+                  }
+                }, {
+                  "label" : {
+                    "en" : ["Usage"]
+                  },
+                  "value" : {
+                    "en" : ["<span>Public domain<br/><br/><a href='https://creativecommons.org/publicdomain/mark/1.0/'><img src='https://i.creativecommons.org/p/mark/1.0/88x31.png' alt='Public Domain Mark 1.0 License logo'/></a></span>"]
+                  }
+                }, {
+                  "label" : {
+                    "en" : ["Held by"]
+                  },
+                  "value" : {
+                    "en" : ["<span>The British Library<br><br><img src='https://www.bl.uk/britishlibrary/resources/global/images/bl_logo_100.gif' alt='British Library logo'/></span>"]
+                  }
+                }, {
+                  "label" : {
+                    "en" : ["Digitised by"]
+                  },
+                  "value" : {
+                    "en" : ["<span>The British Library, 2018<br><br><img src='https://www.bl.uk/britishlibrary/resources/global/images/bl_logo_100.gif' alt='British Library Logo'/></span>"]
+                  }
+                }, {
+                  "label" : {
+                    "en" : ["Digitisation funded by"]
+                  },
+                  "value" : {
+                    "en" : ["<span>National Lottery Heritage Fund<br><br><img src='https://www.heritagefund.org.uk/sites/default/files/media/attachments/TNLHLF_Colour_Logo_English_RGB_0_0.jpg' alt='National Lottery Heritage Fund logo'/></span>"]
+                  }
+                }, {
+                  "label" : {
+                    "en" : ["Identifier"]
+                  },
+                  "value" : {
+                    "en" : ["C15/45 C1"]
+                  }
+                }, {
+                  "label" : {
+                    "en" : ["Shelfmark"]
+                  },
+                  "value" : {
+                    "en" : ["C15/45"]
+                  }
+                }, {
+                  "label" : {
+                    "en" : ["Link to catalogue"]
+                  },
+                  "value" : {
+                    "en" : ["<a href='http://explore.bl.uk/BLVU1:LSCOP-ALL:BLLSA8482395'>View the catalogue record</a>"]
+                  }
+                }, {
+                  "label" : {
+                    "en" : ["Description"]
+                  },
+                  "value" : {
+                    "en" : ["Lorna Tracy reads her short story 'A Shetland set', as part of an event organised by the Poetry Society to celebrate the launch of her short story collection 'Amateur passions'."]
+                  }
+                }],
+              "rights" : "https://creativecommons.org/publicdomain/mark/1.0/",
+              "requiredStatement" : {
+                "label" : {
+                  "en" : ["Copyright and Usage"]
+                },
+                "value" : {
+                  "en" : ["<span><a href=\"http://explore.bl.uk/BLVU1:LSCOP-ALL:BLLSA8482395\">Please read the full information about this object</a><br>Public domain<br/><br/><a href=\"https://creativecommons.org/publicdomain/mark/1.0/\"><img src=\"https://i.creativecommons.org/p/mark/1.0/88x31.png\" alt=\"Public Domain Mark 1.0 License logo\"/></a></span>"]
+                }
+              },
+              "items" : [{
+                  "id" : "https://apiirc.ad.bl.uk/metadata/iiif/ark:/81055/tvdc_100005130669.0x000004#t=307.72,723.20",
+                  "type" : "Canvas"
+                }]
+            }, {
+              "id" : "https://apiirc.ad.bl.uk/metadata/iiif/ark:/81055/tvdc_100005130669.0x000006/pr-nn2",
+              "type" : "Range",
+              "behavior" : ["no-nav"],
+              "items" : [{
+                  "id" : "https://apiirc.ad.bl.uk/metadata/iiif/ark:/81055/tvdc_100005130669.0x000004#t=723.20,757.60",
+                  "type" : "Canvas"
+                }]
+            }, {
+              "id" : "https://apiirc.ad.bl.uk/metadata/iiif/ark:/81055/tvdc_100005130669.0x000007",
+              "type" : "Range",
+              "label" : {
+                "en" : ["The holy act of water contemplation (20:13)"]
+              },
+              "rendering" : [{
+                  "id" : "https://apiirc.ad.bl.uk/item/download/ark:/81055/tvdc_100005130669.0x000002/ark:/81055/tvdc_100005130669.0x000007",
+                  "type" : "Audio",
+                  "label" : {
+                    "en" : ["Download this recording"]
+                  },
+                  "format" : "audio/mp4"
+                }],
+              "metadata" : [{
+                  "label" : {
+                    "en" : ["Full title"]
+                  },
+                  "value" : {
+                    "en" : ["The holy act of water contemplation"]
+                  }
+                }, {
+                  "label" : {
+                    "en" : ["Creator"]
+                  },
+                  "value" : {
+                    "en" : ["Tracy, Lorna, 1934- (speaker, female)", "Poetry Society (sound recordist)"]
+                  }
+                }, {
+                  "label" : {
+                    "en" : ["Date"]
+                  },
+                  "value" : {
+                    "en" : ["1981-04-30 (recorded)"]
+                  }
+                }, {
+                  "label" : {
+                    "en" : ["Place of creation"]
+                  },
+                  "value" : {
+                    "en" : ["National Poetry Centre, 21 Earls Court Square, London, England, UK (recorded)"]
+                  }
+                }, {
+                  "label" : {
+                    "en" : ["Duration"]
+                  },
+                  "value" : {
+                    "en" : ["20 min. 12 sec."]
+                  }
+                }, {
+                  "label" : {
+                    "en" : ["Language"]
+                  },
+                  "value" : {
+                    "en" : ["English"]
+                  }
+                }, {
+                  "label" : {
+                    "en" : ["Collection"]
+                  },
+                  "value" : {
+                    "en" : ["Poetry Society"]
+                  }
+                }, {
+                  "label" : {
+                    "en" : ["Category"]
+                  },
+                  "value" : {
+                    "en" : ["Art and literature: Literature"]
+                  }
+                }, {
+                  "label" : {
+                    "en" : ["Genre"]
+                  },
+                  "value" : {
+                    "en" : ["Live performance", "Prose"]
+                  }
+                }, {
+                  "label" : {
+                    "en" : ["Usage"]
+                  },
+                  "value" : {
+                    "en" : ["<span>Rights unassigned - staff access only</span>"]
+                  }
+                }, {
+                  "label" : {
+                    "en" : ["Held by"]
+                  },
+                  "value" : {
+                    "en" : ["<span>The British Library<br><br><img src='https://www.bl.uk/britishlibrary/resources/global/images/bl_logo_100.gif' alt='British Library logo'/></span>"]
+                  }
+                }, {
+                  "label" : {
+                    "en" : ["Digitised by"]
+                  },
+                  "value" : {
+                    "en" : ["<span>The British Library, 2018<br><br><img src='https://www.bl.uk/britishlibrary/resources/global/images/bl_logo_100.gif' alt='British Library Logo'/></span>"]
+                  }
+                }, {
+                  "label" : {
+                    "en" : ["Digitisation funded by"]
+                  },
+                  "value" : {
+                    "en" : ["<span>National Lottery Heritage Fund<br><br><img src='https://www.heritagefund.org.uk/sites/default/files/media/attachments/TNLHLF_Colour_Logo_English_RGB_0_0.jpg' alt='National Lottery Heritage Fund logo'/></span>"]
+                  }
+                }, {
+                  "label" : {
+                    "en" : ["Identifier"]
+                  },
+                  "value" : {
+                    "en" : ["C15/45 C2"]
+                  }
+                }, {
+                  "label" : {
+                    "en" : ["Shelfmark"]
+                  },
+                  "value" : {
+                    "en" : ["C15/45"]
+                  }
+                }, {
+                  "label" : {
+                    "en" : ["Link to catalogue"]
+                  },
+                  "value" : {
+                    "en" : ["<a href='http://explore.bl.uk/BLVU1:LSCOP-ALL:BLLSA8482413'>View the catalogue record</a>"]
+                  }
+                }, {
+                  "label" : {
+                    "en" : ["Description"]
+                  },
+                  "value" : {
+                    "en" : ["Lorna Tracy reads her short story 'The holy act of water contemplation', as part of an event organised by the Poetry Society to celebrate the launch of her short story collection 'Amateur passions'"]
+                  }
+                }],
+              "requiredStatement" : {
+                "label" : {
+                  "en" : ["Copyright and Usage"]
+                },
+                "value" : {
+                  "en" : ["<span><a href=\"http://explore.bl.uk/BLVU1:LSCOP-ALL:BLLSA8482413\">Please read the full information about this object</a><br>Rights unassigned - staff access only</span>"]
+                }
+              },
+              "items" : [{
+                  "id" : "https://apiirc.ad.bl.uk/metadata/iiif/ark:/81055/tvdc_100005130669.0x000004#t=757.60,1970.08",
+                  "type" : "Canvas"
+                }]
+            }, {
+              "id" : "https://apiirc.ad.bl.uk/metadata/iiif/ark:/81055/tvdc_100005130669.0x000007/pr-nn3",
+              "type" : "Range",
+              "behavior" : ["no-nav"],
+              "items" : [{
+                  "id" : "https://apiirc.ad.bl.uk/metadata/iiif/ark:/81055/tvdc_100005130669.0x000004#t=1970.08,1994.56",
+                  "type" : "Canvas"
+                }]
+            }, {
+              "id" : "https://apiirc.ad.bl.uk/metadata/iiif/ark:/81055/tvdc_100005130669.0x000008",
+              "type" : "Range",
+              "label" : {
+                "en" : ["Talking about it (34:03)"]
+              },
+              "rendering" : [{
+                  "id" : "https://apiirc.ad.bl.uk/item/download/ark:/81055/tvdc_100005130669.0x000002/ark:/81055/tvdc_100005130669.0x000008",
+                  "type" : "Audio",
+                  "label" : {
+                    "en" : ["Download this recording"]
+                  },
+                  "format" : "audio/mp4"
+                }],
+              "metadata" : [{
+                  "label" : {
+                    "en" : ["Full title"]
+                  },
+                  "value" : {
+                    "en" : ["Talking about it"]
+                  }
+                }, {
+                  "label" : {
+                    "en" : ["Creator"]
+                  },
+                  "value" : {
+                    "en" : ["Tracy, Lorna, 1934- (speaker, female)", "Poetry Society (sound recordist)"]
+                  }
+                }, {
+                  "label" : {
+                    "en" : ["Date"]
+                  },
+                  "value" : {
+                    "en" : ["1981-04-30 (recorded)"]
+                  }
+                }, {
+                  "label" : {
+                    "en" : ["Place of creation"]
+                  },
+                  "value" : {
+                    "en" : ["National Poetry Centre, 21 Earls Court Square, London, England, UK (recorded)"]
+                  }
+                }, {
+                  "label" : {
+                    "en" : ["Duration"]
+                  },
+                  "value" : {
+                    "en" : ["34 min. 02 sec."]
+                  }
+                }, {
+                  "label" : {
+                    "en" : ["Language"]
+                  },
+                  "value" : {
+                    "en" : ["English"]
+                  }
+                }, {
+                  "label" : {
+                    "en" : ["Collection"]
+                  },
+                  "value" : {
+                    "en" : ["Poetry Society"]
+                  }
+                }, {
+                  "label" : {
+                    "en" : ["Category"]
+                  },
+                  "value" : {
+                    "en" : ["Art and literature: Literature"]
+                  }
+                }, {
+                  "label" : {
+                    "en" : ["Genre"]
+                  },
+                  "value" : {
+                    "en" : ["Live performance", "Prose"]
+                  }
+                }, {
+                  "label" : {
+                    "en" : ["Usage"]
+                  },
+                  "value" : {
+                    "en" : ["<span>Public domain<br/><br/><a href='https://creativecommons.org/publicdomain/mark/1.0/'><img src='https://i.creativecommons.org/p/mark/1.0/88x31.png' alt='Public Domain Mark 1.0 License logo'/></a></span>"]
+                  }
+                }, {
+                  "label" : {
+                    "en" : ["Held by"]
+                  },
+                  "value" : {
+                    "en" : ["<span>The British Library<br><br><img src='https://www.bl.uk/britishlibrary/resources/global/images/bl_logo_100.gif' alt='British Library logo'/></span>"]
+                  }
+                }, {
+                  "label" : {
+                    "en" : ["Digitised by"]
+                  },
+                  "value" : {
+                    "en" : ["<span>The British Library, 2018<br><br><img src='https://www.bl.uk/britishlibrary/resources/global/images/bl_logo_100.gif' alt='British Library Logo'/></span>"]
+                  }
+                }, {
+                  "label" : {
+                    "en" : ["Digitisation funded by"]
+                  },
+                  "value" : {
+                    "en" : ["<span>National Lottery Heritage Fund<br><br><img src='https://www.heritagefund.org.uk/sites/default/files/media/attachments/TNLHLF_Colour_Logo_English_RGB_0_0.jpg' alt='National Lottery Heritage Fund logo'/></span>"]
+                  }
+                }, {
+                  "label" : {
+                    "en" : ["Identifier"]
+                  },
+                  "value" : {
+                    "en" : ["C15/45 C3"]
+                  }
+                }, {
+                  "label" : {
+                    "en" : ["Shelfmark"]
+                  },
+                  "value" : {
+                    "en" : ["C15/45"]
+                  }
+                }, {
+                  "label" : {
+                    "en" : ["Link to catalogue"]
+                  },
+                  "value" : {
+                    "en" : ["<a href='http://explore.bl.uk/BLVU1:LSCOP-ALL:BLLSA8482414'>View the catalogue record</a>"]
+                  }
+                }, {
+                  "label" : {
+                    "en" : ["Description"]
+                  },
+                  "value" : {
+                    "en" : ["Lorna Tracy reads her short story 'Talking about it', as part of an event organised by the Poetry Society to celebrate the launch of her short story collection 'Amateur passions'"]
+                  }
+                }],
+              "rights" : "https://creativecommons.org/publicdomain/mark/1.0/",
+              "requiredStatement" : {
+                "label" : {
+                  "en" : ["Copyright and Usage"]
+                },
+                "value" : {
+                  "en" : ["<span><a href=\"http://explore.bl.uk/BLVU1:LSCOP-ALL:BLLSA8482414\">Please read the full information about this object</a><br>Public domain<br/><br/><a href=\"https://creativecommons.org/publicdomain/mark/1.0/\"><img src=\"https://i.creativecommons.org/p/mark/1.0/88x31.png\" alt=\"Public Domain Mark 1.0 License logo\"/></a></span>"]
+                }
+              },
+              "items" : [{
+                  "id" : "https://apiirc.ad.bl.uk/metadata/iiif/ark:/81055/tvdc_100005130669.0x000004#t=1994.56,4036.68",
+                  "type" : "Canvas"
+                }]
+            }]
+        }]
+    }]
+}

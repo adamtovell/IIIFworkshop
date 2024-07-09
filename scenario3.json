@@ -1,0 +1,484 @@
+{
+  "@context" : ["http://iiif.io/api/auth/1/context.json", "http://iiif.io/api/presentation/3/context.json"],
+  "id" : "https://apiirc.ad.bl.uk/metadata/iiif/ark:/81055/tvdc_100005114233.0x000002/manifest.json",
+  "type" : "Manifest",
+  "label" : {
+    "en" : ["[No title]"]
+  },
+  "rendering" : [{
+      "id" : "https://accessirc.ad.bl.uk/audio/download/ark:/81055/tvdc_100005114233.0x000002/",
+      "type" : "Audio",
+      "label" : {
+        "en" : ["Download this recording (Opens in new tab)"]
+      },
+      "format" : "audio/mp4"
+    }],
+  "metadata" : [{
+      "label" : {
+        "en" : ["Full title"]
+      },
+      "value" : {
+        "en" : ["[No Title]"]
+      }
+    }, {
+      "label" : {
+        "en" : ["Label"]
+      },
+      "value" : {
+        "en" : ["HIS MASTER'S VOICE"]
+      }
+    }, {
+      "label" : {
+        "en" : ["Format"]
+      },
+      "value" : {
+        "en" : ["1 disc 2 sides 25 cm 78 rpm"]
+      }
+    }, {
+      "label" : {
+        "en" : ["Usage"]
+      },
+      "value" : {
+        "en" : ["<span>Public domain<br/><br/><a href='https://creativecommons.org/publicdomain/mark/1.0/'><img src='https://i.creativecommons.org/p/mark/1.0/88x31.png' alt='Public Domain Mark 1.0 License logo'/></a></span>"]
+      }
+    }, {
+      "label" : {
+        "en" : ["Held by"]
+      },
+      "value" : {
+        "en" : ["<span>The British Library<br><br><img src='https://www.bl.uk/britishlibrary/resources/global/images/bl_logo_100.gif' alt='British Library logo'/></span>"]
+      }
+    }, {
+      "label" : {
+        "en" : ["Digitised by"]
+      },
+      "value" : {
+        "en" : ["<span>The British Library, 2022<br><br><img src='https://www.bl.uk/britishlibrary/resources/global/images/bl_logo_100.gif' alt='British Library Logo'/></span>"]
+      }
+    }, {
+      "label" : {
+        "en" : ["Digitisation funded by"]
+      },
+      "value" : {
+        "en" : ["<span>National Lottery Heritage Fund<br><br><img src='https://www.heritagefund.org.uk/sites/default/files/media/attachments/TNLHLF_Colour_Logo_English_RGB_0_0.jpg' alt='National Lottery Heritage Fund logo'/></span>"]
+      }
+    }, {
+      "label" : {
+        "en" : ["Identifier"]
+      },
+      "value" : {
+        "en" : ["1CS0055450"]
+      }
+    }, {
+      "label" : {
+        "en" : ["Shelfmark"]
+      },
+      "value" : {
+        "en" : ["1CS0055450"]
+      }
+    }, {
+      "label" : {
+        "en" : ["Link to catalogue"]
+      },
+      "value" : {
+        "en" : ["<a href='http://explore.bl.uk/BLVU1:LSCOP-ALL:BLLSA1473516'>View the catalogue record</a>"]
+      }
+    }],
+  "rights" : "https://creativecommons.org/publicdomain/mark/1.0/",
+  "requiredStatement" : {
+    "label" : {
+      "en" : ["Copyright and Usage"]
+    },
+    "value" : {
+      "en" : ["<span><a href=\"http://explore.bl.uk/BLVU1:LSCOP-ALL:BLLSA1473516\">Please read the full information about this object</a><br>Public domain<br/><br/><a href=\"https://creativecommons.org/publicdomain/mark/1.0/\"><img src=\"https://i.creativecommons.org/p/mark/1.0/88x31.png\" alt=\"Public Domain Mark 1.0 License logo\"/></a></span>"]
+    }
+  },
+  "provider" : [{
+      "id" : "https://www.bl.uk/about-us",
+      "type" : "Agent",
+      "label" : {
+        "en" : ["The British Library"]
+      },
+      "homepage" : [{
+          "id" : "https://www.bl.uk/",
+          "type" : "Text",
+          "format" : "text/html",
+          "label" : {
+            "en" : ["The British Library"]
+          }
+        }],
+      "logo" : [{
+          "id" : "https://www.bl.uk/images/bl_logo_100.gif",
+          "type" : "Image",
+          "format" : "image/gif"
+        }]
+    }],
+  "services" : [{
+      "id" : "https://apiirc.ad.bl.uk/auth/iiif/login",
+      "type" : "AuthCookieService1",
+      "profile" : "http://iiif.io/api/auth/1/login",
+      "description" : {
+        "en" : ["Some portions of this recording may be unavailable due to rights restrictions."]
+      },
+      "header" : {
+        "en" : ["Please Log-In"]
+      },
+      "label" : {
+        "en" : ["Login to The British Library"]
+      },
+      "service" : [{
+          "id" : "http://apiirc.ad.bl.uk/auth/iiif/token",
+          "type" : "AuthTokenService1",
+          "profile" : "http://iiif.io/api/auth/1/token"
+        }]
+    }, {
+      "id" : "http://access.bl.uk/item/share/ark:/81055/tvdc_100005114233.0x000002",
+      "type" : "Service",
+      "profile" : "https://universalviewer.io/share-extensions-profile"
+    }],
+  "homepage" : [{
+      "id" : "https://accessirc.ad.bl.uk/UniversalViewer/ark:/81055/tvdc_100005114233.0x000002",
+      "type" : "Text",
+      "format" : "text/html",
+      "label" : {
+        "en" : ["View at the British Library"]
+      }
+    }],
+  "behavior" : ["auto-advance"],
+  "items" : [{
+      "id" : "https://apiirc.ad.bl.uk/metadata/iiif/ark:/81055/tvdc_100005114233.0x000004",
+      "type" : "Canvas",
+      "label" : {
+        "en" : ["Disc 1 Side 1"]
+      },
+      "duration" : 179.0,
+      "items" : [{
+          "id" : "https://apiirc.ad.bl.uk/metadata/iiif/ark:/81055/tvdc_100005114233.0x000004/anno1",
+          "type" : "AnnotationPage",
+          "items" : [{
+              "id" : "https://apiirc.ad.bl.uk/metadata/iiif/ark:/81055/tvdc_100005114233.0x000004/anno1/1",
+              "type" : "Annotation",
+              "motivation" : "painting",
+              "target" : "https://apiirc.ad.bl.uk/metadata/iiif/ark:/81055/tvdc_100005114233.0x000004#t=00.00,179.00",
+              "body" : [{
+                  "type" : "Choice",
+                  "items" : [{
+                      "id" : "https://apiirc.ad.bl.uk/media/iiif/ark:/81055/tvdc_100005114233.0x00000b/manifest.mpd",
+                      "format" : "application/dash+xml",
+                      "type" : "Sound",
+                      "service" : [{
+                          "id" : "https://apiirc.ad.bl.uk/auth/iiif/login",
+                          "type" : "AuthCookieService1"
+                        }, {
+                          "id" : "https://apiirc.ad.bl.uk/media/dash/ark:/81055/tvdc_100005114233.0x00000b/probe.json",
+                          "type" : "AuthProbeService1",
+                          "profile" : "http://iiif.io/api/auth/1/probe"
+                        }]
+                    }, {
+                      "id" : "https://apiirc.ad.bl.uk/media/iiif/ark:/81055/tvdc_100005114233.0x00000b/index.m3u8",
+                      "format" : "application/vnd.apple.mpegURL",
+                      "type" : "Sound",
+                      "service" : [{
+                          "id" : "https://apiirc.ad.bl.uk/auth/iiif/login",
+                          "type" : "AuthCookieService1"
+                        }, {
+                          "id" : "https://apiirc.ad.bl.uk/media/hls/ark:/81055/tvdc_100005114233.0x00000b/probe.json",
+                          "type" : "AuthProbeService1",
+                          "profile" : "http://iiif.io/api/auth/1/probe"
+                        }]
+                    }]
+                }],
+              "seeAlso" : [{
+                  "id" : "https://apiirc.ad.bl.uk/waveform/tvdc_100005114233.0x00000b",
+                  "type" : "Dataset",
+                  "format" : "application/octet-stream",
+                  "profile" : "http://waveform.prototyping.bbc.co.uk"
+                }]
+            }]
+        }],
+      "thumbnail" : [{
+          "id" : "https://apiirc.ad.bl.uk/hub-logo/audio-cd.png",
+          "Type" : "Image"
+        }]
+    }, {
+      "id" : "https://apiirc.ad.bl.uk/metadata/iiif/ark:/81055/tvdc_100005114233.0x000005",
+      "type" : "Canvas",
+      "label" : {
+        "en" : ["Disc 1 Side 2"]
+      },
+      "duration" : 180.0,
+      "items" : [{
+          "id" : "https://apiirc.ad.bl.uk/metadata/iiif/ark:/81055/tvdc_100005114233.0x000005/anno2",
+          "type" : "AnnotationPage",
+          "items" : [{
+              "id" : "https://apiirc.ad.bl.uk/metadata/iiif/ark:/81055/tvdc_100005114233.0x000005/anno2/1",
+              "type" : "Annotation",
+              "motivation" : "painting",
+              "target" : "https://apiirc.ad.bl.uk/metadata/iiif/ark:/81055/tvdc_100005114233.0x000005#t=00.00,180.00",
+              "body" : [{
+                  "type" : "Choice",
+                  "items" : [{
+                      "id" : "https://apiirc.ad.bl.uk/media/iiif/ark:/81055/tvdc_100005114233.0x00000d/manifest.mpd",
+                      "format" : "application/dash+xml",
+                      "type" : "Sound",
+                      "service" : [{
+                          "id" : "https://apiirc.ad.bl.uk/auth/iiif/login",
+                          "type" : "AuthCookieService1"
+                        }, {
+                          "id" : "https://apiirc.ad.bl.uk/media/dash/ark:/81055/tvdc_100005114233.0x00000d/probe.json",
+                          "type" : "AuthProbeService1",
+                          "profile" : "http://iiif.io/api/auth/1/probe"
+                        }]
+                    }, {
+                      "id" : "https://apiirc.ad.bl.uk/media/iiif/ark:/81055/tvdc_100005114233.0x00000d/index.m3u8",
+                      "format" : "application/vnd.apple.mpegURL",
+                      "type" : "Sound",
+                      "service" : [{
+                          "id" : "https://apiirc.ad.bl.uk/auth/iiif/login",
+                          "type" : "AuthCookieService1"
+                        }, {
+                          "id" : "https://apiirc.ad.bl.uk/media/hls/ark:/81055/tvdc_100005114233.0x00000d/probe.json",
+                          "type" : "AuthProbeService1",
+                          "profile" : "http://iiif.io/api/auth/1/probe"
+                        }]
+                    }]
+                }],
+              "seeAlso" : [{
+                  "id" : "https://apiirc.ad.bl.uk/waveform/tvdc_100005114233.0x00000d",
+                  "type" : "Dataset",
+                  "format" : "application/octet-stream",
+                  "profile" : "http://waveform.prototyping.bbc.co.uk"
+                }]
+            }]
+        }],
+      "thumbnail" : [{
+          "id" : "https://apiirc.ad.bl.uk/hub-logo/audio-cd.png",
+          "Type" : "Image"
+        }]
+    }],
+  "structures" : [{
+      "id" : "https://apiirc.ad.bl.uk/metadata/iiif/ark:/81055/tvdc_100005114233.0x000002/top",
+      "type" : "Range",
+      "label" : {
+        "en" : ["[No title]"]
+      },
+      "rendering" : [{
+          "id" : "https://apiirc.ad.bl.uk/item/download/ark:/81055/tvdc_100005114233.0x000002/ark:/81055/tvdc_100005114233.0x000002/top",
+          "type" : "Audio",
+          "label" : {
+            "en" : ["Download this recording"]
+          },
+          "format" : "audio/mp4"
+        }],
+      "metadata" : [{
+          "label" : {
+            "en" : ["Full title"]
+          },
+          "value" : {
+            "en" : ["[No Title]"]
+          }
+        }, {
+          "label" : {
+            "en" : ["Label"]
+          },
+          "value" : {
+            "en" : ["HIS MASTER'S VOICE"]
+          }
+        }, {
+          "label" : {
+            "en" : ["Format"]
+          },
+          "value" : {
+            "en" : ["1 disc 2 sides 25 cm 78 rpm"]
+          }
+        }, {
+          "label" : {
+            "en" : ["Usage"]
+          },
+          "value" : {
+            "en" : ["<span>Public domain<br/><br/><a href='https://creativecommons.org/publicdomain/mark/1.0/'><img src='https://i.creativecommons.org/p/mark/1.0/88x31.png' alt='Public Domain Mark 1.0 License logo'/></a></span>"]
+          }
+        }, {
+          "label" : {
+            "en" : ["Held by"]
+          },
+          "value" : {
+            "en" : ["<span>The British Library<br><br><img src='https://www.bl.uk/britishlibrary/resources/global/images/bl_logo_100.gif' alt='British Library logo'/></span>"]
+          }
+        }, {
+          "label" : {
+            "en" : ["Digitised by"]
+          },
+          "value" : {
+            "en" : ["<span>The British Library, 2022<br><br><img src='https://www.bl.uk/britishlibrary/resources/global/images/bl_logo_100.gif' alt='British Library Logo'/></span>"]
+          }
+        }, {
+          "label" : {
+            "en" : ["Digitisation funded by"]
+          },
+          "value" : {
+            "en" : ["<span>National Lottery Heritage Fund<br><br><img src='https://www.heritagefund.org.uk/sites/default/files/media/attachments/TNLHLF_Colour_Logo_English_RGB_0_0.jpg' alt='National Lottery Heritage Fund logo'/></span>"]
+          }
+        }, {
+          "label" : {
+            "en" : ["Identifier"]
+          },
+          "value" : {
+            "en" : ["1CS0055450"]
+          }
+        }, {
+          "label" : {
+            "en" : ["Shelfmark"]
+          },
+          "value" : {
+            "en" : ["1CS0055450"]
+          }
+        }, {
+          "label" : {
+            "en" : ["Link to catalogue"]
+          },
+          "value" : {
+            "en" : ["<a href='http://explore.bl.uk/BLVU1:LSCOP-ALL:BLLSA1473516'>View the catalogue record</a>"]
+          }
+        }],
+      "rights" : "https://creativecommons.org/publicdomain/mark/1.0/",
+      "requiredStatement" : {
+        "label" : {
+          "en" : ["Copyright and Usage"]
+        },
+        "value" : {
+          "en" : ["<span><a href=\"http://explore.bl.uk/BLVU1:LSCOP-ALL:BLLSA1473516\">Please read the full information about this object</a><br>Public domain<br/><br/><a href=\"https://creativecommons.org/publicdomain/mark/1.0/\"><img src=\"https://i.creativecommons.org/p/mark/1.0/88x31.png\" alt=\"Public Domain Mark 1.0 License logo\"/></a></span>"]
+        }
+      },
+      "items" : [{
+          "id" : "https://apiirc.ad.bl.uk/metadata/iiif/ark:/81055/tvdc_100005114233.0x000006",
+          "type" : "Range",
+          "label" : {
+            "en" : ["Serenades, violin, viola, cello, op.8/Beethoven (05:53)"]
+          },
+          "rendering" : [{
+              "id" : "https://apiirc.ad.bl.uk/item/download/ark:/81055/tvdc_100005114233.0x000002/ark:/81055/tvdc_100005114233.0x000006",
+              "type" : "Audio",
+              "label" : {
+                "en" : ["Download this recording"]
+              },
+              "format" : "audio/mp4"
+            }],
+          "metadata" : [{
+              "label" : {
+                "en" : ["Full title"]
+              },
+              "value" : {
+                "en" : ["Serenades, violin, viola, cello, op.8/Beethoven"]
+              }
+            }, {
+              "label" : {
+                "en" : ["Creator"]
+              },
+              "value" : {
+                "en" : ["Sechiari, Pierre, (violin)", "Marneff, Jules, (cello)", "Vieux, Marcel, (viola)"]
+              }
+            }, {
+              "label" : {
+                "en" : ["Date"]
+              },
+              "value" : {
+                "en" : ["1907 (recorded)"]
+              }
+            }, {
+              "label" : {
+                "en" : ["Duration"]
+              },
+              "value" : {
+                "en" : ["6 min. 14 sec."]
+              }
+            }, {
+              "label" : {
+                "en" : ["Category"]
+              },
+              "value" : {
+                "en" : ["Classical music: Instrumental", "Package Chamber music"]
+              }
+            }, {
+              "label" : {
+                "en" : ["Genre"]
+              },
+              "value" : {
+                "en" : ["Chamber music"]
+              }
+            }, {
+              "label" : {
+                "en" : ["Usage"]
+              },
+              "value" : {
+                "en" : ["<span>Public domain<br/><br/><a href='https://creativecommons.org/publicdomain/mark/1.0/'><img src='https://i.creativecommons.org/p/mark/1.0/88x31.png' alt='Public Domain Mark 1.0 License logo'/></a></span>"]
+              }
+            }, {
+              "label" : {
+                "en" : ["Held by"]
+              },
+              "value" : {
+                "en" : ["<span>The British Library<br><br><img src='https://www.bl.uk/britishlibrary/resources/global/images/bl_logo_100.gif' alt='British Library logo'/></span>"]
+              }
+            }, {
+              "label" : {
+                "en" : ["Digitised by"]
+              },
+              "value" : {
+                "en" : ["<span>The British Library, 2022<br><br><img src='https://www.bl.uk/britishlibrary/resources/global/images/bl_logo_100.gif' alt='British Library Logo'/></span>"]
+              }
+            }, {
+              "label" : {
+                "en" : ["Digitisation funded by"]
+              },
+              "value" : {
+                "en" : ["<span>National Lottery Heritage Fund<br><br><img src='https://www.heritagefund.org.uk/sites/default/files/media/attachments/TNLHLF_Colour_Logo_English_RGB_0_0.jpg' alt='National Lottery Heritage Fund logo'/></span>"]
+              }
+            }, {
+              "label" : {
+                "en" : ["Identifier"]
+              },
+              "value" : {
+                "en" : ["1CS0055450 S1-2 GRAMOPHONE"]
+              }
+            }, {
+              "label" : {
+                "en" : ["Shelfmark"]
+              },
+              "value" : {
+                "en" : ["1CS0055450"]
+              }
+            }, {
+              "label" : {
+                "en" : ["Link to catalogue"]
+              },
+              "value" : {
+                "en" : ["<a href='http://explore.bl.uk/BLVU1:LSCOP-ALL:BLLSA7503978'>View the catalogue record</a>"]
+              }
+            }, {
+              "label" : {
+                "en" : ["Description"]
+              },
+              "value" : {
+                "en" : ["Theme and variations for violin.", "Theme and variations for viola and cello."]
+              }
+            }],
+          "rights" : "https://creativecommons.org/publicdomain/mark/1.0/",
+          "requiredStatement" : {
+            "label" : {
+              "en" : ["Copyright and Usage"]
+            },
+            "value" : {
+              "en" : ["<span><a href=\"http://explore.bl.uk/BLVU1:LSCOP-ALL:BLLSA7503978\">Please read the full information about this object</a><br>Public domain<br/><br/><a href=\"https://creativecommons.org/publicdomain/mark/1.0/\"><img src=\"https://i.creativecommons.org/p/mark/1.0/88x31.png\" alt=\"Public Domain Mark 1.0 License logo\"/></a></span>"]
+            }
+          },
+          "items" : [{
+              "id" : "https://apiirc.ad.bl.uk/metadata/iiif/ark:/81055/tvdc_100005114233.0x000004#t=3.00,179.00",
+              "type" : "Canvas"
+            }, {
+              "id" : "https://apiirc.ad.bl.uk/metadata/iiif/ark:/81055/tvdc_100005114233.0x000005#t=3.00,180.00",
+              "type" : "Canvas"
+            }]
+        }]
+    }]
+}

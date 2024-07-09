@@ -1,0 +1,758 @@
+{
+  "@context" : ["http://iiif.io/api/auth/1/context.json", "http://iiif.io/api/presentation/3/context.json"],
+  "id" : "https://apiirc.ad.bl.uk/metadata/iiif/ark:/81055/tvdc_100005129108.0x000002/manifest.json",
+  "type" : "Manifest",
+  "label" : {
+    "en" : ["Coppers: Bob and Ron Copper"]
+  },
+  "rendering" : [{
+      "id" : "https://accessirc.ad.bl.uk/audio/download/ark:/81055/tvdc_100005129108.0x000002/",
+      "type" : "Audio",
+      "label" : {
+        "en" : ["Download this recording (Opens in new tab)"]
+      },
+      "format" : "audio/mp4"
+    }],
+  "metadata" : [{
+      "label" : {
+        "en" : ["Full title"]
+      },
+      "value" : {
+        "en" : ["Coppers: Bob and Ron Copper"]
+      }
+    }, {
+      "label" : {
+        "en" : ["Collection"]
+      },
+      "value" : {
+        "en" : ["Peter Kennedy Collection"]
+      }
+    }, {
+      "label" : {
+        "en" : ["Format"]
+      },
+      "value" : {
+        "en" : ["1 tape reel 13 cm 38 cm/sec"]
+      }
+    }, {
+      "label" : {
+        "en" : ["Usage"]
+      },
+      "value" : {
+        "en" : ["<span>Public domain<br/><br/><a href='https://creativecommons.org/publicdomain/mark/1.0/'><img src='https://i.creativecommons.org/p/mark/1.0/88x31.png' alt='Public Domain Mark 1.0 License logo'/></a></span>"]
+      }
+    }, {
+      "label" : {
+        "en" : ["Acknowledgements"]
+      },
+      "value" : {
+        "en" : ["<span>Work with acknowledgement</span>"]
+      }
+    }, {
+      "label" : {
+        "en" : ["Held by"]
+      },
+      "value" : {
+        "en" : ["<span>The British Library<br><br><img src='https://www.bl.uk/britishlibrary/resources/global/images/bl_logo_100.gif' alt='British Library logo'/></span>"]
+      }
+    }, {
+      "label" : {
+        "en" : ["Digitised by"]
+      },
+      "value" : {
+        "en" : ["<span>The British Library, 2022<br><br><img src='https://www.bl.uk/britishlibrary/resources/global/images/bl_logo_100.gif' alt='British Library Logo'/></span>"]
+      }
+    }, {
+      "label" : {
+        "en" : ["Digitisation funded by"]
+      },
+      "value" : {
+        "en" : ["<span>National Lottery Heritage Fund<br><br><img src='https://www.heritagefund.org.uk/sites/default/files/media/attachments/TNLHLF_Colour_Logo_English_RGB_0_0.jpg' alt='National Lottery Heritage Fund logo'/></span>"]
+      }
+    }, {
+      "label" : {
+        "en" : ["Identifier"]
+      },
+      "value" : {
+        "en" : ["C604/848"]
+      }
+    }, {
+      "label" : {
+        "en" : ["Shelfmark"]
+      },
+      "value" : {
+        "en" : ["C604/848"]
+      }
+    }, {
+      "label" : {
+        "en" : ["Link to catalogue"]
+      },
+      "value" : {
+        "en" : ["<a href='http://explore.bl.uk/BLVU1:LSCOP-ALL:BLLSA7608990'>View the catalogue record</a>"]
+      }
+    }],
+  "rights" : "https://creativecommons.org/publicdomain/mark/1.0/",
+  "requiredStatement" : {
+    "label" : {
+      "en" : ["Copyright and Usage"]
+    },
+    "value" : {
+      "en" : ["<span><a href=\"http://explore.bl.uk/BLVU1:LSCOP-ALL:BLLSA7608990\">Please read the full information about this object</a><br>Please read our <a href=\"https://www.bl.uk/help/ethical-terms-of-use\">Ethical Terms of Use</a><br/>Public domain<br/><br/><a href=\"https://creativecommons.org/publicdomain/mark/1.0/\"><img src=\"https://i.creativecommons.org/p/mark/1.0/88x31.png\" alt=\"Public Domain Mark 1.0 License logo\"/></a></span>"]
+    }
+  },
+  "provider" : [{
+      "id" : "https://www.bl.uk/about-us",
+      "type" : "Agent",
+      "label" : {
+        "en" : ["The British Library"]
+      },
+      "homepage" : [{
+          "id" : "https://www.bl.uk/",
+          "type" : "Text",
+          "format" : "text/html",
+          "label" : {
+            "en" : ["The British Library"]
+          }
+        }],
+      "logo" : [{
+          "id" : "https://www.bl.uk/images/bl_logo_100.gif",
+          "type" : "Image",
+          "format" : "image/gif"
+        }]
+    }],
+  "services" : [{
+      "id" : "https://apiirc.ad.bl.uk/auth/iiif/login",
+      "type" : "AuthCookieService1",
+      "profile" : "http://iiif.io/api/auth/1/login",
+      "description" : {
+        "en" : ["Some portions of this recording may be unavailable due to rights restrictions."]
+      },
+      "header" : {
+        "en" : ["Please Log-In"]
+      },
+      "label" : {
+        "en" : ["Login to The British Library"]
+      },
+      "service" : [{
+          "id" : "http://apiirc.ad.bl.uk/auth/iiif/token",
+          "type" : "AuthTokenService1",
+          "profile" : "http://iiif.io/api/auth/1/token"
+        }]
+    }, {
+      "id" : "http://access.bl.uk/item/share/ark:/81055/tvdc_100005129108.0x000002",
+      "type" : "Service",
+      "profile" : "https://universalviewer.io/share-extensions-profile"
+    }],
+  "homepage" : [{
+      "id" : "https://accessirc.ad.bl.uk/UniversalViewer/ark:/81055/tvdc_100005129108.0x000002",
+      "type" : "Text",
+      "format" : "text/html",
+      "label" : {
+        "en" : ["View at the British Library"]
+      }
+    }],
+  "behavior" : ["auto-advance"],
+  "items" : [{
+      "id" : "https://apiirc.ad.bl.uk/metadata/iiif/ark:/81055/tvdc_100005129108.0x000004",
+      "type" : "Canvas",
+      "label" : {
+        "en" : ["Tape 1 Side 1"]
+      },
+      "duration" : 442.27999999999997,
+      "items" : [{
+          "id" : "https://apiirc.ad.bl.uk/metadata/iiif/ark:/81055/tvdc_100005129108.0x000004/anno1",
+          "type" : "AnnotationPage",
+          "items" : [{
+              "id" : "https://apiirc.ad.bl.uk/metadata/iiif/ark:/81055/tvdc_100005129108.0x000004/anno1/1",
+              "type" : "Annotation",
+              "motivation" : "painting",
+              "target" : "https://apiirc.ad.bl.uk/metadata/iiif/ark:/81055/tvdc_100005129108.0x000004#t=00.00,442.28",
+              "body" : [{
+                  "type" : "Choice",
+                  "items" : [{
+                      "id" : "https://apiirc.ad.bl.uk/media/iiif/ark:/81055/tvdc_100005129108.0x00000d/manifest.mpd",
+                      "format" : "application/dash+xml",
+                      "type" : "Sound",
+                      "service" : [{
+                          "id" : "https://apiirc.ad.bl.uk/auth/iiif/login",
+                          "type" : "AuthCookieService1"
+                        }, {
+                          "id" : "https://apiirc.ad.bl.uk/media/dash/ark:/81055/tvdc_100005129108.0x00000d/probe.json",
+                          "type" : "AuthProbeService1",
+                          "profile" : "http://iiif.io/api/auth/1/probe"
+                        }]
+                    }, {
+                      "id" : "https://apiirc.ad.bl.uk/media/iiif/ark:/81055/tvdc_100005129108.0x00000d/index.m3u8",
+                      "format" : "application/vnd.apple.mpegURL",
+                      "type" : "Sound",
+                      "service" : [{
+                          "id" : "https://apiirc.ad.bl.uk/auth/iiif/login",
+                          "type" : "AuthCookieService1"
+                        }, {
+                          "id" : "https://apiirc.ad.bl.uk/media/hls/ark:/81055/tvdc_100005129108.0x00000d/probe.json",
+                          "type" : "AuthProbeService1",
+                          "profile" : "http://iiif.io/api/auth/1/probe"
+                        }]
+                    }]
+                }],
+              "seeAlso" : [{
+                  "id" : "https://apiirc.ad.bl.uk/waveform/tvdc_100005129108.0x00000d",
+                  "type" : "Dataset",
+                  "format" : "application/octet-stream",
+                  "profile" : "http://waveform.prototyping.bbc.co.uk"
+                }]
+            }]
+        }],
+      "thumbnail" : [{
+          "id" : "https://apiirc.ad.bl.uk/hub-logo/audio-tape.png",
+          "Type" : "Image"
+        }]
+    }],
+  "structures" : [{
+      "id" : "https://apiirc.ad.bl.uk/metadata/iiif/ark:/81055/tvdc_100005129108.0x000002/top",
+      "type" : "Range",
+      "label" : {
+        "en" : ["Coppers: Bob and Ron Copper"]
+      },
+      "rendering" : [{
+          "id" : "https://apiirc.ad.bl.uk/item/download/ark:/81055/tvdc_100005129108.0x000002/ark:/81055/tvdc_100005129108.0x000002/top",
+          "type" : "Audio",
+          "label" : {
+            "en" : ["Download this recording"]
+          },
+          "format" : "audio/mp4"
+        }],
+      "metadata" : [{
+          "label" : {
+            "en" : ["Full title"]
+          },
+          "value" : {
+            "en" : ["Coppers: Bob and Ron Copper"]
+          }
+        }, {
+          "label" : {
+            "en" : ["Collection"]
+          },
+          "value" : {
+            "en" : ["Peter Kennedy Collection"]
+          }
+        }, {
+          "label" : {
+            "en" : ["Format"]
+          },
+          "value" : {
+            "en" : ["1 tape reel 13 cm 38 cm/sec"]
+          }
+        }, {
+          "label" : {
+            "en" : ["Usage"]
+          },
+          "value" : {
+            "en" : ["<span>Public domain<br/><br/><a href='https://creativecommons.org/publicdomain/mark/1.0/'><img src='https://i.creativecommons.org/p/mark/1.0/88x31.png' alt='Public Domain Mark 1.0 License logo'/></a></span>"]
+          }
+        }, {
+          "label" : {
+            "en" : ["Acknowledgements"]
+          },
+          "value" : {
+            "en" : ["<span>Work with acknowledgement</span>"]
+          }
+        }, {
+          "label" : {
+            "en" : ["Held by"]
+          },
+          "value" : {
+            "en" : ["<span>The British Library<br><br><img src='https://www.bl.uk/britishlibrary/resources/global/images/bl_logo_100.gif' alt='British Library logo'/></span>"]
+          }
+        }, {
+          "label" : {
+            "en" : ["Digitised by"]
+          },
+          "value" : {
+            "en" : ["<span>The British Library, 2022<br><br><img src='https://www.bl.uk/britishlibrary/resources/global/images/bl_logo_100.gif' alt='British Library Logo'/></span>"]
+          }
+        }, {
+          "label" : {
+            "en" : ["Digitisation funded by"]
+          },
+          "value" : {
+            "en" : ["<span>National Lottery Heritage Fund<br><br><img src='https://www.heritagefund.org.uk/sites/default/files/media/attachments/TNLHLF_Colour_Logo_English_RGB_0_0.jpg' alt='National Lottery Heritage Fund logo'/></span>"]
+          }
+        }, {
+          "label" : {
+            "en" : ["Identifier"]
+          },
+          "value" : {
+            "en" : ["C604/848"]
+          }
+        }, {
+          "label" : {
+            "en" : ["Shelfmark"]
+          },
+          "value" : {
+            "en" : ["C604/848"]
+          }
+        }, {
+          "label" : {
+            "en" : ["Link to catalogue"]
+          },
+          "value" : {
+            "en" : ["<a href='http://explore.bl.uk/BLVU1:LSCOP-ALL:BLLSA7608990'>View the catalogue record</a>"]
+          }
+        }],
+      "rights" : "https://creativecommons.org/publicdomain/mark/1.0/",
+      "requiredStatement" : {
+        "label" : {
+          "en" : ["Copyright and Usage"]
+        },
+        "value" : {
+          "en" : ["<span><a href=\"http://explore.bl.uk/BLVU1:LSCOP-ALL:BLLSA7608990\">Please read the full information about this object</a><br>Please read our <a href=\"https://www.bl.uk/help/ethical-terms-of-use\">Ethical Terms of Use</a><br/>Public domain<br/><br/><a href=\"https://creativecommons.org/publicdomain/mark/1.0/\"><img src=\"https://i.creativecommons.org/p/mark/1.0/88x31.png\" alt=\"Public Domain Mark 1.0 License logo\"/></a></span>"]
+        }
+      },
+      "items" : [{
+          "id" : "https://apiirc.ad.bl.uk/metadata/iiif/ark:/81055/tvdc_100005129108.0x000005",
+          "type" : "Range",
+          "label" : {
+            "en" : ["Bob and Ron Copper (07:21)"]
+          },
+          "rendering" : [{
+              "id" : "https://apiirc.ad.bl.uk/item/download/ark:/81055/tvdc_100005129108.0x000002/ark:/81055/tvdc_100005129108.0x000005",
+              "type" : "Audio",
+              "label" : {
+                "en" : ["Download this recording"]
+              },
+              "format" : "audio/mp4"
+            }],
+          "metadata" : [{
+              "label" : {
+                "en" : ["Full title"]
+              },
+              "value" : {
+                "en" : ["Bob and Ron Copper"]
+              }
+            }, {
+              "label" : {
+                "en" : ["Creator"]
+              },
+              "value" : {
+                "en" : ["Copper, Bob, 1915-2004 (singer, male)", "Copper, Ron, 1911-1979 (singer, male)", "Kennedy, Peter, 1922-2006 (recordist)"]
+              }
+            }, {
+              "label" : {
+                "en" : ["Date"]
+              },
+              "value" : {
+                "en" : ["1958-03 or 1963? (recorded)"]
+              }
+            }, {
+              "label" : {
+                "en" : ["Place of creation"]
+              },
+              "value" : {
+                "en" : ["Central Club, Peacehaven, East Sussex, England, UK? (recorded)", "England (place of origin)"]
+              }
+            }, {
+              "label" : {
+                "en" : ["Duration"]
+              },
+              "value" : {
+                "en" : ["7 min. 19 sec."]
+              }
+            }, {
+              "label" : {
+                "en" : ["Language"]
+              },
+              "value" : {
+                "en" : ["English"]
+              }
+            }, {
+              "label" : {
+                "en" : ["Collection"]
+              },
+              "value" : {
+                "en" : ["Peter Kennedy Collection"]
+              }
+            }, {
+              "label" : {
+                "en" : ["Category"]
+              },
+              "value" : {
+                "en" : ["World and traditional music: Europe"]
+              }
+            }, {
+              "label" : {
+                "en" : ["Genre"]
+              },
+              "value" : {
+                "en" : ["Folk songs and music"]
+              }
+            }, {
+              "label" : {
+                "en" : ["Usage"]
+              },
+              "value" : {
+                "en" : ["<span>Public domain<br/><br/><a href='https://creativecommons.org/publicdomain/mark/1.0/'><img src='https://i.creativecommons.org/p/mark/1.0/88x31.png' alt='Public Domain Mark 1.0 License logo'/></a></span>"]
+              }
+            }, {
+              "label" : {
+                "en" : ["Acknowledgements"]
+              },
+              "value" : {
+                "en" : ["<span>Work with acknowledgement</span>"]
+              }
+            }, {
+              "label" : {
+                "en" : ["Held by"]
+              },
+              "value" : {
+                "en" : ["<span>The British Library<br><br><img src='https://www.bl.uk/britishlibrary/resources/global/images/bl_logo_100.gif' alt='British Library logo'/></span>"]
+              }
+            }, {
+              "label" : {
+                "en" : ["Digitised by"]
+              },
+              "value" : {
+                "en" : ["<span>The British Library, 2022<br><br><img src='https://www.bl.uk/britishlibrary/resources/global/images/bl_logo_100.gif' alt='British Library Logo'/></span>"]
+              }
+            }, {
+              "label" : {
+                "en" : ["Digitisation funded by"]
+              },
+              "value" : {
+                "en" : ["<span>National Lottery Heritage Fund<br><br><img src='https://www.heritagefund.org.uk/sites/default/files/media/attachments/TNLHLF_Colour_Logo_English_RGB_0_0.jpg' alt='National Lottery Heritage Fund logo'/></span>"]
+              }
+            }, {
+              "label" : {
+                "en" : ["Identifier"]
+              },
+              "value" : {
+                "en" : ["C604/848 C1-2"]
+              }
+            }, {
+              "label" : {
+                "en" : ["Shelfmark"]
+              },
+              "value" : {
+                "en" : ["C604/848"]
+              }
+            }, {
+              "label" : {
+                "en" : ["Link to catalogue"]
+              },
+              "value" : {
+                "en" : ["<a href='http://explore.bl.uk/BLVU1:LSCOP-ALL:BLLSA8218420'>View the catalogue record</a>"]
+              }
+            }, {
+              "label" : {
+                "en" : ["Description"]
+              },
+              "value" : {
+                "en" : ["Two songs presumed to date from the same session recorded by Peter Kennedy in 1963, and subsequently dubbed to this reel from original tape or tapes. However, although a note on tape box reads 'Rec. Peter Kennedy 1963', Reg Hall argues for a recording date of March 1958 for a session featuring the two songs featured here (catalogued separately): Shepherd of the downs.- Two young brethren.", "Recording location inferred from Reg Hall's annotated discography of Peter Kennedy recordings."]
+              }
+            }],
+          "rights" : "https://creativecommons.org/publicdomain/mark/1.0/",
+          "requiredStatement" : {
+            "label" : {
+              "en" : ["Copyright and Usage"]
+            },
+            "value" : {
+              "en" : ["<span><a href=\"http://explore.bl.uk/BLVU1:LSCOP-ALL:BLLSA8218420\">Please read the full information about this object</a><br>Please read our <a href=\"https://www.bl.uk/help/ethical-terms-of-use\">Ethical Terms of Use</a><br/>Public domain<br/><br/><a href=\"https://creativecommons.org/publicdomain/mark/1.0/\"><img src=\"https://i.creativecommons.org/p/mark/1.0/88x31.png\" alt=\"Public Domain Mark 1.0 License logo\"/></a></span>"]
+            }
+          },
+          "items" : [{
+              "id" : "https://apiirc.ad.bl.uk/metadata/iiif/ark:/81055/tvdc_100005129108.0x000006",
+              "type" : "Range",
+              "label" : {
+                "en" : ["The shepherd of the downs (04:47)"]
+              },
+              "rendering" : [{
+                  "id" : "https://apiirc.ad.bl.uk/item/download/ark:/81055/tvdc_100005129108.0x000002/ark:/81055/tvdc_100005129108.0x000006",
+                  "type" : "Audio",
+                  "label" : {
+                    "en" : ["Download this recording"]
+                  },
+                  "format" : "audio/mp4"
+                }],
+              "metadata" : [{
+                  "label" : {
+                    "en" : ["Full title"]
+                  },
+                  "value" : {
+                    "en" : ["The shepherd of the downs"]
+                  }
+                }, {
+                  "label" : {
+                    "en" : ["Creator"]
+                  },
+                  "value" : {
+                    "en" : ["Copper, Bob, 1915-2004 (singer, male)", "Copper, Ron, 1911-1979 (singer, male)", "Kennedy, Peter, 1922-2006 (recordist)"]
+                  }
+                }, {
+                  "label" : {
+                    "en" : ["Date"]
+                  },
+                  "value" : {
+                    "en" : ["1958-03 or 1963? (recorded)"]
+                  }
+                }, {
+                  "label" : {
+                    "en" : ["Place of creation"]
+                  },
+                  "value" : {
+                    "en" : ["Central Club, Peacehaven, East Sussex, England, UK? (recorded)", "England (place of origin)"]
+                  }
+                }, {
+                  "label" : {
+                    "en" : ["Duration"]
+                  },
+                  "value" : {
+                    "en" : ["4 min. 46 sec."]
+                  }
+                }, {
+                  "label" : {
+                    "en" : ["Language"]
+                  },
+                  "value" : {
+                    "en" : ["English"]
+                  }
+                }, {
+                  "label" : {
+                    "en" : ["Collection"]
+                  },
+                  "value" : {
+                    "en" : ["Peter Kennedy Collection"]
+                  }
+                }, {
+                  "label" : {
+                    "en" : ["Category"]
+                  },
+                  "value" : {
+                    "en" : ["World and traditional music: Europe"]
+                  }
+                }, {
+                  "label" : {
+                    "en" : ["Genre"]
+                  },
+                  "value" : {
+                    "en" : ["Folk songs and music"]
+                  }
+                }, {
+                  "label" : {
+                    "en" : ["Held by"]
+                  },
+                  "value" : {
+                    "en" : ["<span>The British Library<br><br><img src='https://www.bl.uk/britishlibrary/resources/global/images/bl_logo_100.gif' alt='British Library logo'/></span>"]
+                  }
+                }, {
+                  "label" : {
+                    "en" : ["Digitised by"]
+                  },
+                  "value" : {
+                    "en" : ["<span>The British Library, 2022<br><br><img src='https://www.bl.uk/britishlibrary/resources/global/images/bl_logo_100.gif' alt='British Library Logo'/></span>"]
+                  }
+                }, {
+                  "label" : {
+                    "en" : ["Digitisation funded by"]
+                  },
+                  "value" : {
+                    "en" : ["<span>National Lottery Heritage Fund<br><br><img src='https://www.heritagefund.org.uk/sites/default/files/media/attachments/TNLHLF_Colour_Logo_English_RGB_0_0.jpg' alt='National Lottery Heritage Fund logo'/></span>"]
+                  }
+                }, {
+                  "label" : {
+                    "en" : ["Identifier"]
+                  },
+                  "value" : {
+                    "en" : ["C604/848 C1"]
+                  }
+                }, {
+                  "label" : {
+                    "en" : ["Shelfmark"]
+                  },
+                  "value" : {
+                    "en" : ["C604/848"]
+                  }
+                }, {
+                  "label" : {
+                    "en" : ["Link to catalogue"]
+                  },
+                  "value" : {
+                    "en" : ["<a href='http://explore.bl.uk/BLVU1:LSCOP-ALL:BLLSA8218411'>View the catalogue record</a>"]
+                  }
+                }, {
+                  "label" : {
+                    "en" : ["Description"]
+                  },
+                  "value" : {
+                    "en" : ["Recording location inferred from Reg Hall's annotated discography of Peter Kennedy recordings. Although a note on tape box reads 'Rec. Peter Kennedy 1963', Reg Hall argues for a recording date of March 1958 for version of this song."]
+                  }
+                }],
+              "requiredStatement" : {
+                "label" : {
+                  "en" : ["Copyright and Usage"]
+                },
+                "value" : {
+                  "en" : ["<span><a href=\"http://explore.bl.uk/BLVU1:LSCOP-ALL:BLLSA8218411\">Please read the full information about this object</a><br>Please read our <a href=\"https://www.bl.uk/help/ethical-terms-of-use\">Ethical Terms of Use</a><br/></span>"]
+                }
+              },
+              "items" : [{
+                  "id" : "https://apiirc.ad.bl.uk/metadata/iiif/ark:/81055/tvdc_100005129108.0x000004#t=2.08,288.92",
+                  "type" : "Canvas"
+                }]
+            }, {
+              "id" : "https://apiirc.ad.bl.uk/metadata/iiif/ark:/81055/tvdc_100005129108.0x000007",
+              "type" : "Range",
+              "label" : {
+                "en" : ["Two young brethren (02:34)"]
+              },
+              "rendering" : [{
+                  "id" : "https://apiirc.ad.bl.uk/item/download/ark:/81055/tvdc_100005129108.0x000002/ark:/81055/tvdc_100005129108.0x000007",
+                  "type" : "Audio",
+                  "label" : {
+                    "en" : ["Download this recording"]
+                  },
+                  "format" : "audio/mp4"
+                }],
+              "metadata" : [{
+                  "label" : {
+                    "en" : ["Full title"]
+                  },
+                  "value" : {
+                    "en" : ["Two young brethren"]
+                  }
+                }, {
+                  "label" : {
+                    "en" : ["Creator"]
+                  },
+                  "value" : {
+                    "en" : ["Copper, Bob, 1915-2004 (singer, male)", "Copper, Ron, 1911-1979 (singer, male)", "Kennedy, Peter, 1922-2006 (recordist)"]
+                  }
+                }, {
+                  "label" : {
+                    "en" : ["Date"]
+                  },
+                  "value" : {
+                    "en" : ["1958-03 or 1963? (recorded)"]
+                  }
+                }, {
+                  "label" : {
+                    "en" : ["Place of creation"]
+                  },
+                  "value" : {
+                    "en" : ["Central Club, Peacehaven, East Sussex, England, UK? (recorded)", "England (place of origin)"]
+                  }
+                }, {
+                  "label" : {
+                    "en" : ["Duration"]
+                  },
+                  "value" : {
+                    "en" : ["2 min. 33 sec."]
+                  }
+                }, {
+                  "label" : {
+                    "en" : ["Language"]
+                  },
+                  "value" : {
+                    "en" : ["English"]
+                  }
+                }, {
+                  "label" : {
+                    "en" : ["Collection"]
+                  },
+                  "value" : {
+                    "en" : ["Peter Kennedy Collection"]
+                  }
+                }, {
+                  "label" : {
+                    "en" : ["Category"]
+                  },
+                  "value" : {
+                    "en" : ["World and traditional music: Europe"]
+                  }
+                }, {
+                  "label" : {
+                    "en" : ["Genre"]
+                  },
+                  "value" : {
+                    "en" : ["Folk songs and music"]
+                  }
+                }, {
+                  "label" : {
+                    "en" : ["Usage"]
+                  },
+                  "value" : {
+                    "en" : ["<span>Public domain<br/><br/><a href='https://creativecommons.org/publicdomain/mark/1.0/'><img src='https://i.creativecommons.org/p/mark/1.0/88x31.png' alt='Public Domain Mark 1.0 License logo'/></a></span>"]
+                  }
+                }, {
+                  "label" : {
+                    "en" : ["Acknowledgements"]
+                  },
+                  "value" : {
+                    "en" : ["<span>Work with acknowledgement</span>"]
+                  }
+                }, {
+                  "label" : {
+                    "en" : ["Held by"]
+                  },
+                  "value" : {
+                    "en" : ["<span>The British Library<br><br><img src='https://www.bl.uk/britishlibrary/resources/global/images/bl_logo_100.gif' alt='British Library logo'/></span>"]
+                  }
+                }, {
+                  "label" : {
+                    "en" : ["Digitised by"]
+                  },
+                  "value" : {
+                    "en" : ["<span>The British Library, 2022<br><br><img src='https://www.bl.uk/britishlibrary/resources/global/images/bl_logo_100.gif' alt='British Library Logo'/></span>"]
+                  }
+                }, {
+                  "label" : {
+                    "en" : ["Digitisation funded by"]
+                  },
+                  "value" : {
+                    "en" : ["<span>National Lottery Heritage Fund<br><br><img src='https://www.heritagefund.org.uk/sites/default/files/media/attachments/TNLHLF_Colour_Logo_English_RGB_0_0.jpg' alt='National Lottery Heritage Fund logo'/></span>"]
+                  }
+                }, {
+                  "label" : {
+                    "en" : ["Identifier"]
+                  },
+                  "value" : {
+                    "en" : ["C604/848 C2"]
+                  }
+                }, {
+                  "label" : {
+                    "en" : ["Shelfmark"]
+                  },
+                  "value" : {
+                    "en" : ["C604/848"]
+                  }
+                }, {
+                  "label" : {
+                    "en" : ["Link to catalogue"]
+                  },
+                  "value" : {
+                    "en" : ["<a href='http://explore.bl.uk/BLVU1:LSCOP-ALL:BLLSA8218417'>View the catalogue record</a>"]
+                  }
+                }, {
+                  "label" : {
+                    "en" : ["Description"]
+                  },
+                  "value" : {
+                    "en" : ["Recording location inferred from Reg Hall's annotated discography of Peter Kennedy recordings. Although a note on tape box reads 'Rec. Peter Kennedy 1963', Reg Hall argues for a recording date of March 1958 for version of this song."]
+                  }
+                }],
+              "rights" : "https://creativecommons.org/publicdomain/mark/1.0/",
+              "requiredStatement" : {
+                "label" : {
+                  "en" : ["Copyright and Usage"]
+                },
+                "value" : {
+                  "en" : ["<span><a href=\"http://explore.bl.uk/BLVU1:LSCOP-ALL:BLLSA8218417\">Please read the full information about this object</a><br>Please read our <a href=\"https://www.bl.uk/help/ethical-terms-of-use\">Ethical Terms of Use</a><br/>Public domain<br/><br/><a href=\"https://creativecommons.org/publicdomain/mark/1.0/\"><img src=\"https://i.creativecommons.org/p/mark/1.0/88x31.png\" alt=\"Public Domain Mark 1.0 License logo\"/></a></span>"]
+                }
+              },
+              "items" : [{
+                  "id" : "https://apiirc.ad.bl.uk/metadata/iiif/ark:/81055/tvdc_100005129108.0x000004#t=288.92,442.28",
+                  "type" : "Canvas"
+                }]
+            }]
+        }]
+    }]
+}

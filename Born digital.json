@@ -1,0 +1,698 @@
+{
+  "@context" : ["http://iiif.io/api/auth/1/context.json", "http://iiif.io/api/presentation/3/context.json"],
+  "id" : "https://api-beta.bl.uk/metadata/iiif/ark:/81055/vdc_100108511663.0x000001/manifest.json",
+  "type" : "Manifest",
+  "rendering" : [{
+      "id" : "https://access-beta.bl.uk/audio/download/ark:/81055/vdc_100108511663.0x000001/",
+      "type" : "Audio",
+      "label" : {
+        "en" : ["Download this recording (Opens in new tab)"]
+      },
+      "format" : "audio/mp4"
+    }],
+  "label" : {
+    "en" : ["[No title]"]
+  },
+  "metadata" : [{
+      "label" : {
+        "en" : ["Full title"]
+      },
+      "value" : {
+        "en" : ["[No Title]"]
+      }
+    }, {
+      "label" : {
+        "en" : ["Collection"]
+      },
+      "value" : {
+        "en" : ["Authors' Lives"]
+      }
+    }, {
+      "label" : {
+        "en" : ["Format"]
+      },
+      "value" : {
+        "en" : ["8 sound files"]
+      }
+    }, {
+      "label" : {
+        "en" : ["Usage"]
+      },
+      "value" : {
+        "en" : ["<span>This material can only be used for research and private study purposes.</span>"]
+      }
+    }, {
+      "label" : {
+        "en" : ["Held by"]
+      },
+      "value" : {
+        "en" : ["<span>The British Library<br><br><img src='https://www.bl.uk/britishlibrary/resources/global/images/bl_logo_100.gif' alt='British Library logo'/></span>"]
+      }
+    }, {
+      "label" : {
+        "en" : ["Identifier"]
+      },
+      "value" : {
+        "en" : ["C1276/40"]
+      }
+    }, {
+      "label" : {
+        "en" : ["Shelfmark"]
+      },
+      "value" : {
+        "en" : ["C1276/40"]
+      }
+    }, {
+      "label" : {
+        "en" : ["Link to catalogue"]
+      },
+      "value" : {
+        "en" : ["<a href='http://explore.bl.uk/BLVU1:LSCOP-ALL:BLLSA8667243'>View the catalogue record</a>"]
+      }
+    }],
+  "requiredStatement" : {
+    "label" : {
+      "en" : ["Copyright and Usage"]
+    },
+    "value" : {
+      "en" : ["<span><a href=\"http://explore.bl.uk/BLVU1:LSCOP-ALL:BLLSA8667243\">Please read the full information about this object</a><br></span>"]
+    }
+  },
+  "provider" : [{
+      "id" : "https://www.bl.uk/about-us",
+      "type" : "Agent",
+      "label" : {
+        "en" : ["The British Library"]
+      },
+      "homepage" : [{
+          "id" : "https://www.bl.uk/",
+          "type" : "Text",
+          "format" : "text/html",
+          "label" : {
+            "en" : ["The British Library"]
+          }
+        }],
+      "logo" : [{
+          "id" : "https://www.bl.uk/images/bl_logo_100.gif",
+          "type" : "Image",
+          "format" : "image/gif"
+        }]
+    }],
+  "services" : [{
+      "id" : "https://api-beta.bl.uk/auth/iiif/login",
+      "type" : "AuthCookieService1",
+      "profile" : "http://iiif.io/api/auth/1/login",
+      "description" : {
+        "en" : ["Some portions of this recording may be unavailable due to rights restrictions."]
+      },
+      "service" : [{
+          "id" : "https://api-beta.bl.uk/auth/iiif/token",
+          "type" : "AuthTokenService1",
+          "profile" : "http://iiif.io/api/auth/1/token"
+        }]
+    }, {
+      "id" : "http://access.bl.uk/item/share/ark:/81055/vdc_100108511663.0x000001",
+      "type" : "Service",
+      "profile" : "https://universalviewer.io/share-extensions-profile"
+    }],
+  "homepage" : [{
+      "id" : "https://access-beta.bl.uk/UniversalViewer/ark:/81055/vdc_100108511663.0x000001",
+      "type" : "Text",
+      "format" : "text/html",
+      "label" : {
+        "en" : ["View at the British Library"]
+      }
+    }],
+  "related" : [{
+      "id" : "https://access-beta.bl.uk/UniversalViewer/ark:/81055/vdc_100108511663.0x000001",
+      "type" : "Text",
+      "format" : "text/html",
+      "label" : {
+        "en" : ["View at the British Library"]
+      }
+    }],
+  "behavior" : ["auto-advance"],
+  "items" : [{
+      "id" : "https://api-beta.bl.uk/metadata/iiif/ark:/81055/vdc_100108511663.0x000001/canvas",
+      "type" : "Canvas",
+      "label" : {
+        "en" : ["[No Title]"]
+      },
+      "duration" : 27139.639999999999,
+      "items" : [{
+          "id" : "https://api-beta.bl.uk/metadata/iiif/ark:/81055/vdc_100108511663.0x000001/canvas/anno1",
+          "type" : "AnnotationPage",
+          "items" : [{
+              "id" : "https://api-beta.bl.uk/metadata/iiif/ark:/81055/vdc_100108511663.0x000001/canvas/anno1/1",
+              "type" : "Annotation",
+              "motivation" : "painting",
+              "target" : "https://api-beta.bl.uk/metadata/iiif/ark:/81055/vdc_100108511663.0x000001/canvas#t=00.00,8562.48",
+              "body" : [{
+                  "type" : "Choice",
+                  "items" : [{
+                      "id" : "https://api-beta.bl.uk/media/iiif/ark:/81055/vdc_100108511663.0x00000f/manifest.mpd",
+                      "format" : "application/dash+xml",
+                      "type" : "Sound",
+                      "service" : [{
+                          "id" : "https://api-beta.bl.uk/auth/iiif/login",
+                          "type" : "AuthCookieService1"
+                        }, {
+                          "id" : "https://api-beta.bl.uk/media/dash/ark:/81055/vdc_100108511663.0x00000f/probe.json",
+                          "type" : "AuthProbeService1",
+                          "profile" : "http://iiif.io/api/auth/1/probe"
+                        }]
+                    }, {
+                      "id" : "https://api-beta.bl.uk/media/iiif/ark:/81055/vdc_100108511663.0x00000f/index.m3u8",
+                      "format" : "application/vnd.apple.mpegURL",
+                      "type" : "Sound",
+                      "service" : [{
+                          "id" : "https://api-beta.bl.uk/auth/iiif/login",
+                          "type" : "AuthCookieService1"
+                        }, {
+                          "id" : "https://api-beta.bl.uk/media/hls/ark:/81055/vdc_100108511663.0x00000f/probe.json",
+                          "type" : "AuthProbeService1",
+                          "profile" : "http://iiif.io/api/auth/1/probe"
+                        }]
+                    }]
+                }],
+              "seeAlso" : [{
+                  "id" : "https://api-beta.bl.uk/waveform/vdc_100108511663.0x00000f",
+                  "type" : "Dataset",
+                  "format" : "application/octet-stream",
+                  "profile" : "http://waveform.prototyping.bbc.co.uk"
+                }]
+            }, {
+              "id" : "https://api-beta.bl.uk/metadata/iiif/ark:/81055/vdc_100108511663.0x000001/canvas/anno1/2",
+              "type" : "Annotation",
+              "motivation" : "painting",
+              "target" : "https://api-beta.bl.uk/metadata/iiif/ark:/81055/vdc_100108511663.0x000001/canvas#t=8562.48,8571.36",
+              "body" : [{
+                  "type" : "Choice",
+                  "items" : [{
+                      "id" : "https://api-beta.bl.uk/media/iiif/ark:/81055/vdc_100108511663.0x000011/manifest.mpd",
+                      "format" : "application/dash+xml",
+                      "type" : "Sound",
+                      "service" : [{
+                          "id" : "https://api-beta.bl.uk/auth/iiif/login",
+                          "type" : "AuthCookieService1"
+                        }, {
+                          "id" : "https://api-beta.bl.uk/media/dash/ark:/81055/vdc_100108511663.0x000011/probe.json",
+                          "type" : "AuthProbeService1",
+                          "profile" : "http://iiif.io/api/auth/1/probe"
+                        }]
+                    }, {
+                      "id" : "https://api-beta.bl.uk/media/iiif/ark:/81055/vdc_100108511663.0x000011/index.m3u8",
+                      "format" : "application/vnd.apple.mpegURL",
+                      "type" : "Sound",
+                      "service" : [{
+                          "id" : "https://api-beta.bl.uk/auth/iiif/login",
+                          "type" : "AuthCookieService1"
+                        }, {
+                          "id" : "https://api-beta.bl.uk/media/hls/ark:/81055/vdc_100108511663.0x000011/probe.json",
+                          "type" : "AuthProbeService1",
+                          "profile" : "http://iiif.io/api/auth/1/probe"
+                        }]
+                    }]
+                }],
+              "seeAlso" : [{
+                  "id" : "https://api-beta.bl.uk/waveform/vdc_100108511663.0x000011",
+                  "type" : "Dataset",
+                  "format" : "application/octet-stream",
+                  "profile" : "http://waveform.prototyping.bbc.co.uk"
+                }]
+            }, {
+              "id" : "https://api-beta.bl.uk/metadata/iiif/ark:/81055/vdc_100108511663.0x000001/canvas/anno1/3",
+              "type" : "Annotation",
+              "motivation" : "painting",
+              "target" : "https://api-beta.bl.uk/metadata/iiif/ark:/81055/vdc_100108511663.0x000001/canvas#t=8571.36,13690.04",
+              "body" : [{
+                  "type" : "Choice",
+                  "items" : [{
+                      "id" : "https://api-beta.bl.uk/media/iiif/ark:/81055/vdc_100108511663.0x000013/manifest.mpd",
+                      "format" : "application/dash+xml",
+                      "type" : "Sound",
+                      "service" : [{
+                          "id" : "https://api-beta.bl.uk/auth/iiif/login",
+                          "type" : "AuthCookieService1"
+                        }, {
+                          "id" : "https://api-beta.bl.uk/media/dash/ark:/81055/vdc_100108511663.0x000013/probe.json",
+                          "type" : "AuthProbeService1",
+                          "profile" : "http://iiif.io/api/auth/1/probe"
+                        }]
+                    }, {
+                      "id" : "https://api-beta.bl.uk/media/iiif/ark:/81055/vdc_100108511663.0x000013/index.m3u8",
+                      "format" : "application/vnd.apple.mpegURL",
+                      "type" : "Sound",
+                      "service" : [{
+                          "id" : "https://api-beta.bl.uk/auth/iiif/login",
+                          "type" : "AuthCookieService1"
+                        }, {
+                          "id" : "https://api-beta.bl.uk/media/hls/ark:/81055/vdc_100108511663.0x000013/probe.json",
+                          "type" : "AuthProbeService1",
+                          "profile" : "http://iiif.io/api/auth/1/probe"
+                        }]
+                    }]
+                }],
+              "seeAlso" : [{
+                  "id" : "https://api-beta.bl.uk/waveform/vdc_100108511663.0x000013",
+                  "type" : "Dataset",
+                  "format" : "application/octet-stream",
+                  "profile" : "http://waveform.prototyping.bbc.co.uk"
+                }]
+            }, {
+              "id" : "https://api-beta.bl.uk/metadata/iiif/ark:/81055/vdc_100108511663.0x000001/canvas/anno1/4",
+              "type" : "Annotation",
+              "motivation" : "painting",
+              "target" : "https://api-beta.bl.uk/metadata/iiif/ark:/81055/vdc_100108511663.0x000001/canvas#t=13690.04,17862.24",
+              "body" : [{
+                  "type" : "Choice",
+                  "items" : [{
+                      "id" : "https://api-beta.bl.uk/media/iiif/ark:/81055/vdc_100108511663.0x000015/manifest.mpd",
+                      "format" : "application/dash+xml",
+                      "type" : "Sound",
+                      "service" : [{
+                          "id" : "https://api-beta.bl.uk/auth/iiif/login",
+                          "type" : "AuthCookieService1"
+                        }, {
+                          "id" : "https://api-beta.bl.uk/media/dash/ark:/81055/vdc_100108511663.0x000015/probe.json",
+                          "type" : "AuthProbeService1",
+                          "profile" : "http://iiif.io/api/auth/1/probe"
+                        }]
+                    }, {
+                      "id" : "https://api-beta.bl.uk/media/iiif/ark:/81055/vdc_100108511663.0x000015/index.m3u8",
+                      "format" : "application/vnd.apple.mpegURL",
+                      "type" : "Sound",
+                      "service" : [{
+                          "id" : "https://api-beta.bl.uk/auth/iiif/login",
+                          "type" : "AuthCookieService1"
+                        }, {
+                          "id" : "https://api-beta.bl.uk/media/hls/ark:/81055/vdc_100108511663.0x000015/probe.json",
+                          "type" : "AuthProbeService1",
+                          "profile" : "http://iiif.io/api/auth/1/probe"
+                        }]
+                    }]
+                }],
+              "seeAlso" : [{
+                  "id" : "https://api-beta.bl.uk/waveform/vdc_100108511663.0x000015",
+                  "type" : "Dataset",
+                  "format" : "application/octet-stream",
+                  "profile" : "http://waveform.prototyping.bbc.co.uk"
+                }]
+            }, {
+              "id" : "https://api-beta.bl.uk/metadata/iiif/ark:/81055/vdc_100108511663.0x000001/canvas/anno1/5",
+              "type" : "Annotation",
+              "motivation" : "painting",
+              "target" : "https://api-beta.bl.uk/metadata/iiif/ark:/81055/vdc_100108511663.0x000001/canvas#t=17862.24,21328.68",
+              "body" : [{
+                  "type" : "Choice",
+                  "items" : [{
+                      "id" : "https://api-beta.bl.uk/media/iiif/ark:/81055/vdc_100108511663.0x000017/manifest.mpd",
+                      "format" : "application/dash+xml",
+                      "type" : "Sound",
+                      "service" : [{
+                          "id" : "https://api-beta.bl.uk/auth/iiif/login",
+                          "type" : "AuthCookieService1"
+                        }, {
+                          "id" : "https://api-beta.bl.uk/media/dash/ark:/81055/vdc_100108511663.0x000017/probe.json",
+                          "type" : "AuthProbeService1",
+                          "profile" : "http://iiif.io/api/auth/1/probe"
+                        }]
+                    }, {
+                      "id" : "https://api-beta.bl.uk/media/iiif/ark:/81055/vdc_100108511663.0x000017/index.m3u8",
+                      "format" : "application/vnd.apple.mpegURL",
+                      "type" : "Sound",
+                      "service" : [{
+                          "id" : "https://api-beta.bl.uk/auth/iiif/login",
+                          "type" : "AuthCookieService1"
+                        }, {
+                          "id" : "https://api-beta.bl.uk/media/hls/ark:/81055/vdc_100108511663.0x000017/probe.json",
+                          "type" : "AuthProbeService1",
+                          "profile" : "http://iiif.io/api/auth/1/probe"
+                        }]
+                    }]
+                }],
+              "seeAlso" : [{
+                  "id" : "https://api-beta.bl.uk/waveform/vdc_100108511663.0x000017",
+                  "type" : "Dataset",
+                  "format" : "application/octet-stream",
+                  "profile" : "http://waveform.prototyping.bbc.co.uk"
+                }]
+            }, {
+              "id" : "https://api-beta.bl.uk/metadata/iiif/ark:/81055/vdc_100108511663.0x000001/canvas/anno1/6",
+              "type" : "Annotation",
+              "motivation" : "painting",
+              "target" : "https://api-beta.bl.uk/metadata/iiif/ark:/81055/vdc_100108511663.0x000001/canvas#t=21328.68,25161.00",
+              "body" : [{
+                  "type" : "Choice",
+                  "items" : [{
+                      "id" : "https://api-beta.bl.uk/media/iiif/ark:/81055/vdc_100108511663.0x000019/manifest.mpd",
+                      "format" : "application/dash+xml",
+                      "type" : "Sound",
+                      "service" : [{
+                          "id" : "https://api-beta.bl.uk/auth/iiif/login",
+                          "type" : "AuthCookieService1"
+                        }, {
+                          "id" : "https://api-beta.bl.uk/media/dash/ark:/81055/vdc_100108511663.0x000019/probe.json",
+                          "type" : "AuthProbeService1",
+                          "profile" : "http://iiif.io/api/auth/1/probe"
+                        }]
+                    }, {
+                      "id" : "https://api-beta.bl.uk/media/iiif/ark:/81055/vdc_100108511663.0x000019/index.m3u8",
+                      "format" : "application/vnd.apple.mpegURL",
+                      "type" : "Sound",
+                      "service" : [{
+                          "id" : "https://api-beta.bl.uk/auth/iiif/login",
+                          "type" : "AuthCookieService1"
+                        }, {
+                          "id" : "https://api-beta.bl.uk/media/hls/ark:/81055/vdc_100108511663.0x000019/probe.json",
+                          "type" : "AuthProbeService1",
+                          "profile" : "http://iiif.io/api/auth/1/probe"
+                        }]
+                    }]
+                }],
+              "seeAlso" : [{
+                  "id" : "https://api-beta.bl.uk/waveform/vdc_100108511663.0x000019",
+                  "type" : "Dataset",
+                  "format" : "application/octet-stream",
+                  "profile" : "http://waveform.prototyping.bbc.co.uk"
+                }]
+            }, {
+              "id" : "https://api-beta.bl.uk/metadata/iiif/ark:/81055/vdc_100108511663.0x000001/canvas/anno1/7",
+              "type" : "Annotation",
+              "motivation" : "painting",
+              "target" : "https://api-beta.bl.uk/metadata/iiif/ark:/81055/vdc_100108511663.0x000001/canvas#t=25161.00,25170.16",
+              "body" : [{
+                  "type" : "Choice",
+                  "items" : [{
+                      "id" : "https://api-beta.bl.uk/media/iiif/ark:/81055/vdc_100108511663.0x00001b/manifest.mpd",
+                      "format" : "application/dash+xml",
+                      "type" : "Sound",
+                      "service" : [{
+                          "id" : "https://api-beta.bl.uk/auth/iiif/login",
+                          "type" : "AuthCookieService1"
+                        }, {
+                          "id" : "https://api-beta.bl.uk/media/dash/ark:/81055/vdc_100108511663.0x00001b/probe.json",
+                          "type" : "AuthProbeService1",
+                          "profile" : "http://iiif.io/api/auth/1/probe"
+                        }]
+                    }, {
+                      "id" : "https://api-beta.bl.uk/media/iiif/ark:/81055/vdc_100108511663.0x00001b/index.m3u8",
+                      "format" : "application/vnd.apple.mpegURL",
+                      "type" : "Sound",
+                      "service" : [{
+                          "id" : "https://api-beta.bl.uk/auth/iiif/login",
+                          "type" : "AuthCookieService1"
+                        }, {
+                          "id" : "https://api-beta.bl.uk/media/hls/ark:/81055/vdc_100108511663.0x00001b/probe.json",
+                          "type" : "AuthProbeService1",
+                          "profile" : "http://iiif.io/api/auth/1/probe"
+                        }]
+                    }]
+                }],
+              "seeAlso" : [{
+                  "id" : "https://api-beta.bl.uk/waveform/vdc_100108511663.0x00001b",
+                  "type" : "Dataset",
+                  "format" : "application/octet-stream",
+                  "profile" : "http://waveform.prototyping.bbc.co.uk"
+                }]
+            }, {
+              "id" : "https://api-beta.bl.uk/metadata/iiif/ark:/81055/vdc_100108511663.0x000001/canvas/anno1/8",
+              "type" : "Annotation",
+              "motivation" : "painting",
+              "target" : "https://api-beta.bl.uk/metadata/iiif/ark:/81055/vdc_100108511663.0x000001/canvas#t=25170.16,27139.64",
+              "body" : [{
+                  "type" : "Choice",
+                  "items" : [{
+                      "id" : "https://api-beta.bl.uk/media/iiif/ark:/81055/vdc_100108511663.0x00001d/manifest.mpd",
+                      "format" : "application/dash+xml",
+                      "type" : "Sound",
+                      "service" : [{
+                          "id" : "https://api-beta.bl.uk/auth/iiif/login",
+                          "type" : "AuthCookieService1"
+                        }, {
+                          "id" : "https://api-beta.bl.uk/media/dash/ark:/81055/vdc_100108511663.0x00001d/probe.json",
+                          "type" : "AuthProbeService1",
+                          "profile" : "http://iiif.io/api/auth/1/probe"
+                        }]
+                    }, {
+                      "id" : "https://api-beta.bl.uk/media/iiif/ark:/81055/vdc_100108511663.0x00001d/index.m3u8",
+                      "format" : "application/vnd.apple.mpegURL",
+                      "type" : "Sound",
+                      "service" : [{
+                          "id" : "https://api-beta.bl.uk/auth/iiif/login",
+                          "type" : "AuthCookieService1"
+                        }, {
+                          "id" : "https://api-beta.bl.uk/media/hls/ark:/81055/vdc_100108511663.0x00001d/probe.json",
+                          "type" : "AuthProbeService1",
+                          "profile" : "http://iiif.io/api/auth/1/probe"
+                        }]
+                    }]
+                }],
+              "seeAlso" : [{
+                  "id" : "https://api-beta.bl.uk/waveform/vdc_100108511663.0x00001d",
+                  "type" : "Dataset",
+                  "format" : "application/octet-stream",
+                  "profile" : "http://waveform.prototyping.bbc.co.uk"
+                }]
+            }]
+        }],
+      "thumbnail" : [{
+          "id" : "https://api-beta.bl.uk/hub-logo/audio-tape.png",
+          "Type" : "Image"
+        }]
+    }],
+  "structures" : [{
+      "id" : "https://api-beta.bl.uk/metadata/iiif/ark:/81055/vdc_100108511663.0x000001/top",
+      "type" : "Range",
+      "label" : {
+        "en" : ["[No title]"]
+      },
+      "metadata" : [{
+          "label" : {
+            "en" : ["Full title"]
+          },
+          "value" : {
+            "en" : ["[No Title]"]
+          }
+        }, {
+          "label" : {
+            "en" : ["Collection"]
+          },
+          "value" : {
+            "en" : ["Authors' Lives"]
+          }
+        }, {
+          "label" : {
+            "en" : ["Format"]
+          },
+          "value" : {
+            "en" : ["8 sound files"]
+          }
+        }, {
+          "label" : {
+            "en" : ["Usage"]
+          },
+          "value" : {
+            "en" : ["<span>This material can only be used for research and private study purposes.</span>"]
+          }
+        }, {
+          "label" : {
+            "en" : ["Held by"]
+          },
+          "value" : {
+            "en" : ["<span>The British Library<br><br><img src='https://www.bl.uk/britishlibrary/resources/global/images/bl_logo_100.gif' alt='British Library logo'/></span>"]
+          }
+        }, {
+          "label" : {
+            "en" : ["Identifier"]
+          },
+          "value" : {
+            "en" : ["C1276/40"]
+          }
+        }, {
+          "label" : {
+            "en" : ["Shelfmark"]
+          },
+          "value" : {
+            "en" : ["C1276/40"]
+          }
+        }, {
+          "label" : {
+            "en" : ["Link to catalogue"]
+          },
+          "value" : {
+            "en" : ["<a href='http://explore.bl.uk/BLVU1:LSCOP-ALL:BLLSA8667243'>View the catalogue record</a>"]
+          }
+        }],
+      "requiredStatement" : {
+        "label" : {
+          "en" : ["Copyright and Usage"]
+        },
+        "value" : {
+          "en" : ["<span><a href=\"http://explore.bl.uk/BLVU1:LSCOP-ALL:BLLSA8667243\">Please read the full information about this object</a><br></span>"]
+        }
+      },
+      "rendering" : [{
+          "id" : "https://access-beta.bl.uk/audio/download/ark:/81055/vdc_100108511663.0x000001/ark:/81055/vdc_100108511663.0x000001/top",
+          "type" : "Audio",
+          "label" : {
+            "en" : ["Download this recording"]
+          },
+          "format" : "audio/mp4"
+        }],
+      "items" : [{
+          "id" : "https://api-beta.bl.uk/metadata/iiif/ark:/81055/vdc_100108511663.0x000002",
+          "type" : "Range",
+          "label" : {
+            "en" : ["John Moat interviewed by Sarah O'Reilly"]
+          },
+          "metadata" : [{
+              "label" : {
+                "en" : ["Full title"]
+              },
+              "value" : {
+                "en" : ["John Moat interviewed by Sarah O'Reilly"]
+              }
+            }, {
+              "label" : {
+                "en" : ["Creator"]
+              },
+              "value" : {
+                "en" : ["Moat, John, 1936-2014 (speaker, male; interviewee)", "O'Reilly, Sarah (speaker, female; interviewer)"]
+              }
+            }, {
+              "label" : {
+                "en" : ["Date"]
+              },
+              "value" : {
+                "en" : ["2010-08-09, 2010-08-10, 2010-09-20 (recorded)"]
+              }
+            }, {
+              "label" : {
+                "en" : ["Place of creation"]
+              },
+              "value" : {
+                "en" : ["Crenham Mill, Devon, England, UK (recorded)", "The British Library, London, England, UK (recorded)"]
+              }
+            }, {
+              "label" : {
+                "en" : ["Duration"]
+              },
+              "value" : {
+                "en" : ["7 hr. 32 min. 27 sec."]
+              }
+            }, {
+              "label" : {
+                "en" : ["Collection"]
+              },
+              "value" : {
+                "en" : ["Authors' Lives"]
+              }
+            }, {
+              "label" : {
+                "en" : ["Category"]
+              },
+              "value" : {
+                "en" : ["Art and literature: Literature"]
+              }
+            }, {
+              "label" : {
+                "en" : ["Genre"]
+              },
+              "value" : {
+                "en" : ["Interviews", "Oral histories"]
+              }
+            }, {
+              "label" : {
+                "en" : ["Usage"]
+              },
+              "value" : {
+                "en" : ["<span>This material can only be used for research and private study purposes.</span>"]
+              }
+            }, {
+              "label" : {
+                "en" : ["Held by"]
+              },
+              "value" : {
+                "en" : ["<span>The British Library<br><br><img src='https://www.bl.uk/britishlibrary/resources/global/images/bl_logo_100.gif' alt='British Library logo'/></span>"]
+              }
+            }, {
+              "label" : {
+                "en" : ["Identifier"]
+              },
+              "value" : {
+                "en" : ["C1276/40/01-08"]
+              }
+            }, {
+              "label" : {
+                "en" : ["Shelfmark"]
+              },
+              "value" : {
+                "en" : ["C1276/40"]
+              }
+            }, {
+              "label" : {
+                "en" : ["Link to catalogue"]
+              },
+              "value" : {
+                "en" : ["<a href='http://explore.bl.uk/BLVU1:LSCOP-ALL:BLLSA7349123'>View the catalogue record</a>"]
+              }
+            }, {
+              "label" : {
+                "en" : ["Description"]
+              },
+              "value" : {
+                "en" : ["audio files 8 WAV 16 bit 48 kHz 2-channel"]
+              }
+            }, {
+              "label" : {
+                "en" : ["Summary"]
+              },
+              "value" : {
+                "en" : ["<span>Track 1 [Session one: 9 August 2010] Interviewee’s name, John Moat [JM] and today’s date. Date and location of JM’s birth. Remarks on JM’s given names (Roger John Frothingham Moat). <span data-uv-navigate='#?t=190'>[00:03:10]</span> Parents’ names (John Henry Frothingham Moat, Norrie Fyans Fenwick). JM’s lack of interest in family history. Mentions Moat grandfather’s death in 1919 of flu and family’s Ulster and Canadian family connections. Why JM fears finding ‘hardcore’ Protestants in his family tree. <span data-uv-navigate='#?t=325'>[00:05:25]</span> Brief biographical details of grandfather’s life. Learning about large vegetable gardens surrounding his house from JM’s aunt [mentioning Antoinette, JM’s wife]. Why further attempts to understand grandfather were thwarted. Mentions grandmother, Neal. <span data-uv-navigate='#?t=498'>[00:08:18]</span> Details of father’s upbringing, mentioning his school, Radley [College]; appendicitis in first term (with remarks on JM’s own faked appendicitis during his first term at same school). Date of father’s birth, 8th April 1907. Grandmother’s forlorn ‘bedouin’ lifestyle after death of her husband. Father’s age on his father’s death. Lacunae in JM’s knowledge about his father’s early life. <span data-uv-navigate='#?t=830'>[00:13:50]</span> Remarks on father’s character, degree from Exeter College, Oxford. How father’s university tutor Dacre Balsdon encouraged JM to follow in his father’s footsteps and study at Exeter College, Oxford. Arrangement made to pay for JM’s university education. <span data-uv-navigate='#?t=1069'>[00:17:49]</span> Parents’ shared birthday. How they met. Father’s Green Howard regiment in India. Where JM and JM’s sister were born. Details of accounts father wrote at time of JM’s birth about being ill with dysentery in the mountains. <span data-uv-navigate='#?t=1324'>[00:22:04]</span> Remarks on mother’s New Zealand background, mentioning Fenwick and the Neal families; mother’s grandfather’s founding of stock exchange in Dunedin (South Island); mother’s attitude towards New Zealand (with reference to an account she wrote of her New Zealand childhood). Prompt for JM’s own trip to New Zealand years later. Mentions volume of poems ‘Practice’. Explanation of mythic qualities of IR’s family inheritance and how it has affected JM’s imagination and writing. Anecdote about editor Christopher MacLehose’s confusion in face of JM’s writing. <span data-uv-navigate='#?t=1932'>[00:32:12]</span> Mother’s ‘dangerous’ apprehension of predestination. How father’s death stole JM of his mother too. <span data-uv-navigate='#?t=2165'>[00:36:05]</span> Remarks on parents’ first meeting in Paris. Marriage in 1931. Early married life, with remarks on: India, and the move to Palestine; how father discovered a home for the family in Devon; the ‘alertness’ to opportunity JM has inherited from parents. Why Devon is important to JM. JM’s childhood response to the Devon landscape. Describes strange childhood incidences involving charged Devon landscape. <span data-uv-navigate='#?t=2916'>[00:48:36]</span></span>", "<span>Track 1 [cont.] <span data-uv-navigate='#?t=2916'>[00:48:36]</span> Amount of time JM spent outdoors as a child; being a solitary person. Describes childhood home in Devon. Brief remarks on similarity between Devon childhood home and JM’s current home, Crenham Mill. Describes landscape surrounding childhood home. <span data-uv-navigate='#?t=3214'>[00:53:34]</span> JM age at time family travelled to England to live. Weymouth location of an early childhood memory; walking in garden on arrival at Devon house. How father’s death has affected JM’s memory and quality of childhood memories that follow from it. Brief remarks on [wife] Antoinette’s training in psychosynthesis training. Feelings that followed father’s death (describes a memory that relates to writing, and father). How removal of JM’s father placed him in a world of volatile women, and affected his view of his father. How memory of father undermined masculine side to young JM’s character. Inheriting father’s gift for popularity. Legacy of father’s death on having a suppressed imaginative side. <span data-uv-navigate='#?t=3847'>[01:04:07]</span> Living with fear (as a child). Describes telling experience which intimated at JM’s future imaginative life. Describes experience at Hampshire home aged fifteen in which JM woke to find a light and his reflection in a mirror. Using step-father’s pastels to record what JM has seen in the mirror. How moment ‘cracked open’ something in JM. <span data-uv-navigate='#?t=4408'>[01:13:28]</span> Describes art teacher to whom JM showed his drawing, Chris Ellis. Remarks on Chris’s life in 1939, mentioning: agreement with friend John to become a submariner; Chris’s rejection and torment at being denied chance; win of a George Medal in another role in War; Chris’s torment at falling in love with John’s sweetheart; Chris’s posting to Malta where he met John by chance; Chris’s confession, and John’s death immediately afterwards. How JM learnt about Chris’s experiences. Chris’s story about travelling to another island, and falling in love with a married Georgian princess on it. JM’s analysis of Chris’s character. <span data-uv-navigate='#?t=4969'>[01:22:49]</span> How JM met [wife] Antoinette. Describes romantic encounter between JM and an unnamed woman on island Chris had described after JM left Oxford. JM’s mental state in period. Falling into hands of psychiatrist William Sargant. Activities in ‘lost’ years that followed before JM began teaching [at Brockhurst School, Berkshire]. Moment, when reading ‘The Ancient Mariner’ when JM began to ‘pick up’. First poem JM wrote afterwards. Mentions meeting John [Fairfax] in period. <span data-uv-navigate='#?t=5537'>[01:32:17]</span></span>", "<span>Track 1 [cont.] <span data-uv-navigate='#?t=5537'>[01:32:17]</span> Leaving Brockhurst for Crenham Mill one summer, with draft of a novel. Decision to offer himself as a teacher of creative writing to American universities. Offer to do an MFA and teach at University of California, Irvine. Contents of Antoinette’s phone call six weeks prior to JM’s departure; JM’s realisation about their relationship. Describes health scare JM experienced on journey across America. Length of JM’s contract; his teaching job; sudden departure after two months. <span data-uv-navigate='#?t=6116'>[01:41:56]</span> JM’s painting [continued], describing impact of Chris’s words on JM’s output. Oxford, with remarks on: sitting entrance exam for Geography (in which JM had his sole A Level); aunt’s letter containing a purple heart and condensed alcohol to calm JM; taking pills before General Paper and JM’s performance in; hearing he’d been accepted; conditions imposed on offer. <span data-uv-navigate='#?t=6430'>[01:47:10]</span> Remarks on JM’s poor performance in exams; fever JM developed night before returning to Oxford for second term; how JM discovered it was paratyphoid; missing second term prelims, failing third term prelims; why JM was allowed to continue at Oxford nonetheless. <span data-uv-navigate='#?t=6736'>[01:52:16]</span> Mentions ‘Aeneid’ and special lessons from friend Charlie on; anecdote about JM’s ignorance during a tutorial with Mervyn Jones. How JM discovered he’d passed his prelims; tutor Jonathan Wordsworth’s admission that JM’s Anglo-Saxon tutor Reggie Alton had spoken on his behalf. <span data-uv-navigate='#?t=6980'>[01:56:20]</span> Describes digs for second year in Iffley. Idyllic nature of JM’s year. Describes tutorials with Jonathan Wordsworth, when Wordsworth would prepare his gun for shooting weekends. Discovering poet [Thomas] Wyatt; change in JM’s studies in light of. How JM tackled exams; finishing course with ‘a straight second’. <span data-uv-navigate='#?t=7404'>[02:03:24]</span> Describes period between school and Oxford, with remarks on: JM’s attitude to National Service; excuses JM used in medical test; asthma that offered JM an escape. <span data-uv-navigate='#?t=7640'>[02:07:20]</span> Describes how a neighbour put JM in touch with artist Edmond Kapp; importance of encounter with Kapp with remarks on Kapp’s looks, talk about being an artist, offer of apprenticeship to JM. ‘Transformative’ nature of meeting with Kapp and how this carried into ethos of The Arvon Foundation. Describes thoughts during a walk in the woods on returning home after first meeting with Kapp. Moving to Monte Carlo with remarks on strangeness of year (‘Edmond almost killed my painting but he opened my way to writing’) with details of Kapp’s teaching style. Kapp’s response to JM’s writing and book that resulted. Kapp’s friendship with [agent] David Higham; Higham’s advice to JM. <span data-uv-navigate='#?t=8315'>[02:18:35]</span> Remarks on difficulty, in retrospect, of interpreting path taken in one’s life. Mentions Oxford contemporary Michael Sissons [who became a successful commercial agent] and JM’s dilemma over which agent to sign with. Why his decision may have been the wrong one. <span data-uv-navigate='#?t=8562'>[02:22:42]</span></span>", "<span>Track 2 [Session two: 10 August 2010] Date and location of recording session. <span data-uv-navigate='#?t=8'>[00:00:08]</span></span>", "<span>Track 3: Young JM’s attitude to music with remarks on: bullying teacher at JM’s prep school and effect he had on JM’s attitude to music; Kapp’s method for turning JM back on to music (played a Mozart piano concerto on his record player, watching JM all the while); effect on JM. Why music is now JM’s ‘great escape’. <span data-uv-navigate='#?t=360'>[00:06:00]</span> Kapp [continued] with remarks on his belief about the life of the artist. Explains commitment required of the artist. Kapp’s demonstration of how everything was part of the artistic endeavour, with anecdote about his preparation of a cigar. Kapp’s words to JM at end of year; why they were a gift to JM. <span data-uv-navigate='#?t=838'>[00:13:58]</span> Examples of how Kapp’s exactitude blocked JM’s ability to paint. ‘Compensatory’ effect on JM’s writing. <span data-uv-navigate='#?t=986'>[00:16:26]</span> Describes moment, years later, when JM returned to painting. Relationship between JM’s painting and writing. Mentions earning more from painting than writing. Describes early painting, with reference to poem collection ‘Skeleton Key’. [20:35]Describes writing JM was engaged in during period in France with Kapp, with remarks on the continuity of creativity from childhood onwards. Moment JM realised the power of creating something in which vowel sounds, meaning and cadence combined. Remarks on JM’s caution and secrecy about his writing in period prior to leaving university. <span data-uv-navigate='#?t=1710'>[00:28:30]</span> How JM saw his future on leaving university. The handicap of having private means. What JM would say to those who criticise him for his background. Anecdote about Ken Smith, whom JM met in early days of the Arvon Foundation, and his remarks on JM (“You’re on the other side”). <span data-uv-navigate='#?t=2047'>[00:34:07]</span> Source of JM’s means, with reference to Antoinette, her background and their mirrored life experiences. Amount JM paid for his home, Crenham Mill. Source of Antoinette’s means (and JM’s panic at the thought of them). Importance of Antoinette’s finances to purchase of first Arvon location (Totleigh Barton). How money affected JM’s attitude to the marketplace for his work. Moments of doubt about his writing. <span data-uv-navigate='#?t=2543'>[00:42:23]</span></span>", "<span>Track 3 [cont.] <span data-uv-navigate='#?t=2543'>[00:42:23]</span> How JM came to find Crenham Mill, with remarks on ‘illusory spell’ of Oxford; insecurity at centre of JM’s personality (with remarks on its sources); desire to leave London and home counties and go to Devon; finding nothing in south Devon; friend Peter’s tip about a house in north Devon; details of its previous owner, a doctor, and his work on the property. Describes meeting with doctor’s widow and her decision to sell house to JM. Remarks on landscape surrounding Crenham Mill and JM’s reaction to it on arrival. Cost of running house in period (£23 a year); teaching for three years in a nearby school [Brockhurst] and emerging from depression. Example of providence in JM’s life concerning purchase of Totleigh Barton Manor for Arvon, with description of house and its owner. Antoinette’s reaction to house. How JM trumped another offer on house. Remarks on not knowing where money to purchase house would have otherwise come from. Concluding remarks on role of providence in JM’s life. <span data-uv-navigate='#?t=3691'>[01:01:31]</span> Remarks on Brockhurst School, where JM met [John] Fairfax, with details of Fairfax’s life prior to job at Brockhurst. Remarks on head ‘JMP’. Friend (Jonathan Putton) whom JM followed to Brockhurst. <span data-uv-navigate='#?t=3895'>[01:04:55]</span> Describes beginning to write again, in hour-long stretches in the local pub, during Brockhurst period. How JM’s reality shifted in light of change to schedule. How JM came to meet [John] Fairfax in another pub. Describes ‘extraordinary working friendship’ that followed and shared formative experiences. Seeds of Arvon in their conversations. <span data-uv-navigate='#?t=4318'>[01:11:58]</span> How Fairfax helped JM’s recovery. <span data-uv-navigate='#?t=4400'>[01:13:20]</span> Description of Fairfax’s looks and character. Mentions his drinking. Remarks on ‘working holidays’ with Fairfax. Twice-weekly correspondence with, now in the Exeter University archive. Anecdotes about Fairfax’s time as a private eye and then ice cream seller in Newbury. His story about being an encyclopaedia salesman. Remarks on ‘My Improper Mother and Me’ by John Fairfax’s wife Esther. <span data-uv-navigate='#?t=5119'>[01:25:19]</span></span>", "<span>Track 4: Arvon Foundation, with discussion of way in which JM will talk about subject. How Arvon expresses ‘bi-polar’ side to JM’s personality, being apart from and active in the world. Writer P.W. Martin’s analysis of JM’s personality and poetry; JM’s thinking at time about how he could be active in the world; how Arvon became an option. <span data-uv-navigate='#?t=444'>[00:07:24]</span> Meeting Ted Hughes, with remarks on: reason JM sought a meeting with him; catching sight of him in Bude and shouting to him; JM’s impressions of him during their talk; Hughes’s scepticism about Arvon plan. Ted’s reading at last night of first Arvon course, with description of Ted’s appearance when reading. Ted’s instant conversion to Arvon idea, and support for Arvon thereafter. <span data-uv-navigate='#?t=873'>[00:14:33]</span> Reflections on why Arvon has worked, with remarks on: the hybrid nature of enterprise (arts, writing, educational); Arts Council funding for (with remarks on Council’s desire to give money to Arvon because of the involvement of authors); number of participants (fifteen per course) and length of courses; ritual inherent in course set-up, with reference to ‘the many and the one’. <span data-uv-navigate='#?t=1462'>[00:24:22]</span> What Arvon is not about. How JM’s way of seeing has led him to understand Arvon’s success. <span data-uv-navigate='#?t=1815'>[00:30:15]</span> Reflections on popularity of creative writing masters in UK universities and academia’s desire for hegemony over whole of the writing process; Arvon’s inclusive, rather than exclusive, ethos. Reflections on JM’s love of being involved in Arvon, with remarks on writers’ early involvement with scheme and their attraction to course. General remarks on the change in ratio of visionary and sustaining energy as foundations became established, so that latter energy began to dominate. <span data-uv-navigate='#?t=2472'>[00:41:12]</span> How Arvon has avoided this fate. <span data-uv-navigate='#?t=2738'>[00:45:38]</span> Remarks on JM’s relationship with Arvon today, and the reasons behind JM’s resignation. Reflections on numbers of participants in courses. JM’s feelings Arvon was a Sixties phenomenon. Importance of courses’ timing and location. <span data-uv-navigate='#?t=3078'>[00:51:18]</span> Legacy of Chairing Exeter College Commem[oration] Ball at Oxford in 1957 with remarks on band, cabaret (Alan Bennett), support jazz band (Dudley Moore) on JM’s understanding of a co-operative way of working. How this was put to use [in JM’s fiftieth year] with remarks on Cy Grant and festival ‘Concord’, and suggestion JM put to regarding rural outposts of. Model that was adopted. <span data-uv-navigate='#?t=3735'>[01:02:15]</span> Remarks on beginnings of Tandem [a teachers and artists’ alliance] project [mentions ‘Lawrence’, Lawrence Sail]. Remarks on Lawrence Sail’s skill as a chairman and funding Tandem received from the Esmee Fairbarn Foundation. Teachers’ responses to Tandem. <span data-uv-navigate='#?t=4182'>[01:09:42]</span></span>", "<span>Track 5: Remarks on the ‘central clue’ to JM’s work, mentioning: Carlos Castaneda and his wise man ‘Don Juan’; JM’s interest in dream; describes an important dream; feeling that artistic creation is arbitrary, unless rooted in mythic context. <span data-uv-navigate='#?t=486'>[00:08:06]</span> Feeling that source might be linked to JM’s ‘digested’ myth of mother and father being twins; legacy (JM’s idealised approach to the feminine and to his own condition); JM’s feelings on meeting Antoinette; making sense on breakdown, reading Jung, and about mandalas in the British Museum Reading Room. Analysis of image JM drew after months of studying mandalas; carrying gift into rest of his work. Coming back together with Antoinette and nature of their shared life; Antoinette’s impact on JM’s life, with remarks on her ‘soror mystica’ role. <span data-uv-navigate='#?t=1401'>[00:23:21]</span> Describes poem ‘The Stages of Solar Eclipse’. Mid life inner journey JM undertook, accompanied by Jung’s ‘Psychology and Alchemy’, with remarks on alchemical process. Encounter with ‘the dark feminine’ during process; its presence in JM’s early poems; analysis of ‘The Miraculous Mandarin’, describing painting JM made on subject. Comments on ‘Blanche’, JM’s forthcoming novel. [00:33:44 – 00:51:48 closed until 10 August 2080] Describes Yarner Trust (which may have imbued children with ecological views) with remarks on: John Lane; idea behind venture; finding location for centre; early managers. <span data-uv-navigate='#?t=3300'>[00:55:00]</span> JM’s involvement with ‘Resurgence’ magazine, with remarks on: magazine’s history; current editor Satish Kumar; Kumar’s move to Devon and founding of The Small School (with brief remarks on its ethos); concluding remarks on ‘alternative’ nature of North Devon enclave in which JM lives. How this has affected JM’s children. <span data-uv-navigate='#?t=3467'>[00:57:47]</span></span>", "<span>Track 6: ‘Mai’s Wedding’, ‘the work of fiction I put more into than any other prose work’, with remarks on: beginning novel on fortieth birthday; length of writing process in longhand; strange way in which words came to JM in writing and were lost; Ted Hughes’s comments on condition, and change in JM’s writing; ‘terrible’ time discussing book with Christopher MacLehose; Ted Hughes’s comments on manuscript; contradictory advice from Roger Garvin; reviewer Christopher Wordsworth’s remarks on character of Mai. How JM reacted to reception of book (rewrote it for himself). <span data-uv-navigate='#?t=783'>[00:13:03]</span> Remarks on friend Roger Dennis to whom JM turned after publication of ‘Mai’s Wedding’, with brief remarks on Dennis’s writing. <span data-uv-navigate='#?t=876'>[00:14:36]</span> Publishing, with remarks on: implications of JM’s decision to take on Michael Sissons as his agent; Christopher MacLehose’s publication of JM’s first novel ‘Heroc’; joke with Fairfax that all JM’s publishers went bust (with examples); what JM told Sissons about his writing early in their relationship (with comments on Sissons’s reaction and David Higham’s understanding of JM’s work). Christopher MacLehose’s attitude to JM’s work. <span data-uv-navigate='#?t=1367'>[00:22:47]</span> Remarks on increasing difficulty JM has faced finding a publisher over years and ease of ‘disappearing off the scene’ with reflections on JM’s feelings about this. Describes inheriting The Phoenix Press from George and Kit Barker and Maurice Carpenter, with remarks on: producing two volumes of poems on Fairfax’s Adana printing press (with anecdote about fetching paper from a municipal tip); co-operative ethos behind production of Phoenix Press books; describes marketing exercises in London meeting booksellers. <span data-uv-navigate='#?t=2007'>[00:33:27]</span> Lists poets published by The Phoenix Press (Michael Baldwin, Fiona Sampson); how poets were selected for publication; location of office (John’s cottage) and warehouse. Why Adam Thorpe was chosen to inherit press from JM and Fairfax. <span data-uv-navigate='#?t=2278'>[00:37:58]</span> Lindsay Clarke’s advice to JM to try the Godstow Press for ‘Blanche’. How press came into being [‘she’ referred to in answer is Linda Proud]. Remarks on similarity in contracts issued by The Phoenix Press and Godstow Press. <span data-uv-navigate='#?t=2617'>[00:43:37]</span> Remarks on contact which prompted JM to return to his ‘The Welcombe Overtures’ (first written in JM’s twenties); remarks on direction publishing is moving in (mentioning £1.80 unit cost of self-publishing a book of poems). [49:05] JM’s attitude towards selling his work. Remarks on a recent ‘open studio’ event. <span data-uv-navigate='#?t=3076'>[00:51:16]</span> Describes the hut in which JM writes; why JM writes standing up; JM’s ‘absolute observance’ to a writing routine until a few years ago; reflections on why a routine works for JM; why working in the hut is conclusive to JM’s writing; why writing is the hardest work one can do (with remarks on importance of avoiding distractions). Why silence is best for writing. Reflections on the experience of being interviewed. <span data-uv-navigate='#?t=3832'>[01:03:52]</span></span>", "<span>Track 7: [Session three: 20 September 2010] Date and location of recording session. <span data-uv-navigate='#?t=8'>[00:00:08]</span></span>", "<span>Track 8: Postscripts. Remarks on using interest from San Giorgio Discretionary Trust (set up in 1970s for Antoinette’s father’s bequest) to fund projects, mentioning: difference £100 could make in 1960s to young artists; founding The Extension Trust after the San Giorgio Trust matured; funding a report by Guido Casale into possibility of extending Arvon from Totleigh Barton; setting up second Arvon centre in Yorkshire, Ted Hughes’s donation of his house Lumb Bank for third centre. <span data-uv-navigate='#?t=360'>[00:06:00]</span> Lists other projects The Extension Trust has invested in. Projects yet to be realised (evolution of Arvon into an Arvon-Womad crossover for teachers at Dartington; the ‘Everywhere Centre’ about which Feilden [Feilden Clegg Bradley Studios] architects were consulted). <span data-uv-navigate='#?t=710'>[00:11:50]</span> Recalls formative childhood experience of seeing the evacuee who had been sent to stay with JM’s family fall into and emerge from the pond in family’s garden; the link to the dark feminine. Significance of JM’s prep school number (43). <span data-uv-navigate='#?t=1058'>[00:17:38]</span> How JM used jokes as a form of self-defence at school; how humour is undervalued in great books; its presence in JM’s writing, and use of humour in JM’s column for ‘Resurgence’ magazine. <span data-uv-navigate='#?t=1290'>[00:21:30]</span> Intimation in JM’s writing of rebirth. Describes two potent dreams. <span data-uv-navigate='#?t=1969'>[00:32:49]</span></span>"]
+              }
+            }],
+          "requiredStatement" : {
+            "label" : {
+              "en" : ["Copyright and Usage"]
+            },
+            "value" : {
+              "en" : ["<span><a href=\"http://explore.bl.uk/BLVU1:LSCOP-ALL:BLLSA7349123\">Please read the full information about this object</a><br></span>"]
+            }
+          },
+          "rendering" : [{
+              "id" : "https://access-beta.bl.uk/audio/download/ark:/81055/vdc_100108511663.0x000001/ark:/81055/vdc_100108511663.0x000002",
+              "type" : "Audio",
+              "label" : {
+                "en" : ["Download this recording"]
+              },
+              "format" : "audio/mp4"
+            }],
+          "items" : [{
+              "id" : "https://api-beta.bl.uk/metadata/iiif/ark:/81055/vdc_100108511663.0x000001/canvas#t=21328.68,25161.00",
+              "type" : "Canvas"
+            }, {
+              "id" : "https://api-beta.bl.uk/metadata/iiif/ark:/81055/vdc_100108511663.0x000001/canvas#t=25161.00,25170.16",
+              "type" : "Canvas"
+            }, {
+              "id" : "https://api-beta.bl.uk/metadata/iiif/ark:/81055/vdc_100108511663.0x000001/canvas#t=25170.16,27139.64",
+              "type" : "Canvas"
+            }, {
+              "id" : "https://api-beta.bl.uk/metadata/iiif/ark:/81055/vdc_100108511663.0x000001/canvas#t=0.00,8562.48",
+              "type" : "Canvas"
+            }, {
+              "id" : "https://api-beta.bl.uk/metadata/iiif/ark:/81055/vdc_100108511663.0x000001/canvas#t=17862.24,21328.68",
+              "type" : "Canvas"
+            }, {
+              "id" : "https://api-beta.bl.uk/metadata/iiif/ark:/81055/vdc_100108511663.0x000001/canvas#t=13690.04,17862.24",
+              "type" : "Canvas"
+            }, {
+              "id" : "https://api-beta.bl.uk/metadata/iiif/ark:/81055/vdc_100108511663.0x000001/canvas#t=8571.36,13690.04",
+              "type" : "Canvas"
+            }, {
+              "id" : "https://api-beta.bl.uk/metadata/iiif/ark:/81055/vdc_100108511663.0x000001/canvas#t=8562.48,8571.36",
+              "type" : "Canvas"
+            }]
+        }]
+    }]
+}

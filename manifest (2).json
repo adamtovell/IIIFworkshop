@@ -1,0 +1,533 @@
+{
+  "@context" : ["http://iiif.io/api/auth/1/context.json", "http://iiif.io/api/presentation/3/context.json"],
+  "id" : "https://api-beta.bl.uk/metadata/iiif/ark:/81055/vdc_100083207962.0x000002/manifest.json",
+  "type" : "Manifest",
+  "rendering" : [{
+      "id" : "https://access-beta.bl.uk/audio/download/ark:/81055/vdc_100083207962.0x000002/",
+      "type" : "Audio",
+      "label" : {
+        "en" : ["Download this recording (Opens in new tab)"]
+      },
+      "format" : "audio/mp4"
+    }],
+  "label" : {
+    "en" : ["[No title]"]
+  },
+  "metadata" : [{
+      "label" : {
+        "en" : ["Full title"]
+      },
+      "value" : {
+        "en" : ["[No Title]"]
+      }
+    }, {
+      "label" : {
+        "en" : ["Collection"]
+      },
+      "value" : {
+        "en" : ["Central British Fund Kindertransport Interviews"]
+      }
+    }, {
+      "label" : {
+        "en" : ["Format"]
+      },
+      "value" : {
+        "en" : ["1 compact cassette"]
+      }
+    }, {
+      "label" : {
+        "en" : ["Usage"]
+      },
+      "value" : {
+        "en" : ["<span>This material is made available under a non-commercial streaming only licence. We have been unable to locate all owners of the copyright in this material. Please contact copyright@bl.uk with any information you have regarding this item.<br/><br/><a href='https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/'><img src='https://api-beta.bl.uk/hub-logo/ogl-symbol-black-big.png' alt='Open Government License logo'/></a></span>"]
+      }
+    }, {
+      "label" : {
+        "en" : ["Acknowledgements"]
+      },
+      "value" : {
+        "en" : ["<span>© Gretel Jordan; Mark Burman; World Jewish Relief</span>"]
+      }
+    }, {
+      "label" : {
+        "en" : ["Held by"]
+      },
+      "value" : {
+        "en" : ["<span>The British Library<br><br><img src='https://www.bl.uk/britishlibrary/resources/global/images/bl_logo_100.gif' alt='British Library logo'/></span>"]
+      }
+    }, {
+      "label" : {
+        "en" : ["Digitised by"]
+      },
+      "value" : {
+        "en" : ["<span>The British Library, 2018<br><br><img src='https://www.bl.uk/britishlibrary/resources/global/images/bl_logo_100.gif' alt='British Library Logo'/></span>"]
+      }
+    }, {
+      "label" : {
+        "en" : ["Digitisation funded by"]
+      },
+      "value" : {
+        "en" : ["<span>National Lottery Heritage Fund<br><br><img src='https://www.heritagefund.org.uk/sites/default/files/media/attachments/TNLHLF_Colour_Logo_English_RGB_0_0.jpg' alt='National Lottery Heritage Fund logo'/></span>"]
+      }
+    }, {
+      "label" : {
+        "en" : ["Identifier"]
+      },
+      "value" : {
+        "en" : ["C526/39"]
+      }
+    }, {
+      "label" : {
+        "en" : ["Shelfmark"]
+      },
+      "value" : {
+        "en" : ["C526/39"]
+      }
+    }, {
+      "label" : {
+        "en" : ["Link to catalogue"]
+      },
+      "value" : {
+        "en" : ["<a href='http://explore.bl.uk/BLVU1:LSCOP-ALL:BLLSA6196190'>View the catalogue record</a>"]
+      }
+    }],
+  "rights" : "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+  "requiredStatement" : {
+    "label" : {
+      "en" : ["Copyright and Usage"]
+    },
+    "value" : {
+      "en" : ["<span><a href=\"http://explore.bl.uk/BLVU1:LSCOP-ALL:BLLSA6196190\">Please read the full information about this object</a><br>This material is made available under a non-commercial streaming only licence. We have been unable to locate all owners of the copyright in this material. Please contact copyright@bl.uk with any information you have regarding this item.<br/><br/><a href=\"https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/\"><img src=\"https://api-beta.bl.uk/hub-logo/ogl-symbol-black-big.png\" alt=\"Open Government License logo\"/></a></span>"]
+    }
+  },
+  "provider" : [{
+      "id" : "https://www.bl.uk/about-us",
+      "type" : "Agent",
+      "label" : {
+        "en" : ["The British Library"]
+      },
+      "homepage" : [{
+          "id" : "https://www.bl.uk/",
+          "type" : "Text",
+          "format" : "text/html",
+          "label" : {
+            "en" : ["The British Library"]
+          }
+        }],
+      "logo" : [{
+          "id" : "https://www.bl.uk/images/bl_logo_100.gif",
+          "type" : "Image",
+          "format" : "image/gif"
+        }]
+    }],
+  "services" : [{
+      "id" : "https://api-beta.bl.uk/auth/iiif/login",
+      "type" : "AuthCookieService1",
+      "profile" : "http://iiif.io/api/auth/1/login",
+      "description" : {
+        "en" : ["Some portions of this recording may be unavailable due to rights restrictions."]
+      },
+      "header" : {
+        "en" : ["Please Log-In"]
+      },
+      "label" : {
+        "en" : ["Login to The British Library"]
+      },
+      "service" : [{
+          "id" : "https://api-beta.bl.uk/auth/iiif/token",
+          "type" : "AuthTokenService1",
+          "profile" : "http://iiif.io/api/auth/1/token"
+        }]
+    }, {
+      "id" : "http://access.bl.uk/item/share/ark:/81055/vdc_100083207962.0x000002",
+      "type" : "Service",
+      "profile" : "https://universalviewer.io/share-extensions-profile"
+    }],
+  "homepage" : [{
+      "id" : "https://access-beta.bl.uk/UniversalViewer/ark:/81055/vdc_100083207962.0x000002",
+      "type" : "Text",
+      "format" : "text/html",
+      "label" : {
+        "en" : ["View at the British Library"]
+      }
+    }],
+  "behavior" : ["auto-advance"],
+  "items" : [{
+      "id" : "https://api-beta.bl.uk/metadata/iiif/ark:/81055/vdc_100083207962.0x000004",
+      "type" : "Canvas",
+      "label" : {
+        "en" : ["Tape 1 Tape 1 Side 1"]
+      },
+      "duration" : 2841.8800000000001,
+      "items" : [{
+          "id" : "https://api-beta.bl.uk/metadata/iiif/ark:/81055/vdc_100083207962.0x000004/anno1",
+          "type" : "AnnotationPage",
+          "items" : [{
+              "id" : "https://api-beta.bl.uk/metadata/iiif/ark:/81055/vdc_100083207962.0x000004/anno1/1",
+              "type" : "Annotation",
+              "motivation" : "painting",
+              "target" : "https://api-beta.bl.uk/metadata/iiif/ark:/81055/vdc_100083207962.0x000004#t=00.00,2841.88",
+              "body" : [{
+                  "type" : "Choice",
+                  "items" : [{
+                      "id" : "https://api-beta.bl.uk/media/iiif/ark:/81055/vdc_100083207962.0x00000b/manifest.mpd",
+                      "format" : "application/dash+xml",
+                      "type" : "Sound",
+                      "service" : [{
+                          "id" : "https://api-beta.bl.uk/auth/iiif/login",
+                          "type" : "AuthCookieService1"
+                        }, {
+                          "id" : "https://api-beta.bl.uk/media/dash/ark:/81055/vdc_100083207962.0x00000b/probe.json",
+                          "type" : "AuthProbeService1",
+                          "profile" : "http://iiif.io/api/auth/1/probe"
+                        }]
+                    }, {
+                      "id" : "https://api-beta.bl.uk/media/iiif/ark:/81055/vdc_100083207962.0x00000b/index.m3u8",
+                      "format" : "application/vnd.apple.mpegURL",
+                      "type" : "Sound",
+                      "service" : [{
+                          "id" : "https://api-beta.bl.uk/auth/iiif/login",
+                          "type" : "AuthCookieService1"
+                        }, {
+                          "id" : "https://api-beta.bl.uk/media/hls/ark:/81055/vdc_100083207962.0x00000b/probe.json",
+                          "type" : "AuthProbeService1",
+                          "profile" : "http://iiif.io/api/auth/1/probe"
+                        }]
+                    }]
+                }],
+              "seeAlso" : [{
+                  "id" : "https://api-beta.bl.uk/waveform/vdc_100083207962.0x00000b",
+                  "type" : "Dataset",
+                  "format" : "application/octet-stream",
+                  "profile" : "http://waveform.prototyping.bbc.co.uk"
+                }]
+            }]
+        }],
+      "thumbnail" : [{
+          "id" : "https://api-beta.bl.uk/hub-logo/audio-tape.png",
+          "Type" : "Image"
+        }]
+    }, {
+      "id" : "https://api-beta.bl.uk/metadata/iiif/ark:/81055/vdc_100083207962.0x000005",
+      "type" : "Canvas",
+      "label" : {
+        "en" : ["Tape 1 Tape 1 Side 2"]
+      },
+      "duration" : 1404.5599999999999,
+      "items" : [{
+          "id" : "https://api-beta.bl.uk/metadata/iiif/ark:/81055/vdc_100083207962.0x000005/anno2",
+          "type" : "AnnotationPage",
+          "items" : [{
+              "id" : "https://api-beta.bl.uk/metadata/iiif/ark:/81055/vdc_100083207962.0x000005/anno2/1",
+              "type" : "Annotation",
+              "motivation" : "painting",
+              "target" : "https://api-beta.bl.uk/metadata/iiif/ark:/81055/vdc_100083207962.0x000005#t=00.00,1404.56",
+              "body" : [{
+                  "type" : "Choice",
+                  "items" : [{
+                      "id" : "https://api-beta.bl.uk/media/iiif/ark:/81055/vdc_100083207962.0x00000d/manifest.mpd",
+                      "format" : "application/dash+xml",
+                      "type" : "Sound",
+                      "service" : [{
+                          "id" : "https://api-beta.bl.uk/auth/iiif/login",
+                          "type" : "AuthCookieService1"
+                        }, {
+                          "id" : "https://api-beta.bl.uk/media/dash/ark:/81055/vdc_100083207962.0x00000d/probe.json",
+                          "type" : "AuthProbeService1",
+                          "profile" : "http://iiif.io/api/auth/1/probe"
+                        }]
+                    }, {
+                      "id" : "https://api-beta.bl.uk/media/iiif/ark:/81055/vdc_100083207962.0x00000d/index.m3u8",
+                      "format" : "application/vnd.apple.mpegURL",
+                      "type" : "Sound",
+                      "service" : [{
+                          "id" : "https://api-beta.bl.uk/auth/iiif/login",
+                          "type" : "AuthCookieService1"
+                        }, {
+                          "id" : "https://api-beta.bl.uk/media/hls/ark:/81055/vdc_100083207962.0x00000d/probe.json",
+                          "type" : "AuthProbeService1",
+                          "profile" : "http://iiif.io/api/auth/1/probe"
+                        }]
+                    }]
+                }],
+              "seeAlso" : [{
+                  "id" : "https://api-beta.bl.uk/waveform/vdc_100083207962.0x00000d",
+                  "type" : "Dataset",
+                  "format" : "application/octet-stream",
+                  "profile" : "http://waveform.prototyping.bbc.co.uk"
+                }]
+            }]
+        }],
+      "thumbnail" : [{
+          "id" : "https://api-beta.bl.uk/hub-logo/audio-tape.png",
+          "Type" : "Image"
+        }]
+    }],
+  "structures" : [{
+      "id" : "https://api-beta.bl.uk/metadata/iiif/ark:/81055/vdc_100083207962.0x000002/top",
+      "type" : "Range",
+      "label" : {
+        "en" : ["[No title]"]
+      },
+      "metadata" : [{
+          "label" : {
+            "en" : ["Full title"]
+          },
+          "value" : {
+            "en" : ["[No Title]"]
+          }
+        }, {
+          "label" : {
+            "en" : ["Collection"]
+          },
+          "value" : {
+            "en" : ["Central British Fund Kindertransport Interviews"]
+          }
+        }, {
+          "label" : {
+            "en" : ["Format"]
+          },
+          "value" : {
+            "en" : ["1 compact cassette"]
+          }
+        }, {
+          "label" : {
+            "en" : ["Usage"]
+          },
+          "value" : {
+            "en" : ["<span>This material is made available under a non-commercial streaming only licence. We have been unable to locate all owners of the copyright in this material. Please contact copyright@bl.uk with any information you have regarding this item.<br/><br/><a href='https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/'><img src='https://api-beta.bl.uk/hub-logo/ogl-symbol-black-big.png' alt='Open Government License logo'/></a></span>"]
+          }
+        }, {
+          "label" : {
+            "en" : ["Acknowledgements"]
+          },
+          "value" : {
+            "en" : ["<span>© Gretel Jordan; Mark Burman; World Jewish Relief</span>"]
+          }
+        }, {
+          "label" : {
+            "en" : ["Held by"]
+          },
+          "value" : {
+            "en" : ["<span>The British Library<br><br><img src='https://www.bl.uk/britishlibrary/resources/global/images/bl_logo_100.gif' alt='British Library logo'/></span>"]
+          }
+        }, {
+          "label" : {
+            "en" : ["Digitised by"]
+          },
+          "value" : {
+            "en" : ["<span>The British Library, 2018<br><br><img src='https://www.bl.uk/britishlibrary/resources/global/images/bl_logo_100.gif' alt='British Library Logo'/></span>"]
+          }
+        }, {
+          "label" : {
+            "en" : ["Digitisation funded by"]
+          },
+          "value" : {
+            "en" : ["<span>National Lottery Heritage Fund<br><br><img src='https://www.heritagefund.org.uk/sites/default/files/media/attachments/TNLHLF_Colour_Logo_English_RGB_0_0.jpg' alt='National Lottery Heritage Fund logo'/></span>"]
+          }
+        }, {
+          "label" : {
+            "en" : ["Identifier"]
+          },
+          "value" : {
+            "en" : ["C526/39"]
+          }
+        }, {
+          "label" : {
+            "en" : ["Shelfmark"]
+          },
+          "value" : {
+            "en" : ["C526/39"]
+          }
+        }, {
+          "label" : {
+            "en" : ["Link to catalogue"]
+          },
+          "value" : {
+            "en" : ["<a href='http://explore.bl.uk/BLVU1:LSCOP-ALL:BLLSA6196190'>View the catalogue record</a>"]
+          }
+        }],
+      "rights" : "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+      "requiredStatement" : {
+        "label" : {
+          "en" : ["Copyright and Usage"]
+        },
+        "value" : {
+          "en" : ["<span><a href=\"http://explore.bl.uk/BLVU1:LSCOP-ALL:BLLSA6196190\">Please read the full information about this object</a><br>This material is made available under a non-commercial streaming only licence. We have been unable to locate all owners of the copyright in this material. Please contact copyright@bl.uk with any information you have regarding this item.<br/><br/><a href=\"https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/\"><img src=\"https://api-beta.bl.uk/hub-logo/ogl-symbol-black-big.png\" alt=\"Open Government License logo\"/></a></span>"]
+        }
+      },
+      "rendering" : [{
+          "id" : "https://api-beta.bl.uk/item/download/ark:/81055/vdc_100083207962.0x000002/ark:/81055/vdc_100083207962.0x000002/top",
+          "type" : "Audio",
+          "label" : {
+            "en" : ["Download this recording"]
+          },
+          "format" : "audio/mp4"
+        }],
+      "items" : [{
+          "id" : "https://api-beta.bl.uk/metadata/iiif/ark:/81055/vdc_100083207962.0x000006",
+          "type" : "Range",
+          "label" : {
+            "en" : ["Gretel Jordan interviewed by Mark Burman (1:10:47)"]
+          },
+          "metadata" : [{
+              "label" : {
+                "en" : ["Full title"]
+              },
+              "value" : {
+                "en" : ["Gretel Jordan interviewed by Mark Burman"]
+              }
+            }, {
+              "label" : {
+                "en" : ["Creator"]
+              },
+              "value" : {
+                "en" : ["Jordan, Gretel (speaker, female; interviewee)", "Burman, Mark (speaker, male; interviewer)"]
+              }
+            }, {
+              "label" : {
+                "en" : ["Date"]
+              },
+              "value" : {
+                "en" : ["1989-02-27 (recorded)"]
+              }
+            }, {
+              "label" : {
+                "en" : ["Place of creation"]
+              },
+              "value" : {
+                "en" : ["Bromley, London, England, UK? (recorded)"]
+              }
+            }, {
+              "label" : {
+                "en" : ["Duration"]
+              },
+              "value" : {
+                "en" : ["1 hr. 10 min. 46 sec."]
+              }
+            }, {
+              "label" : {
+                "en" : ["Language"]
+              },
+              "value" : {
+                "en" : ["English"]
+              }
+            }, {
+              "label" : {
+                "en" : ["Collection"]
+              },
+              "value" : {
+                "en" : ["Central British Fund Kindertransport Interviews"]
+              }
+            }, {
+              "label" : {
+                "en" : ["Category"]
+              },
+              "value" : {
+                "en" : ["World events: Migration", "Society and family: Social welfare and charity"]
+              }
+            }, {
+              "label" : {
+                "en" : ["Genre"]
+              },
+              "value" : {
+                "en" : ["Oral histories", "Interviews"]
+              }
+            }, {
+              "label" : {
+                "en" : ["Usage"]
+              },
+              "value" : {
+                "en" : ["<span>This material is made available under a non-commercial streaming only licence. We have been unable to locate all owners of the copyright in this material. Please contact copyright@bl.uk with any information you have regarding this item.<br/><br/><a href='https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/'><img src='https://api-beta.bl.uk/hub-logo/ogl-symbol-black-big.png' alt='Open Government License logo'/></a></span>"]
+              }
+            }, {
+              "label" : {
+                "en" : ["Acknowledgements"]
+              },
+              "value" : {
+                "en" : ["<span>© Gretel Jordan; Mark Burman; World Jewish Relief</span>"]
+              }
+            }, {
+              "label" : {
+                "en" : ["Held by"]
+              },
+              "value" : {
+                "en" : ["<span>The British Library<br><br><img src='https://www.bl.uk/britishlibrary/resources/global/images/bl_logo_100.gif' alt='British Library logo'/></span>"]
+              }
+            }, {
+              "label" : {
+                "en" : ["Digitised by"]
+              },
+              "value" : {
+                "en" : ["<span>The British Library, 2018<br><br><img src='https://www.bl.uk/britishlibrary/resources/global/images/bl_logo_100.gif' alt='British Library Logo'/></span>"]
+              }
+            }, {
+              "label" : {
+                "en" : ["Digitisation funded by"]
+              },
+              "value" : {
+                "en" : ["<span>National Lottery Heritage Fund<br><br><img src='https://www.heritagefund.org.uk/sites/default/files/media/attachments/TNLHLF_Colour_Logo_English_RGB_0_0.jpg' alt='National Lottery Heritage Fund logo'/></span>"]
+              }
+            }, {
+              "label" : {
+                "en" : ["Identifier"]
+              },
+              "value" : {
+                "en" : ["C526/39/01"]
+              }
+            }, {
+              "label" : {
+                "en" : ["Shelfmark"]
+              },
+              "value" : {
+                "en" : ["C526/39"]
+              }
+            }, {
+              "label" : {
+                "en" : ["Link to catalogue"]
+              },
+              "value" : {
+                "en" : ["<a href='http://explore.bl.uk/BLVU1:LSCOP-ALL:BLLSA6196192'>View the catalogue record</a>"]
+              }
+            }, {
+              "label" : {
+                "en" : ["Description"]
+              },
+              "value" : {
+                "en" : ["Occupations: nurse, nursing officer, local authority housing adviser.", "Areas of residence: Einbeck, Olden, Hamburg, Cambridge, London.", "Born in Göttingen, Germany. Date of birth withheld."]
+              }
+            }, {
+              "label" : {
+                "en" : ["Summary"]
+              },
+              "value" : {
+                "en" : ["<span>Part 1 [Tape 1 (F1539) Side A] <span data-uv-navigate='#?t=0'>[00:00:00]</span>: Lived in Einbeck, Germany, parents Adolf and Frieda, 3 sisters Anna, Lisa. Moved to grandmother's house when father's business was affected by Nazis. Both brothers Hans and Otto emigrated to South Africa: saw Hans off after he'd been put in camp following Kristallnacht 1938. One sister went to Hachshara in Denmark. Betrayed on way to Sweden. Sister escaped. Brother-in-law rescued by Count Bernadotte Transport. Otto died in Terezin (Theresienstadt). Father died in 1940 of natural causes in camp. Lived in non-Jewish towns. Kept Shabbos and festivals, no synagogue but a visiting teacher of Hebrew. More German than Jewish. Father fought during First World War. Merchant, attended Hebrew classes. Parents thought Hitler wouldn't last, non-political, no interest in Zionism. Sent to Jewish school in Hamburg. Remembers being sent for coffee after Kristallnacht. Most friends joined B.D.M. (Bund Deutscher Mädel). Hamburg orthodox orphanage, enjoyed it, all had same amount of pocket money. Opposite army barracks, remembers troops after Anschluss. Learnt sewing, cooking, Hebrew in preparation for leaving, father remained in home town. Seen off on transport by mother, put in charge of a small boy. Arrived in Holland, very hot, 30 degrees. Given orange juice. Had blue suit and blouse on. Took 50 friends with her. Knew she wouldn't see family again. Thought Harwich had lots of chimney pots. Sponsored by Dr and Mrs Drury, could speak some English. Taken to their home, 2 children of their own. Sent for domestic training by JR Committee. Invited for tea every weekend. Given tuppence and a penny. Most of the other girls in Homerton College were Austrian. Received half a crown a week. Petrified at outbreak of War. Given C Class category. Trained as nurse at Clare Hall Hospital, Hillingdon Hospital and Central Middlesex Hospital during War. Had wanted to be sociologist. Danced outside pub on VE day. Worked very hard partly not to think about her family. No contact with Jewish authorities. Wary of men, regrets not starting family.</span>", "<span>Part 2 [Tape 1 (F1539) Side B] <span data-uv-navigate='#?t=2841'>[00:47:21]</span>: Became midwife. Visited brother in 1941. Had grown apart, found racism there abhorrent, angry at them for not getting parents out. Later career ward sister at Canadian Red Cross Hospital, senior night sister Hammersmith etc. Didn't talk about her background for long time. Now involved, after retirement, in WIZO (Women’s International Zionist Organisation) and local synagogue.</span>"]
+              }
+            }],
+          "rights" : "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+          "requiredStatement" : {
+            "label" : {
+              "en" : ["Copyright and Usage"]
+            },
+            "value" : {
+              "en" : ["<span><a href=\"http://explore.bl.uk/BLVU1:LSCOP-ALL:BLLSA6196192\">Please read the full information about this object</a><br>This material is made available under a non-commercial streaming only licence. We have been unable to locate all owners of the copyright in this material. Please contact copyright@bl.uk with any information you have regarding this item.<br/><br/><a href=\"https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/\"><img src=\"https://api-beta.bl.uk/hub-logo/ogl-symbol-black-big.png\" alt=\"Open Government License logo\"/></a></span>"]
+            }
+          },
+          "rendering" : [{
+              "id" : "https://api-beta.bl.uk/item/download/ark:/81055/vdc_100083207962.0x000002/ark:/81055/vdc_100083207962.0x000006",
+              "type" : "Audio",
+              "label" : {
+                "en" : ["Download this recording"]
+              },
+              "format" : "audio/mp4"
+            }],
+          "items" : [{
+              "id" : "https://api-beta.bl.uk/metadata/iiif/ark:/81055/vdc_100083207962.0x000004#t=0.00,2841.88",
+              "type" : "Canvas"
+            }, {
+              "id" : "https://api-beta.bl.uk/metadata/iiif/ark:/81055/vdc_100083207962.0x000005#t=0.00,1404.56",
+              "type" : "Canvas"
+            }]
+        }]
+    }]
+}

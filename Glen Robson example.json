@@ -1,0 +1,609 @@
+{
+  "@context" : ["http://iiif.io/api/auth/1/context.json", "http://iiif.io/api/presentation/3/context.json"],
+  "id" : "https://api-beta.bl.uk/metadata/iiif/ark:/81055/vdc_100140656320.0x000002/manifest.json",
+  "type" : "Manifest",
+  "label" : {
+    "en" : ["Sal's got a sugar lip"]
+  },
+  "metadata" : [{
+      "label" : {
+        "en" : ["Full title"]
+      },
+      "value" : {
+        "en" : ["Sal's got a sugar lip"]
+      }
+    }, {
+      "label" : {
+        "en" : ["Label"]
+      },
+      "value" : {
+        "en" : ["PYE"]
+      }
+    }, {
+      "label" : {
+        "en" : ["Format"]
+      },
+      "value" : {
+        "en" : ["1 disc 2 sides 17 cm 45 rpm"]
+      }
+    }, {
+      "label" : {
+        "en" : ["Usage"]
+      },
+      "value" : {
+        "en" : ["<span>This material can only be used for research and private study purposes</span>"]
+      }
+    }, {
+      "label" : {
+        "en" : ["Held by"]
+      },
+      "value" : {
+        "en" : ["<span>The British Library<br><br><img src='https://www.bl.uk/britishlibrary/resources/global/images/bl_logo_100.gif' alt='British Library logo'/></span>"]
+      }
+    }, {
+      "label" : {
+        "en" : ["Digitised by"]
+      },
+      "value" : {
+        "en" : ["<span>The British Library, 2013<br><br><img src='https://www.bl.uk/britishlibrary/resources/global/images/bl_logo_100.gif' alt='British Library Logo'/></span>"]
+      }
+    }, {
+      "label" : {
+        "en" : ["Digitisation funded by"]
+      },
+      "value" : {
+        "en" : ["The British Library"]
+      }
+    }, {
+      "label" : {
+        "en" : ["Identifier"]
+      },
+      "value" : {
+        "en" : ["1SE0039342 2SE0025608"]
+      }
+    }, {
+      "label" : {
+        "en" : ["Shelfmark"]
+      },
+      "value" : {
+        "en" : ["1SE0039342", "2SE0025608"]
+      }
+    }, {
+      "label" : {
+        "en" : ["Link to catalogue"]
+      },
+      "value" : {
+        "en" : ["<a href='http://explore.bl.uk/BLVU1:LSCOP-ALL:BLLSA1670257'>View the catalogue record</a>"]
+      }
+    }],
+  "requiredStatement" : {
+    "label" : {
+      "en" : ["Copyright and Usage"]
+    },
+    "value" : {
+      "en" : ["<span><a href=\"http://explore.bl.uk/BLVU1:LSCOP-ALL:BLLSA1670257\">Please read the full information about this object</a><br>This material can only be used for research and private study purposes</span>"]
+    }
+  },
+  "provider" : [{
+      "id" : "https://www.bl.uk/about-us",
+      "type" : "Agent",
+      "label" : {
+        "en" : ["The British Library"]
+      },
+      "homepage" : [{
+          "id" : "https://www.bl.uk/",
+          "type" : "Text",
+          "format" : "text/html",
+          "label" : {
+            "en" : ["The British Library"]
+          }
+        }],
+      "logo" : [{
+          "id" : "https://www.bl.uk/images/bl_logo_100.gif",
+          "type" : "Image",
+          "format" : "image/gif"
+        }]
+    }],
+  "services" : [{
+      "id" : "https://api-beta.bl.uk/auth/iiif/login",
+      "type" : "AuthCookieService1",
+      "profile" : "http://iiif.io/api/auth/1/login",
+      "description" : {
+        "en" : ["Some portions of this recording may be unavailable due to rights restrictions."]
+      },
+      "service" : [{
+          "id" : "https://api-beta.bl.uk/auth/iiif/token",
+          "type" : "AuthTokenService1",
+          "profile" : "http://iiif.io/api/auth/1/token"
+        }]
+    }, {
+      "id" : "http://access.bl.uk/item/share/ark:/81055/vdc_100140656320.0x000002",
+      "type" : "Service",
+      "profile" : "https://universalviewer.io/share-extensions-profile"
+    }],
+  "accompanyingCanvas" : {
+    "id" : "https://api-beta.bl.uk/metadata/iiif/ark:/81055/vdc_100140656320.0x000002/c/poster",
+    "type" : "Canvas",
+    "label" : {
+      "en" : ["Illustration"]
+    },
+    "width" : 1440,
+    "height" : 1434,
+    "items" : [{
+        "id" : "https://api-beta.bl.uk/metadata/iiif/ark:/81055/vdc_100140656320.0x000002/c/a1",
+        "type" : "AnnotationPage",
+        "items" : [{
+            "id" : "https://api-beta.bl.uk/metadata/iiif/ark:/81055/vdc_100140656320.0x000002/c/a1/a1",
+            "type" : "Annotation",
+            "motivation" : "painting",
+            "target" : "https://api-beta.bl.uk/metadata/iiif/ark:/81055/vdc_100140656320.0x000002/c/poster",
+            "body" : [{
+                "id" : "https://api-beta.bl.uk/image/static/ark:/81055/vdc_100140656320.0x000011?vdc_100140656320.0x000002",
+                "type" : "Image",
+                "width" : 1440,
+                "height" : 1434,
+                "format" : "image/jp2"
+              }]
+          }]
+      }]
+  },
+  "thumbnail" : {
+    "id" : "https://api-beta.bl.uk/image/static/ark:/81055/vdc_100140656320.0x000011?vdc_100140656320.0x000002",
+    "type" : "Image",
+    "width" : 1440,
+    "height" : 1434,
+    "format" : "image/jp2"
+  },
+  "homepage" : [{
+      "id" : "https://access-beta.bl.uk/UniversalViewer/ark:/81055/vdc_100140656320.0x000002",
+      "type" : "Text",
+      "format" : "text/html",
+      "label" : {
+        "en" : ["View at the British Library"]
+      }
+    }],
+  "related" : [{
+      "id" : "https://access-beta.bl.uk/UniversalViewer/ark:/81055/vdc_100140656320.0x000002",
+      "type" : "Text",
+      "format" : "text/html",
+      "label" : {
+        "en" : ["View at the British Library"]
+      }
+    }],
+  "behavior" : ["auto-advance"],
+  "items" : [{
+      "id" : "https://api-beta.bl.uk/metadata/iiif/ark:/81055/vdc_100140656320.0x000004",
+      "type" : "Canvas",
+      "label" : {
+        "en" : ["Disc 1 Side 1"]
+      },
+      "duration" : 182.88,
+      "items" : [{
+          "id" : "https://api-beta.bl.uk/metadata/iiif/ark:/81055/vdc_100140656320.0x000004/anno1",
+          "type" : "AnnotationPage",
+          "items" : [{
+              "id" : "https://api-beta.bl.uk/metadata/iiif/ark:/81055/vdc_100140656320.0x000004/anno1/1",
+              "type" : "Annotation",
+              "motivation" : "painting",
+              "target" : "https://api-beta.bl.uk/metadata/iiif/ark:/81055/vdc_100140656320.0x000004#t=00.00,182.88",
+              "body" : [{
+                  "type" : "Choice",
+                  "items" : [{
+                      "id" : "https://api-beta.bl.uk/media/iiif/ark:/81055/vdc_100140656320.0x00000e/manifest.mpd",
+                      "format" : "application/dash+xml",
+                      "type" : "Sound",
+                      "service" : [{
+                          "id" : "https://api-beta.bl.uk/auth/iiif/login",
+                          "type" : "AuthCookieService1"
+                        }, {
+                          "id" : "https://api-beta.bl.uk/media/dash/ark:/81055/vdc_100140656320.0x00000e/probe.json",
+                          "type" : "AuthProbeService1",
+                          "profile" : "http://iiif.io/api/auth/1/probe"
+                        }]
+                    }, {
+                      "id" : "https://api-beta.bl.uk/media/iiif/ark:/81055/vdc_100140656320.0x00000e/index.m3u8",
+                      "format" : "application/vnd.apple.mpegURL",
+                      "type" : "Sound",
+                      "service" : [{
+                          "id" : "https://api-beta.bl.uk/auth/iiif/login",
+                          "type" : "AuthCookieService1"
+                        }, {
+                          "id" : "https://api-beta.bl.uk/media/hls/ark:/81055/vdc_100140656320.0x00000e/probe.json",
+                          "type" : "AuthProbeService1",
+                          "profile" : "http://iiif.io/api/auth/1/probe"
+                        }]
+                    }]
+                }],
+              "seeAlso" : [{
+                  "id" : "https://api-beta.bl.uk/waveform/vdc_100140656320.0x00000e",
+                  "type" : "Dataset",
+                  "format" : "application/octet-stream",
+                  "profile" : "http://waveform.prototyping.bbc.co.uk"
+                }]
+            }]
+        }],
+      "thumbnail" : [{
+          "id" : "https://api-beta.bl.uk/hub-logo/audio-cd.png",
+          "Type" : "Image"
+        }]
+    }, {
+      "id" : "https://api-beta.bl.uk/metadata/iiif/ark:/81055/vdc_100140656320.0x000005",
+      "type" : "Canvas",
+      "label" : {
+        "en" : ["Disc 1 Side 2"]
+      },
+      "duration" : 168.80000000000001,
+      "items" : [{
+          "id" : "https://api-beta.bl.uk/metadata/iiif/ark:/81055/vdc_100140656320.0x000005/anno2",
+          "type" : "AnnotationPage",
+          "items" : [{
+              "id" : "https://api-beta.bl.uk/metadata/iiif/ark:/81055/vdc_100140656320.0x000005/anno2/1",
+              "type" : "Annotation",
+              "motivation" : "painting",
+              "target" : "https://api-beta.bl.uk/metadata/iiif/ark:/81055/vdc_100140656320.0x000005#t=00.00,168.80",
+              "body" : [{
+                  "type" : "Choice",
+                  "items" : [{
+                      "id" : "https://api-beta.bl.uk/media/iiif/ark:/81055/vdc_100140656320.0x000010/manifest.mpd",
+                      "format" : "application/dash+xml",
+                      "type" : "Sound",
+                      "service" : [{
+                          "id" : "https://api-beta.bl.uk/auth/iiif/login",
+                          "type" : "AuthCookieService1"
+                        }, {
+                          "id" : "https://api-beta.bl.uk/media/dash/ark:/81055/vdc_100140656320.0x000010/probe.json",
+                          "type" : "AuthProbeService1",
+                          "profile" : "http://iiif.io/api/auth/1/probe"
+                        }]
+                    }, {
+                      "id" : "https://api-beta.bl.uk/media/iiif/ark:/81055/vdc_100140656320.0x000010/index.m3u8",
+                      "format" : "application/vnd.apple.mpegURL",
+                      "type" : "Sound",
+                      "service" : [{
+                          "id" : "https://api-beta.bl.uk/auth/iiif/login",
+                          "type" : "AuthCookieService1"
+                        }, {
+                          "id" : "https://api-beta.bl.uk/media/hls/ark:/81055/vdc_100140656320.0x000010/probe.json",
+                          "type" : "AuthProbeService1",
+                          "profile" : "http://iiif.io/api/auth/1/probe"
+                        }]
+                    }]
+                }],
+              "seeAlso" : [{
+                  "id" : "https://api-beta.bl.uk/waveform/vdc_100140656320.0x000010",
+                  "type" : "Dataset",
+                  "format" : "application/octet-stream",
+                  "profile" : "http://waveform.prototyping.bbc.co.uk"
+                }]
+            }]
+        }],
+      "thumbnail" : [{
+          "id" : "https://api-beta.bl.uk/hub-logo/audio-cd.png",
+          "Type" : "Image"
+        }]
+    }],
+  "structures" : [{
+      "id" : "https://api-beta.bl.uk/metadata/iiif/ark:/81055/vdc_100140656320.0x000002/top",
+      "type" : "Range",
+      "label" : {
+        "en" : ["Sal's got a sugar lip"]
+      },
+      "metadata" : [{
+          "label" : {
+            "en" : ["Full title"]
+          },
+          "value" : {
+            "en" : ["Sal's got a sugar lip"]
+          }
+        }, {
+          "label" : {
+            "en" : ["Label"]
+          },
+          "value" : {
+            "en" : ["PYE"]
+          }
+        }, {
+          "label" : {
+            "en" : ["Format"]
+          },
+          "value" : {
+            "en" : ["1 disc 2 sides 17 cm 45 rpm"]
+          }
+        }, {
+          "label" : {
+            "en" : ["Usage"]
+          },
+          "value" : {
+            "en" : ["<span>This material can only be used for research and private study purposes</span>"]
+          }
+        }, {
+          "label" : {
+            "en" : ["Held by"]
+          },
+          "value" : {
+            "en" : ["<span>The British Library<br><br><img src='https://www.bl.uk/britishlibrary/resources/global/images/bl_logo_100.gif' alt='British Library logo'/></span>"]
+          }
+        }, {
+          "label" : {
+            "en" : ["Digitised by"]
+          },
+          "value" : {
+            "en" : ["<span>The British Library, 2013<br><br><img src='https://www.bl.uk/britishlibrary/resources/global/images/bl_logo_100.gif' alt='British Library Logo'/></span>"]
+          }
+        }, {
+          "label" : {
+            "en" : ["Digitisation funded by"]
+          },
+          "value" : {
+            "en" : ["The British Library"]
+          }
+        }, {
+          "label" : {
+            "en" : ["Identifier"]
+          },
+          "value" : {
+            "en" : ["1SE0039342 2SE0025608"]
+          }
+        }, {
+          "label" : {
+            "en" : ["Shelfmark"]
+          },
+          "value" : {
+            "en" : ["1SE0039342", "2SE0025608"]
+          }
+        }, {
+          "label" : {
+            "en" : ["Link to catalogue"]
+          },
+          "value" : {
+            "en" : ["<a href='http://explore.bl.uk/BLVU1:LSCOP-ALL:BLLSA1670257'>View the catalogue record</a>"]
+          }
+        }],
+      "requiredStatement" : {
+        "label" : {
+          "en" : ["Copyright and Usage"]
+        },
+        "value" : {
+          "en" : ["<span><a href=\"http://explore.bl.uk/BLVU1:LSCOP-ALL:BLLSA1670257\">Please read the full information about this object</a><br>This material can only be used for research and private study purposes</span>"]
+        }
+      },
+      "rendering" : [{
+          "id" : "https://access-beta.bl.uk/audio/download/ark:/81055/vdc_100140656320.0x000002/ark:/81055/vdc_100140656320.0x000002/top",
+          "type" : "Audio",
+          "label" : {
+            "en" : ["Download this recording"]
+          },
+          "format" : "audio/mp4"
+        }],
+      "items" : [{
+          "id" : "https://api-beta.bl.uk/metadata/iiif/ark:/81055/vdc_100140656320.0x000006",
+          "type" : "Range",
+          "label" : {
+            "en" : ["Sal's Got A Sugar Lip/Driftwood"]
+          },
+          "metadata" : [{
+              "label" : {
+                "en" : ["Full title"]
+              },
+              "value" : {
+                "en" : ["Sal's Got A Sugar Lip/Driftwood"]
+              }
+            }, {
+              "label" : {
+                "en" : ["Creator"]
+              },
+              "value" : {
+                "en" : ["Lonnie Donegan and his Skiffle Group"]
+              }
+            }, {
+              "label" : {
+                "en" : ["Duration"]
+              },
+              "value" : {
+                "en" : ["2 min. 31 sec."]
+              }
+            }, {
+              "label" : {
+                "en" : ["Category"]
+              },
+              "value" : {
+                "en" : ["Popular music: Skiffle"]
+              }
+            }, {
+              "label" : {
+                "en" : ["Genre"]
+              },
+              "value" : {
+                "en" : ["Popular music", "Skiffle"]
+              }
+            }, {
+              "label" : {
+                "en" : ["Usage"]
+              },
+              "value" : {
+                "en" : ["<span>This material can only be used for research and private study purposes</span>"]
+              }
+            }, {
+              "label" : {
+                "en" : ["Held by"]
+              },
+              "value" : {
+                "en" : ["<span>The British Library<br><br><img src='https://www.bl.uk/britishlibrary/resources/global/images/bl_logo_100.gif' alt='British Library logo'/></span>"]
+              }
+            }, {
+              "label" : {
+                "en" : ["Digitised by"]
+              },
+              "value" : {
+                "en" : ["<span>The British Library, 2013<br><br><img src='https://www.bl.uk/britishlibrary/resources/global/images/bl_logo_100.gif' alt='British Library Logo'/></span>"]
+              }
+            }, {
+              "label" : {
+                "en" : ["Digitisation funded by"]
+              },
+              "value" : {
+                "en" : ["The British Library"]
+              }
+            }, {
+              "label" : {
+                "en" : ["Identifier"]
+              },
+              "value" : {
+                "en" : ["1SE0039342 S1 NIXA"]
+              }
+            }, {
+              "label" : {
+                "en" : ["Shelfmark"]
+              },
+              "value" : {
+                "en" : ["1SE0039342"]
+              }
+            }, {
+              "label" : {
+                "en" : ["Link to catalogue"]
+              },
+              "value" : {
+                "en" : ["<a href='http://explore.bl.uk/BLVU1:LSCOP-ALL:BLLSA8889650'>View the catalogue record</a>"]
+              }
+            }, {
+              "label" : {
+                "en" : ["Description"]
+              },
+              "value" : {
+                "en" : ["1959 Original recording (P) date"]
+              }
+            }],
+          "requiredStatement" : {
+            "label" : {
+              "en" : ["Copyright and Usage"]
+            },
+            "value" : {
+              "en" : ["<span><a href=\"http://explore.bl.uk/BLVU1:LSCOP-ALL:BLLSA8889650\">Please read the full information about this object</a><br>This material can only be used for research and private study purposes</span>"]
+            }
+          },
+          "rendering" : [{
+              "id" : "https://access-beta.bl.uk/audio/download/ark:/81055/vdc_100140656320.0x000002/ark:/81055/vdc_100140656320.0x000006",
+              "type" : "Audio",
+              "label" : {
+                "en" : ["Download this recording"]
+              },
+              "format" : "audio/mp4"
+            }],
+          "items" : [{
+              "id" : "https://api-beta.bl.uk/metadata/iiif/ark:/81055/vdc_100140656320.0x000004#t=00.00,182.88",
+              "type" : "Canvas"
+            }]
+        }, {
+          "id" : "https://api-beta.bl.uk/metadata/iiif/ark:/81055/vdc_100140656320.0x000008",
+          "type" : "Range",
+          "label" : {
+            "en" : ["Chesapeake bay/Botsford"]
+          },
+          "metadata" : [{
+              "label" : {
+                "en" : ["Full title"]
+              },
+              "value" : {
+                "en" : ["Chesapeake bay/Botsford"]
+              }
+            }, {
+              "label" : {
+                "en" : ["Creator"]
+              },
+              "value" : {
+                "en" : ["Donegan, Lonnie, 1931-2002", "Ian Menzies and his Clyde Valley Stompers"]
+              }
+            }, {
+              "label" : {
+                "en" : ["Duration"]
+              },
+              "value" : {
+                "en" : ["2 min. 31 sec."]
+              }
+            }, {
+              "label" : {
+                "en" : ["Category"]
+              },
+              "value" : {
+                "en" : ["Popular music: Skiffle"]
+              }
+            }, {
+              "label" : {
+                "en" : ["Genre"]
+              },
+              "value" : {
+                "en" : ["Popular music", "Skiffle"]
+              }
+            }, {
+              "label" : {
+                "en" : ["Usage"]
+              },
+              "value" : {
+                "en" : ["<span>This material can only be used for research and private study purposes</span>"]
+              }
+            }, {
+              "label" : {
+                "en" : ["Held by"]
+              },
+              "value" : {
+                "en" : ["<span>The British Library<br><br><img src='https://www.bl.uk/britishlibrary/resources/global/images/bl_logo_100.gif' alt='British Library logo'/></span>"]
+              }
+            }, {
+              "label" : {
+                "en" : ["Digitised by"]
+              },
+              "value" : {
+                "en" : ["<span>The British Library, 2013<br><br><img src='https://www.bl.uk/britishlibrary/resources/global/images/bl_logo_100.gif' alt='British Library Logo'/></span>"]
+              }
+            }, {
+              "label" : {
+                "en" : ["Digitisation funded by"]
+              },
+              "value" : {
+                "en" : ["The British Library"]
+              }
+            }, {
+              "label" : {
+                "en" : ["Identifier"]
+              },
+              "value" : {
+                "en" : ["1SE0039342 S2 NIXA"]
+              }
+            }, {
+              "label" : {
+                "en" : ["Shelfmark"]
+              },
+              "value" : {
+                "en" : ["1SE0039342"]
+              }
+            }, {
+              "label" : {
+                "en" : ["Link to catalogue"]
+              },
+              "value" : {
+                "en" : ["<a href='http://explore.bl.uk/BLVU1:LSCOP-ALL:BLLSA7564517'>View the catalogue record</a>"]
+              }
+            }],
+          "requiredStatement" : {
+            "label" : {
+              "en" : ["Copyright and Usage"]
+            },
+            "value" : {
+              "en" : ["<span><a href=\"http://explore.bl.uk/BLVU1:LSCOP-ALL:BLLSA7564517\">Please read the full information about this object</a><br>This material can only be used for research and private study purposes</span>"]
+            }
+          },
+          "rendering" : [{
+              "id" : "https://access-beta.bl.uk/audio/download/ark:/81055/vdc_100140656320.0x000002/ark:/81055/vdc_100140656320.0x000008",
+              "type" : "Audio",
+              "label" : {
+                "en" : ["Download this recording"]
+              },
+              "format" : "audio/mp4"
+            }],
+          "items" : [{
+              "id" : "https://api-beta.bl.uk/metadata/iiif/ark:/81055/vdc_100140656320.0x000005#t=00.00,168.80",
+              "type" : "Canvas"
+            }]
+        }]
+    }]
+}

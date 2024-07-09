@@ -1,0 +1,559 @@
+{
+  "@context" : ["http://iiif.io/api/auth/1/context.json", "http://iiif.io/api/presentation/3/context.json"],
+  "id" : "https://apiirc.ad.bl.uk/metadata/iiif/ark:/81055/tvdc_100005129700.0x000002/manifest.json",
+  "type" : "Manifest",
+  "label" : {
+    "en" : ["(In conversation)..."]
+  },
+  "rendering" : [{
+      "id" : "https://accessirc.ad.bl.uk/audio/download/ark:/81055/tvdc_100005129700.0x000002/",
+      "type" : "Audio",
+      "label" : {
+        "en" : ["Download this recording (Opens in new tab)"]
+      },
+      "format" : "audio/mp4"
+    }],
+  "metadata" : [{
+      "label" : {
+        "en" : ["Full title"]
+      },
+      "value" : {
+        "en" : ["(In conversation)..."]
+      }
+    }, {
+      "label" : {
+        "en" : ["Creator"]
+      },
+      "value" : {
+        "en" : ["Berman, Wallace, 1926-1976"]
+      }
+    }, {
+      "label" : {
+        "en" : ["Date"]
+      },
+      "value" : {
+        "en" : ["2015 (published)"]
+      }
+    }, {
+      "label" : {
+        "en" : ["Label"]
+      },
+      "value" : {
+        "en" : ["EDITION MUTA"]
+      }
+    }, {
+      "label" : {
+        "en" : ["Format"]
+      },
+      "value" : {
+        "en" : ["disc 2 sides 30 cm 33 rpm"]
+      }
+    }, {
+      "label" : {
+        "en" : ["Usage"]
+      },
+      "value" : {
+        "en" : ["<span>Public domain<br/><br/><a href='https://creativecommons.org/publicdomain/mark/1.0/'><img src='https://i.creativecommons.org/p/mark/1.0/88x31.png' alt='Public Domain Mark 1.0 License logo'/></a></span>"]
+      }
+    }, {
+      "label" : {
+        "en" : ["Held by"]
+      },
+      "value" : {
+        "en" : ["<span>The British Library<br><br><img src='https://www.bl.uk/britishlibrary/resources/global/images/bl_logo_100.gif' alt='British Library logo'/></span>"]
+      }
+    }, {
+      "label" : {
+        "en" : ["Digitised by"]
+      },
+      "value" : {
+        "en" : ["<span>The British Library, 2022<br><br><img src='https://www.bl.uk/britishlibrary/resources/global/images/bl_logo_100.gif' alt='British Library Logo'/></span>"]
+      }
+    }, {
+      "label" : {
+        "en" : ["Digitisation funded by"]
+      },
+      "value" : {
+        "en" : ["<span>National Lottery Heritage Fund<br><br><img src='https://www.heritagefund.org.uk/sites/default/files/media/attachments/TNLHLF_Colour_Logo_English_RGB_0_0.jpg' alt='National Lottery Heritage Fund logo'/></span>"]
+      }
+    }, {
+      "label" : {
+        "en" : ["Identifier"]
+      },
+      "value" : {
+        "en" : ["1LP0242014"]
+      }
+    }, {
+      "label" : {
+        "en" : ["Shelfmark"]
+      },
+      "value" : {
+        "en" : ["1LP0242014"]
+      }
+    }, {
+      "label" : {
+        "en" : ["Link to catalogue"]
+      },
+      "value" : {
+        "en" : ["<a href='http://explore.bl.uk/BLVU1:LSCOP-ALL:BLLSA7798698'>View the catalogue record</a>"]
+      }
+    }],
+  "rights" : "https://creativecommons.org/publicdomain/mark/1.0/",
+  "requiredStatement" : {
+    "label" : {
+      "en" : ["Copyright and Usage"]
+    },
+    "value" : {
+      "en" : ["<span><a href=\"http://explore.bl.uk/BLVU1:LSCOP-ALL:BLLSA7798698\">Please read the full information about this object</a><br>Public domain<br/><br/><a href=\"https://creativecommons.org/publicdomain/mark/1.0/\"><img src=\"https://i.creativecommons.org/p/mark/1.0/88x31.png\" alt=\"Public Domain Mark 1.0 License logo\"/></a></span>"]
+    }
+  },
+  "provider" : [{
+      "id" : "https://www.bl.uk/about-us",
+      "type" : "Agent",
+      "label" : {
+        "en" : ["The British Library"]
+      },
+      "homepage" : [{
+          "id" : "https://www.bl.uk/",
+          "type" : "Text",
+          "format" : "text/html",
+          "label" : {
+            "en" : ["The British Library"]
+          }
+        }],
+      "logo" : [{
+          "id" : "https://www.bl.uk/images/bl_logo_100.gif",
+          "type" : "Image",
+          "format" : "image/gif"
+        }]
+    }],
+  "services" : [{
+      "id" : "https://apiirc.ad.bl.uk/auth/iiif/login",
+      "type" : "AuthCookieService1",
+      "profile" : "http://iiif.io/api/auth/1/login",
+      "description" : {
+        "en" : ["Some portions of this recording may be unavailable due to rights restrictions."]
+      },
+      "header" : {
+        "en" : ["Please Log-In"]
+      },
+      "label" : {
+        "en" : ["Login to The British Library"]
+      },
+      "service" : [{
+          "id" : "http://apiirc.ad.bl.uk/auth/iiif/token",
+          "type" : "AuthTokenService1",
+          "profile" : "http://iiif.io/api/auth/1/token"
+        }]
+    }, {
+      "id" : "http://access.bl.uk/item/share/ark:/81055/tvdc_100005129700.0x000002",
+      "type" : "Service",
+      "profile" : "https://universalviewer.io/share-extensions-profile"
+    }],
+  "homepage" : [{
+      "id" : "https://accessirc.ad.bl.uk/UniversalViewer/ark:/81055/tvdc_100005129700.0x000002",
+      "type" : "Text",
+      "format" : "text/html",
+      "label" : {
+        "en" : ["View at the British Library"]
+      }
+    }],
+  "behavior" : ["auto-advance"],
+  "items" : [{
+      "id" : "https://apiirc.ad.bl.uk/metadata/iiif/ark:/81055/tvdc_100005129700.0x000004",
+      "type" : "Canvas",
+      "label" : {
+        "en" : ["Disc 1 Side 1"]
+      },
+      "duration" : 1539.96,
+      "items" : [{
+          "id" : "https://apiirc.ad.bl.uk/metadata/iiif/ark:/81055/tvdc_100005129700.0x000004/anno1",
+          "type" : "AnnotationPage",
+          "items" : [{
+              "id" : "https://apiirc.ad.bl.uk/metadata/iiif/ark:/81055/tvdc_100005129700.0x000004/anno1/1",
+              "type" : "Annotation",
+              "motivation" : "painting",
+              "target" : "https://apiirc.ad.bl.uk/metadata/iiif/ark:/81055/tvdc_100005129700.0x000004#t=00.00,1539.96",
+              "body" : [{
+                  "type" : "Choice",
+                  "items" : [{
+                      "id" : "https://apiirc.ad.bl.uk/media/iiif/ark:/81055/tvdc_100005129700.0x00000f/manifest.mpd",
+                      "format" : "application/dash+xml",
+                      "type" : "Sound",
+                      "service" : [{
+                          "id" : "https://apiirc.ad.bl.uk/auth/iiif/login",
+                          "type" : "AuthCookieService1"
+                        }, {
+                          "id" : "https://apiirc.ad.bl.uk/media/dash/ark:/81055/tvdc_100005129700.0x00000f/probe.json",
+                          "type" : "AuthProbeService1",
+                          "profile" : "http://iiif.io/api/auth/1/probe"
+                        }]
+                    }, {
+                      "id" : "https://apiirc.ad.bl.uk/media/iiif/ark:/81055/tvdc_100005129700.0x00000f/index.m3u8",
+                      "format" : "application/vnd.apple.mpegURL",
+                      "type" : "Sound",
+                      "service" : [{
+                          "id" : "https://apiirc.ad.bl.uk/auth/iiif/login",
+                          "type" : "AuthCookieService1"
+                        }, {
+                          "id" : "https://apiirc.ad.bl.uk/media/hls/ark:/81055/tvdc_100005129700.0x00000f/probe.json",
+                          "type" : "AuthProbeService1",
+                          "profile" : "http://iiif.io/api/auth/1/probe"
+                        }]
+                    }]
+                }],
+              "seeAlso" : [{
+                  "id" : "https://apiirc.ad.bl.uk/waveform/tvdc_100005129700.0x00000f",
+                  "type" : "Dataset",
+                  "format" : "application/octet-stream",
+                  "profile" : "http://waveform.prototyping.bbc.co.uk"
+                }]
+            }]
+        }],
+      "thumbnail" : [{
+          "id" : "https://apiirc.ad.bl.uk/hub-logo/audio-cd.png",
+          "Type" : "Image"
+        }]
+    }, {
+      "id" : "https://apiirc.ad.bl.uk/metadata/iiif/ark:/81055/tvdc_100005129700.0x000005",
+      "type" : "Canvas",
+      "label" : {
+        "en" : ["Disc 1 Side 2"]
+      },
+      "duration" : 1863.1600000000001,
+      "items" : [{
+          "id" : "https://apiirc.ad.bl.uk/metadata/iiif/ark:/81055/tvdc_100005129700.0x000005/anno2",
+          "type" : "AnnotationPage",
+          "items" : [{
+              "id" : "https://apiirc.ad.bl.uk/metadata/iiif/ark:/81055/tvdc_100005129700.0x000005/anno2/1",
+              "type" : "Annotation",
+              "motivation" : "painting",
+              "target" : "https://apiirc.ad.bl.uk/metadata/iiif/ark:/81055/tvdc_100005129700.0x000005#t=00.00,1863.16",
+              "body" : [{
+                  "type" : "Choice",
+                  "items" : [{
+                      "id" : "https://apiirc.ad.bl.uk/media/iiif/ark:/81055/tvdc_100005129700.0x000011/manifest.mpd",
+                      "format" : "application/dash+xml",
+                      "type" : "Sound",
+                      "service" : [{
+                          "id" : "https://apiirc.ad.bl.uk/auth/iiif/login",
+                          "type" : "AuthCookieService1"
+                        }, {
+                          "id" : "https://apiirc.ad.bl.uk/media/dash/ark:/81055/tvdc_100005129700.0x000011/probe.json",
+                          "type" : "AuthProbeService1",
+                          "profile" : "http://iiif.io/api/auth/1/probe"
+                        }]
+                    }, {
+                      "id" : "https://apiirc.ad.bl.uk/media/iiif/ark:/81055/tvdc_100005129700.0x000011/index.m3u8",
+                      "format" : "application/vnd.apple.mpegURL",
+                      "type" : "Sound",
+                      "service" : [{
+                          "id" : "https://apiirc.ad.bl.uk/auth/iiif/login",
+                          "type" : "AuthCookieService1"
+                        }, {
+                          "id" : "https://apiirc.ad.bl.uk/media/hls/ark:/81055/tvdc_100005129700.0x000011/probe.json",
+                          "type" : "AuthProbeService1",
+                          "profile" : "http://iiif.io/api/auth/1/probe"
+                        }]
+                    }]
+                }],
+              "seeAlso" : [{
+                  "id" : "https://apiirc.ad.bl.uk/waveform/tvdc_100005129700.0x000011",
+                  "type" : "Dataset",
+                  "format" : "application/octet-stream",
+                  "profile" : "http://waveform.prototyping.bbc.co.uk"
+                }]
+            }]
+        }],
+      "thumbnail" : [{
+          "id" : "https://apiirc.ad.bl.uk/hub-logo/audio-cd.png",
+          "Type" : "Image"
+        }]
+    }],
+  "structures" : [{
+      "id" : "https://apiirc.ad.bl.uk/metadata/iiif/ark:/81055/tvdc_100005129700.0x000002/top",
+      "type" : "Range",
+      "label" : {
+        "en" : ["(In conversation)..."]
+      },
+      "rendering" : [{
+          "id" : "https://apiirc.ad.bl.uk/item/download/ark:/81055/tvdc_100005129700.0x000002/ark:/81055/tvdc_100005129700.0x000002/top",
+          "type" : "Audio",
+          "label" : {
+            "en" : ["Download this recording"]
+          },
+          "format" : "audio/mp4"
+        }],
+      "metadata" : [{
+          "label" : {
+            "en" : ["Full title"]
+          },
+          "value" : {
+            "en" : ["(In conversation)..."]
+          }
+        }, {
+          "label" : {
+            "en" : ["Creator"]
+          },
+          "value" : {
+            "en" : ["Berman, Wallace, 1926-1976"]
+          }
+        }, {
+          "label" : {
+            "en" : ["Date"]
+          },
+          "value" : {
+            "en" : ["2015 (published)"]
+          }
+        }, {
+          "label" : {
+            "en" : ["Label"]
+          },
+          "value" : {
+            "en" : ["EDITION MUTA"]
+          }
+        }, {
+          "label" : {
+            "en" : ["Format"]
+          },
+          "value" : {
+            "en" : ["disc 2 sides 30 cm 33 rpm"]
+          }
+        }, {
+          "label" : {
+            "en" : ["Usage"]
+          },
+          "value" : {
+            "en" : ["<span>Public domain<br/><br/><a href='https://creativecommons.org/publicdomain/mark/1.0/'><img src='https://i.creativecommons.org/p/mark/1.0/88x31.png' alt='Public Domain Mark 1.0 License logo'/></a></span>"]
+          }
+        }, {
+          "label" : {
+            "en" : ["Held by"]
+          },
+          "value" : {
+            "en" : ["<span>The British Library<br><br><img src='https://www.bl.uk/britishlibrary/resources/global/images/bl_logo_100.gif' alt='British Library logo'/></span>"]
+          }
+        }, {
+          "label" : {
+            "en" : ["Digitised by"]
+          },
+          "value" : {
+            "en" : ["<span>The British Library, 2022<br><br><img src='https://www.bl.uk/britishlibrary/resources/global/images/bl_logo_100.gif' alt='British Library Logo'/></span>"]
+          }
+        }, {
+          "label" : {
+            "en" : ["Digitisation funded by"]
+          },
+          "value" : {
+            "en" : ["<span>National Lottery Heritage Fund<br><br><img src='https://www.heritagefund.org.uk/sites/default/files/media/attachments/TNLHLF_Colour_Logo_English_RGB_0_0.jpg' alt='National Lottery Heritage Fund logo'/></span>"]
+          }
+        }, {
+          "label" : {
+            "en" : ["Identifier"]
+          },
+          "value" : {
+            "en" : ["1LP0242014"]
+          }
+        }, {
+          "label" : {
+            "en" : ["Shelfmark"]
+          },
+          "value" : {
+            "en" : ["1LP0242014"]
+          }
+        }, {
+          "label" : {
+            "en" : ["Link to catalogue"]
+          },
+          "value" : {
+            "en" : ["<a href='http://explore.bl.uk/BLVU1:LSCOP-ALL:BLLSA7798698'>View the catalogue record</a>"]
+          }
+        }],
+      "rights" : "https://creativecommons.org/publicdomain/mark/1.0/",
+      "requiredStatement" : {
+        "label" : {
+          "en" : ["Copyright and Usage"]
+        },
+        "value" : {
+          "en" : ["<span><a href=\"http://explore.bl.uk/BLVU1:LSCOP-ALL:BLLSA7798698\">Please read the full information about this object</a><br>Public domain<br/><br/><a href=\"https://creativecommons.org/publicdomain/mark/1.0/\"><img src=\"https://i.creativecommons.org/p/mark/1.0/88x31.png\" alt=\"Public Domain Mark 1.0 License logo\"/></a></span>"]
+        }
+      },
+      "items" : [{
+          "id" : "https://apiirc.ad.bl.uk/metadata/iiif/ark:/81055/tvdc_100005129700.0x000006",
+          "type" : "Range",
+          "label" : {
+            "en" : ["Wallace Berman (in conversation) (56:44)"]
+          },
+          "rendering" : [{
+              "id" : "https://apiirc.ad.bl.uk/item/download/ark:/81055/tvdc_100005129700.0x000002/ark:/81055/tvdc_100005129700.0x000006",
+              "type" : "Audio",
+              "label" : {
+                "en" : ["Download this recording"]
+              },
+              "format" : "audio/mp4"
+            }],
+          "metadata" : [{
+              "label" : {
+                "en" : ["Full title"]
+              },
+              "value" : {
+                "en" : ["Wallace Berman (in conversation)"]
+              }
+            }, {
+              "label" : {
+                "en" : ["Creator"]
+              },
+              "value" : {
+                "en" : ["Berman, Wallace, 1926-1976 (speaker, male)", "Berman, Shirley (speaker, female)", "Glicksman, Hal, 1937- (speaker, male; interviewer)", "Hirschman, Jack, 1933- (speaker, male)", "Hirschman, Ruth (speaker, female)"]
+              }
+            }, {
+              "label" : {
+                "en" : ["Date"]
+              },
+              "value" : {
+                "en" : ["1968-08-06 (recorded)"]
+              }
+            }, {
+              "label" : {
+                "en" : ["Place of creation"]
+              },
+              "value" : {
+                "en" : ["Berman's home, Topanga Canyon, Los Angeles County, California, USA (recorded)"]
+              }
+            }, {
+              "label" : {
+                "en" : ["Genre"]
+              },
+              "value" : {
+                "en" : ["Interviews", "Personal recordings"]
+              }
+            }, {
+              "label" : {
+                "en" : ["Usage"]
+              },
+              "value" : {
+                "en" : ["<span>Public domain<br/><br/><a href='https://creativecommons.org/publicdomain/mark/1.0/'><img src='https://i.creativecommons.org/p/mark/1.0/88x31.png' alt='Public Domain Mark 1.0 License logo'/></a></span>"]
+              }
+            }, {
+              "label" : {
+                "en" : ["Held by"]
+              },
+              "value" : {
+                "en" : ["<span>The British Library<br><br><img src='https://www.bl.uk/britishlibrary/resources/global/images/bl_logo_100.gif' alt='British Library logo'/></span>"]
+              }
+            }, {
+              "label" : {
+                "en" : ["Digitised by"]
+              },
+              "value" : {
+                "en" : ["<span>The British Library, 2022<br><br><img src='https://www.bl.uk/britishlibrary/resources/global/images/bl_logo_100.gif' alt='British Library Logo'/></span>"]
+              }
+            }, {
+              "label" : {
+                "en" : ["Digitisation funded by"]
+              },
+              "value" : {
+                "en" : ["<span>National Lottery Heritage Fund<br><br><img src='https://www.heritagefund.org.uk/sites/default/files/media/attachments/TNLHLF_Colour_Logo_English_RGB_0_0.jpg' alt='National Lottery Heritage Fund logo'/></span>"]
+              }
+            }, {
+              "label" : {
+                "en" : ["Identifier"]
+              },
+              "value" : {
+                "en" : ["1LP0242014 S1-S2 EDITION MUTA"]
+              }
+            }, {
+              "label" : {
+                "en" : ["Shelfmark"]
+              },
+              "value" : {
+                "en" : ["1LP0242014"]
+              }
+            }, {
+              "label" : {
+                "en" : ["Link to catalogue"]
+              },
+              "value" : {
+                "en" : ["<a href='http://explore.bl.uk/BLVU1:LSCOP-ALL:BLLSA8300438'>View the catalogue record</a>"]
+              }
+            }, {
+              "label" : {
+                "en" : ["Description"]
+              },
+              "value" : {
+                "en" : ["Berman discusses his work, art and literature", "Home recording. Wallace Berman was initially unaware that he was being recorded by Glicksman. Jack and Ruth Hirschman were visiting the Berman home"]
+              }
+            }],
+          "rights" : "https://creativecommons.org/publicdomain/mark/1.0/",
+          "requiredStatement" : {
+            "label" : {
+              "en" : ["Copyright and Usage"]
+            },
+            "value" : {
+              "en" : ["<span><a href=\"http://explore.bl.uk/BLVU1:LSCOP-ALL:BLLSA8300438\">Please read the full information about this object</a><br>Public domain<br/><br/><a href=\"https://creativecommons.org/publicdomain/mark/1.0/\"><img src=\"https://i.creativecommons.org/p/mark/1.0/88x31.png\" alt=\"Public Domain Mark 1.0 License logo\"/></a></span>"]
+            }
+          },
+          "items" : [{
+              "id" : "https://apiirc.ad.bl.uk/metadata/iiif/ark:/81055/tvdc_100005129700.0x000006/nn1",
+              "type" : "Range",
+              "behavior" : ["no-nav"],
+              "items" : [{
+                  "id" : "https://apiirc.ad.bl.uk/metadata/iiif/ark:/81055/tvdc_100005129700.0x000004#t=0.00,1509.96",
+                  "type" : "Canvas"
+                }]
+            }, {
+              "id" : "https://apiirc.ad.bl.uk/metadata/iiif/ark:/81055/tvdc_100005129700.0x000008",
+              "type" : "Range",
+              "label" : {
+                "en" : ["[No Title]"]
+              },
+              "requiredStatement" : {
+                "label" : {
+                  "en" : ["Copyright and Usage"]
+                },
+                "value" : {
+                  "en" : ["<span><a href=\"http://explore.bl.uk/BLVU1:LSCOP-ALL:BLLSA\">Please read the full information about this object</a><br>This material is sensitive and may not be used by members of the public.</span>"]
+                }
+              },
+              "rendering" : [{
+                  "id" : "https://apiirc.ad.bl.uk/item/download/ark:/81055/tvdc_100005129700.0x000002/ark:/81055/tvdc_100005129700.0x000008",
+                  "type" : "Audio",
+                  "label" : {
+                    "en" : ["Download this recording"]
+                  },
+                  "format" : "audio/mp4"
+                }],
+              "items" : [{
+                  "id" : "https://apiirc.ad.bl.uk/metadata/iiif/ark:/81055/tvdc_100005129700.0x000004#t=1509.96,1539.96",
+                  "type" : "Canvas"
+                }]
+            }, {
+              "id" : "https://apiirc.ad.bl.uk/metadata/iiif/ark:/81055/tvdc_100005129700.0x00000b",
+              "type" : "Range",
+              "label" : {
+                "en" : ["[No Title]"]
+              },
+              "requiredStatement" : {
+                "label" : {
+                  "en" : ["Copyright and Usage"]
+                },
+                "value" : {
+                  "en" : ["<span><a href=\"http://explore.bl.uk/BLVU1:LSCOP-ALL:BLLSA\">Please read the full information about this object</a><br>This material is sensitive and may not be used by members of the public.</span>"]
+                }
+              },
+              "rendering" : [{
+                  "id" : "https://apiirc.ad.bl.uk/item/download/ark:/81055/tvdc_100005129700.0x000002/ark:/81055/tvdc_100005129700.0x00000b",
+                  "type" : "Audio",
+                  "label" : {
+                    "en" : ["Download this recording"]
+                  },
+                  "format" : "audio/mp4"
+                }],
+              "items" : [{
+                  "id" : "https://apiirc.ad.bl.uk/metadata/iiif/ark:/81055/tvdc_100005129700.0x000005#t=0.00,30.00",
+                  "type" : "Canvas"
+                }]
+            }]
+        }]
+    }]
+}
