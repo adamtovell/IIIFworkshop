@@ -151,7 +151,7 @@
         "id" : "https://example.org/Canvas1-anno1-1",
         "type" : "Annotation",
         "motivation" : "painting",
-        "target" : "Canvas1#t=00.00,191.00",
+        "target" : "https://example.org/Canvas1#t=00.00,191.00",
         "body" : [{
           "type" : "Choice",
           "items" : [{
@@ -178,7 +178,7 @@
         "id" : "https://example.org/Canvas2-anno2-1",
         "type" : "Annotation",
         "motivation" : "painting",
-        "target" : "Canvas2#t=00.00,195.00",
+        "target" : "https://example.org/Canvas2#t=00.00,195.00",
         "body" : [{
           "type" : "Choice",
           "items" : [{
