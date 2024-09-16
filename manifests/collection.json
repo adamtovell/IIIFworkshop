@@ -25,5 +25,11 @@
       "en" : [ "[No title]" ]
     },
     "type" : "Manifest"
+  }, {
+    "id" : "https://adamtovell.github.io/IIIFworkshop/manifests/annotation",
+    "label" : {
+      "en" : [ "Picture of Göttingen taken during the 2019 IIIF Conference" ]
+    },
+    "type" : "Manifest"
   } ]
 }
