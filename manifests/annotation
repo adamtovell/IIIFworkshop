@@ -41,7 +41,7 @@
         "motivation" : "tagging",
         "body" : {
           "type" : "TextualBody",
-          "value" : "Gänseliesel-Brunnen",
+          "value" : "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
           "language" : "de",
           "format" : "text/plain"
         },
